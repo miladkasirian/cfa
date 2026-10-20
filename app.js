@@ -50,7 +50,7 @@ const T = {
     sub: (n, e) => `Ethical and Professional Standards · ${n} questions · ${e} exams`,
     tabHome: 'Exams', tabReview: 'Review', tabProgress: 'Progress', tabAccount: 'Account',
     exams: 'Practice exams',
-    examsMeta: (e) => `${e} exams · each built in the official Level III item-set format (case vignettes, three options per question) · unlimited retries`,
+    examsMeta: (e) => `${e} exams · Level III item-set format: 3 cases per exam, 4 questions per case, 3 options per question · unlimited retries`,
     exam: 'Exam', notTaken: 'not attempted', taken: (k, b) => `taken ${k}× · best ${b}%`,
     qs: (n) => `${n} questions`, sets: (n) => `${n} vignettes`,
     targeted: 'Targeted practice', fav: '★ Favorites', hard: '⚑ Hard questions', missed: 'Missed questions',
@@ -86,7 +86,7 @@ const T = {
     sub: (n, e) => `استانداردهای اخلاقی و حرفه‌ای، ${n} سوال، ${e} امتحان`,
     tabHome: 'امتحان‌ها', tabReview: 'مرور', tabProgress: 'پیشرفت', tabAccount: 'حساب کاربری',
     exams: 'امتحان‌های تمرینی',
-    examsMeta: (e) => `${e} امتحان، هر امتحان در قالب رسمی سطح سه (متن مورد با چند سوال، هر سوال سه گزینه)، تکرار نامحدود`,
+    examsMeta: (e) => `${e} امتحان در قالب رسمی سطح سه: هر امتحان ۳ متن مورد، هر متن ۴ سوال، هر سوال ۳ گزینه، تکرار نامحدود`,
     exam: 'امتحان', notTaken: 'هنوز انجام نشده', taken: (k, b) => `${k} بار انجام شده، بهترین ${b}٪`,
     qs: (n) => `${n} سوال`, sets: (n) => `${n} متن مورد`,
     targeted: 'تمرین هدفمند', fav: '★ نشان‌شده‌ها', hard: '⚑ سوال‌های سخت', missed: 'سوال‌های غلط',
@@ -411,8 +411,9 @@ function renderQuiz() {
 }
 function toggle(list, id) { const i = S[list].indexOf(id); if (i < 0) S[list].push(id); else S[list].splice(i, 1); save(); }
 
+function lessonFmt(h) { return h.replace(/\s*(Lesson:|درس:)\s*/, '\n\n<b>$1</b> '); }
 function explainBlock(q) {
-  return `<div class="ans"><b>${esc(t('answer'))}: ${esc(optLetter(q.a))}.</b> ${esc(tx(q.o[q.a]))}\n\n<b>${esc(t('why'))}:</b> ${esc(tx(q.why))}</div>
+  return `<div class="ans"><b>${esc(t('answer'))}: ${esc(optLetter(q.a))}.</b> ${esc(tx(q.o[q.a]))}\n\n<b>${esc(t('why'))}:</b> ${lessonFmt(esc(tx(q.why)))}</div>
     <div class="ref"><b>${esc(t('ref'))}:</b> ${esc(tx(q.ref))}\n${(q.std || []).map(s => `<span class="pill">${esc(stdLabel(s))}</span>`).join(' ')}</div>`;
 }
 
