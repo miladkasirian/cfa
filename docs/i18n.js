@@ -168,7 +168,7 @@ Object.assign(window.I18N.en, {
   recheckNote: 'You can fix your answer and check again to see whether it is recognized now. The score keeps your first check.',
   attemptN: (n) => `Attempt ${n}`, ptsWord: 'points', mcRight: 'multiple-choice correct', crPts: 'essay points',
   scoreNote2: 'Score = points earned ÷ all points in the exam. Multiple-choice questions are worth 3 points each; essay items have the points shown. Unanswered items earn 0.',
-  confirmClearList: 'Remove every question from this list?', dlZip: 'Download PDFs (zip)', mb: 'MB'
+  confirmClearList: 'Remove every question from this list?', kwVerdict: 'A justification earns no points when the Yes/No answer it supports is wrong.', dlZip: 'Download PDFs (zip)', mb: 'MB'
 });
 Object.assign(window.I18N.fa, {
   tabImp: 'امتحانات مهم', tabPractice: 'تمرین', impExam: 'امتحان مهم',
@@ -192,5 +192,5 @@ Object.assign(window.I18N.fa, {
   recheckNote: 'می‌توانید پاسخ را اصلاح کنید و دوباره بررسی کنید تا ببینید حالا شناخته می‌شود یا نه. امتیاز همان بررسی اول می‌ماند.',
   attemptN: (n) => `دفعه ${n}`, ptsWord: 'امتیاز', mcRight: 'چندگزینه‌ای درست', crPts: 'امتیاز تشریحی',
   scoreNote2: 'نمره = امتیاز گرفته‌شده تقسیم بر کل امتیاز امتحان. هر سوال چندگزینه‌ای ۳ امتیاز دارد و هر بخش تشریحی امتیاز نوشته‌شده را. موارد بی‌پاسخ صفر می‌گیرند.',
-  confirmClearList: 'همه سوال‌های این فهرست حذف شود؟', dlZip: 'دانلود پی دی اف‌ها (فایل زیپ)', mb: 'مگابایت'
+  confirmClearList: 'همه سوال‌های این فهرست حذف شود؟', kwVerdict: 'وقتی پاسخ بله/خیر غلط باشد، دلیل آن امتیازی نمی‌گیرد.', dlZip: 'دانلود پی دی اف‌ها (فایل زیپ)', mb: 'مگابایت'
 });
