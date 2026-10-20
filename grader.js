@@ -33,7 +33,8 @@ const STD = {
 const STD_ORDER = Object.keys(STD);
 const AR_DIAC = /[ً-ٰٟۖ-ۭ]/g;
 function nrm(s) {
-  s = toAscii(String(s == null ? '' : s)).toLowerCase()
+  s = toAscii(String(s == null ? '' : s)).toLowerCase().replace(/[’‘`´]/g, "'")
+    .replace(/\bwon't\b/g, 'will not').replace(/\bcan't\b/g, 'can not').replace(/\bshan't\b/g, 'shall not').replace(/n't\b/g, ' not')
     .replace(/ي/g, 'ی').replace(/ى/g, 'ی').replace(/ك/g, 'ک').replace(/[ۀة]/g, 'ه').replace(/[أإٱآ]/g, 'ا').replace(/ؤ/g, 'و').replace(/ئ/g, 'ی')
     .replace(AR_DIAC, '').replace(/‌/g, ' ').replace(/[‎‏ـ]/g, '');
   return s.replace(/[^\p{L}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim();
