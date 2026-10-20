@@ -556,8 +556,9 @@ const { nrm, parseStd, parseNum, gradePart, blankVal } = window.CFAG;
 function gradeItem(it, vals) {
   const res = it.parts.map((p, i) => gradePart(p, (vals || [])[i]));
   // as in real grading, a justification earns nothing when the Yes/No verdict it supports is wrong
-  let yn = null;
-  it.parts.forEach((p, i) => { if (p.type === 'yesno') yn = res[i]; else if (p.type === 'keywords' && yn && yn.ok !== 1 && res[i].got > 0) { res[i].got = 0; res[i].ok = 0; res[i].verdict = true; } });
+  // (only when the item has a single Yes/No verdict, so it is clear which verdict the justification supports)
+  const nYN = it.parts.filter(p => p.type === 'yesno').length; let yn = null;
+  if (nYN === 1) it.parts.forEach((p, i) => { if (p.type === 'yesno') yn = res[i]; else if (p.type === 'keywords' && yn && yn.ok !== 1 && res[i].got > 0) { res[i].got = 0; res[i].ok = 0; res[i].verdict = true; } });
   return { res, got: res.reduce((s, x) => s + x.got, 0), max: itemMax(it) };
 }
 function partAnswer(p) { // the correct answer of one part, written for the reader
