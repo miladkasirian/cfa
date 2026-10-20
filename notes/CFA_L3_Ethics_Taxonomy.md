@@ -1,0 +1,299 @@
+# CFA Level III Ethics: how everything is classified
+
+From a few top categories down to the smallest topic. The same tree is in the app under "Learn".
+
+- The exam, question models and strategy  /  امتحان، مدل‌های سوال و راهبرد
+  - Official Level III exam facts  /  واقعیت‌های رسمی آزمون سطح ۳
+    - Format  /  قالب آزمون
+    - Topic weights (Level III)  /  وزن موضوعات (سطح ۳)
+    - Item set or essay?  /  مجموعه چندگزینه‌ای یا تشریحی؟
+    - The ethics adjustment (official wording)  /  تعدیل اخلاق (متن رسمی)
+    - Passing score  /  نمره قبولی
+  - What changed in the 2026 curriculum  /  چه چیزی در کتاب درسی ۲۰۲۶ تغییر کرد
+    - The four Level III ethics learning modules  /  چهار ماژول آموزشی اخلاق در سطح ۳
+    - The 2023 revisions (effective 1 January 2024), now in the curriculum  /  بازنگری‌های ۲۰۲۳ (اجرایی از ۱ ژانویه ۲۰۲۴)، که اکنون در کتاب درسی هستند
+    - Standards of Practice Handbook edition  /  ویرایش کتاب راهنمای استانداردهای عملکرد
+    - Asset Manager Code (AMC) is a Level III module  /  کد رفتار حرفه‌ای مدیران دارایی یک ماژول سطح ۳ است
+    - Other structure changes that make old materials misleading  /  تغییرات ساختاری دیگر که مطالب قدیمی را گمراه‌کننده می‌کنند
+    - Heads-up if you sit in 2027 or later  /  هشدار اگر در ۲۰۲۷ یا بعد از آن امتحان می‌دهید
+  - How official item-set questions are built  /  سؤال‌های رسمی مجموعه‌های چندگزینه‌ای چطور ساخته می‌شوند
+    - Vignette build (LM3 item sets)  /  ساختار متن مورد (مجموعه‌های ماژول ۳)
+    - Stem types and how often they appear  /  انواع صورت سؤال و تعداد دفعات آنها
+    - How the options are built  /  گزینه‌ها چطور ساخته می‌شوند
+    - How often the answer is "no violation"  /  پاسخ چند وقت یک بار «بدون تخلف» است
+    - Distractor types (merged from LM2 and LM3 solutions)  /  انواع گزینه‌های انحرافی (ترکیب‌شده از راه‌حل‌های ماژول ۲ و ماژول ۳)
+    - How Level III frames ethics (LM3)  /  سطح ۳ اخلاق را چطور چارچوب‌بندی می‌کند (ماژول ۳)
+  - Step-by-step answering method  /  روش گام‌به‌گام پاسخ دادن
+  - Study plan for someone who keeps scoring low  /  برنامه مطالعه برای کسی که مدام نمره پایین می‌گیرد
+    - Step 0: Diagnose  /  گام صفر: عیب‌یابی
+    - Principles backed by evidence  /  اصول متکی بر شواهد
+    - Material priority  /  اولویت منابع مطالعه
+    - The error log (core tool)  /  دفترچه خطا (ابزار اصلی)
+    - Active recall drills  /  تمرین‌های یادآوری فعال
+    - Spaced and mixed practice  /  تمرین فاصله‌دار و درهم
+    - Suggested phases  /  مرحله‌های پیشنهادی
+    - Final-week plan  /  برنامه هفته آخر
+    - Score targets  /  نمره‌های هدف
+  - The most common traps  /  رایج‌ترین تله‌ها
+  - What candidates and YouTubers say (opinion, not official)  /  داوطلبان و یوتیوبرها چه می‌گویند (نظر، نه منبع رسمی)
+    - What was searched  /  چه چیزهایی جست‌وجو شد
+    - Where YouTubers agree (number of videos making the point)  /  جاهایی که یوتیوبرها هم‌نظرند (تعداد ویدیوهایی که این نکته را می‌گویند)
+    - Where they disagree  /  جاهایی که اختلاف نظر دارند
+    - Useful YouTuber techniques (opinion)  /  تکنیک‌های مفید یوتیوبرها (نظر)
+    - What commenters report (697 comments; mostly Level I)  /  نظردهندگان چه گزارش می‌دهند (۶۹۷ نظر؛ بیشتر سطح ۱)
+    - Forum voices (anecdotal, mostly old format)  /  صدای انجمن‌ها (تجربه شخصی، بیشتر مربوط به قالب قدیمی)
+    - Claims to ignore (outdated or wrong)  /  ادعاهایی که باید نادیده بگیرید (قدیمی یا نادرست)
+  - Resources (official first)  /  منابع (اول منابع رسمی)
+    - Official CFA Institute  /  منابع رسمی مؤسسه سی اف ای
+    - Free review decks (CFA Society Los Angeles)  /  اسلایدهای مرور رایگان (انجمن سی اف ای لس‌آنجلس)
+    - Provider articles and products (opinion or marketing)  /  مقاله‌ها و محصولات مؤسسات آموزشی (نظر یا تبلیغ)
+    - YouTube picks most relevant to a Level III low scorer (opinion)  /  ویدیوهای یوتیوب مرتبط‌تر برای کسی که در سطح ۳ نمره پایین می‌گیرد (نظر)
+    - Learning-science sources  /  منابع علوم یادگیری
+    - Could not be verified  /  مواردی که تأیید نشد
+- Foundations: the Code of Ethics and the Standards  /  پایه‌ها: کد اخلاق و استانداردها
+  - Background: Preface, Professional Conduct Program, adoption  /  پیش‌زمینه: پیشگفتار، برنامه رفتار حرفه‌ای، پذیرش
+    - The Handbook and the Code vs the Standards  /  کتابچه راهنما و تفاوت کد با استانداردها
+    - The 2023 revisions (three areas: one new standard, two revised)  /  بازنگری‌های ۲۰۲۳ (سه حوزه: یک استاندارد جدید، دو استاندارد بازنگری‌شده)
+    - CFA Institute Professional Conduct Program (PCP)  /  برنامه رفتار حرفه‌ای مؤسسه سی اف ای
+    - Adoption of the Code and Standards  /  پذیرش کد و استانداردها
+    - Ethics and the investment industry (key ideas)  /  اخلاق و صنعت سرمایه‌گذاری (ایده‌های کلیدی)
+    - Preamble  /  مقدمه
+  - The Code of Ethics: six components  /  کد اخلاق: شش جزء
+  - The Standards of Professional Conduct: map of all 23 sub-standards  /  استانداردهای رفتار حرفه‌ای: نقشه همه ۲۳ زیراستاندارد
+  - Learning Module 1 practice problems: lessons  /  مسائل تمرینی ماژول آموزشی ۱: درس‌ها
+- Standards of Professional Conduct I to VII  /  استانداردهای رفتار حرفه‌ای ۱ تا ۷
+  - Standard I: Professionalism  /  استاندارد ۱: حرفه‌ای‌گری
+    - Standard I(A) Knowledge of the Law  /  استاندارد ۱(آ) آگاهی از قانون
+      - Standard text  /  متن استاندارد
+      - What it requires (REQUIRED)  /  آنچه الزام می‌کند (الزامی)
+      - Key definitions  /  تعریف‌های کلیدی
+      - NOT required  /  الزامی نیست
+      - Dissociation steps (escalation order)  /  مراحل کناره‌گیری (به ترتیب تشدید)
+      - Investment products and cross-border work  /  محصولات سرمایه‌گذاری و فعالیت فرامرزی
+      - Which law applies: three-country table  /  کدام قانون اعمال می‌شود: جدول سه‌کشوری
+      - Recommended procedures (all RECOMMENDED)  /  رویه‌های توصیه‌شده (همه توصیه‌شده)
+      - Application examples  /  مثال‌های کاربردی
+      - Practice problem lessons  /  درس‌های مسائل تمرینی
+    - Standard I(B) Independence and Objectivity  /  استاندارد ۱(بی) استقلال و بی‌طرفی
+      - Standard text  /  متن استاندارد
+      - What it requires (REQUIRED)  /  آنچه الزام می‌کند (الزامی)
+      - Key ideas and definitions  /  ایده‌ها و تعریف‌های کلیدی
+      - Guidance by area  /  راهنما بر حسب حوزه
+      - Recommended procedures (RECOMMENDED unless noted)  /  رویه‌های توصیه‌شده (توصیه‌شده مگر خلاف آن ذکر شود)
+      - Application examples  /  مثال‌های کاربردی
+      - Practice problem lessons  /  درس‌های مسائل تمرینی
+    - Standard I(C) Misrepresentation  /  استاندارد ۱(سی) ارائه نادرست
+      - Standard text  /  متن استاندارد
+      - Key definitions  /  تعریف‌های کلیدی
+      - What it requires (REQUIRED)  /  آنچه الزام می‌کند (الزامی)
+      - What is allowed  /  آنچه مجاز است
+      - Performance and valuation points  /  نکات عملکرد و ارزش‌گذاری
+      - Forms of plagiarism  /  شکل‌های سرقت ادبی
+      - Recommended procedures (RECOMMENDED)  /  رویه‌های توصیه‌شده (توصیه‌شده)
+      - Application examples  /  مثال‌های کاربردی
+      - Practice problem lessons  /  درس‌های مسائل تمرینی
+    - Standard I(D) Misconduct  /  استاندارد ۱(دی) رفتار نادرست
+      - Standard text  /  متن استاندارد
+      - What it requires (REQUIRED)  /  آنچه الزام می‌کند (الزامی)
+      - What is generally NOT covered  /  آنچه به‌طور کلی مشمول نیست
+      - Recommended procedures (RECOMMENDED: encourage the firm to adopt)  /  رویه‌های توصیه‌شده (توصیه‌شده: شرکت را به پذیرش آن‌ها تشویق کنید)
+      - Application examples  /  مثال‌های کاربردی
+      - Practice problem lessons  /  درس‌های مسائل تمرینی
+    - Standard I(E) Competence (new in the 2023 revisions)  /  استاندارد ۱(ای) صلاحیت حرفه‌ای (جدید در بازنگری‌های ۲۰۲۳)
+      - Standard text  /  متن استاندارد
+      - What it requires (REQUIRED)  /  آنچه الزام می‌کند (الزامی)
+      - Key definitions  /  تعریف‌های کلیدی
+      - NOT required / not proof  /  الزامی نیست / اثبات نیست
+      - Recommended procedures (RECOMMENDED: members should consider)  /  رویه‌های توصیه‌شده (توصیه‌شده: اعضا بهتر است در نظر بگیرند)
+      - Application examples  /  مثال‌های کاربردی
+  - Standard II: Integrity of Capital Markets  /  استاندارد ۲: یکپارچگی بازارهای سرمایه
+    - Standard II(A) Material Nonpublic Information  /  استاندارد ۲(آ) اطلاعات مهم غیرعمومی
+      - Standard text  /  متن استاندارد
+      - What it requires (REQUIRED)  /  آنچه الزام می‌کند (الزامی)
+      - Key definitions  /  تعریف‌های کلیدی
+      - Social media and experts  /  شبکه‌های اجتماعی و کارشناسان
+      - Recommended procedures (RECOMMENDED unless noted)  /  رویه‌های توصیه‌شده (توصیه‌شده مگر خلاف آن ذکر شود)
+      - Application examples  /  مثال‌های کاربردی
+      - Practice problem lessons  /  درس‌های مسائل تمرینی
+    - Standard II(B) Market Manipulation  /  استاندارد ۲(بی) دستکاری بازار
+      - Standard text  /  متن استاندارد
+      - What it requires (REQUIRED)  /  آنچه الزام می‌کند (الزامی)
+      - Two types  /  دو نوع
+      - Recommended procedures  /  رویه‌های توصیه‌شده
+      - Application examples  /  مثال‌های کاربردی
+      - Practice problem lessons  /  درس‌های مسائل تمرینی
+  - Standard III: Duties to Clients  /  استاندارد ۳: وظایف در برابر مشتریان
+    - Standard III(A) Loyalty, Prudence, and Care  /  استاندارد ۳(آ) وفاداری، احتیاط و مراقبت
+      - Standard text  /  متن استاندارد
+      - What it requires (REQUIRED)  /  آنچه الزام می‌کند (الزامی)
+      - Key definitions  /  تعریف‌های کلیدی
+      - Fiduciary status  /  جایگاه امانی (فیدوشیاری)
+      - Who is the client?  /  مشتری کیست؟
+      - Building the portfolio  /  ساختن پرتفوی
+      - Soft dollars and directed brokerage  /  دلارهای نرم و کارگزاری هدایت‌شده
+      - Proxy voting  /  رأی‌دهی وکالتی
+      - Recommended procedures (RECOMMENDED unless noted)  /  رویه‌های توصیه‌شده (توصیه‌شده مگر خلاف آن ذکر شود)
+      - Application examples  /  مثال‌های کاربردی
+      - Practice problem lessons  /  درس‌های مسائل تمرینی
+    - Standard III(B) Fair Dealing  /  استاندارد ۳(بی) رفتار منصفانه
+      - Standard text  /  متن استاندارد
+      - What it requires  /  الزامات
+      - Key definitions  /  تعاریف کلیدی
+      - Recommended procedures  /  رویه‌های پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard III(C) Suitability  /  استاندارد ۳(سی) تناسب
+      - Standard text  /  متن استاندارد
+      - What it requires  /  الزامات
+      - Recommended procedures  /  رویه‌های پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard III(D) Performance Presentation  /  استاندارد ۳(دی) ارائه عملکرد
+      - Standard text  /  متن استاندارد
+      - What it requires  /  الزامات
+      - Key definitions  /  تعاریف کلیدی
+      - Recommended procedures  /  رویه‌های پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard III(E) Preservation of Confidentiality  /  استاندارد ۳(ای) حفظ محرمانگی
+      - Standard text  /  متن استاندارد
+      - What it requires  /  الزامات
+      - Recommended procedures  /  رویه‌های پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+  - Standard IV: Duties to Employers  /  استاندارد ۴: وظایف در برابر کارفرما
+    - Standard IV(A) Loyalty  /  استاندارد ۴(آ) وفاداری به کارفرما
+      - Standard text  /  متن استاندارد
+      - What it requires  /  الزامات
+      - Key definitions  /  تعاریف کلیدی
+      - Recommended procedures  /  رویه‌های پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard IV(B) Additional Compensation Arrangements  /  استاندارد ۴(بی) ترتیبات جبران خدمت اضافی
+      - Standard text  /  متن استاندارد
+      - What it requires  /  الزامات
+      - Key definitions  /  تعاریف کلیدی
+      - Recommended procedures  /  رویه‌های پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard IV(C) Responsibilities of Supervisors  /  استاندارد ۴(سی) مسئولیت‌های سرپرستان
+      - Standard text  /  متن استاندارد
+      - What it requires  /  الزامات
+      - Key definitions  /  تعاریف کلیدی
+      - Recommended procedures  /  رویه‌های پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+  - Standard V: Investment Analysis, Recommendations, and Actions  /  استاندارد ۵: تحلیل سرمایه‌گذاری، توصیه‌ها و اقدامات
+    - Standard V(A) Diligence and Reasonable Basis  /  استاندارد ۵(آ) سخت‌کوشی و مبنای معقول
+      - Standard text  /  متن استاندارد
+      - What it requires  /  آنچه این استاندارد می‌خواهد
+      - Key definitions  /  تعاریف کلیدی
+      - Recommended procedures  /  رویه پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard V(B) Communication with Clients and Prospective Clients  /  استاندارد ۵(بی) ارتباط با مشتریان و مشتریان بالقوه
+      - Standard text  /  متن استاندارد
+      - What it requires  /  آنچه این استاندارد می‌خواهد
+      - Key definitions  /  تعاریف کلیدی
+      - Recommended procedures  /  رویه پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard V(C) Record Retention  /  استاندارد ۵(سی) نگهداری سوابق
+      - Standard text  /  متن استاندارد
+      - What it requires  /  آنچه این استاندارد می‌خواهد
+      - Recommended procedures  /  رویه پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+  - Standard VI: Conflicts of Interest  /  استاندارد ۶: تضاد منافع
+    - Standard VI(A) Avoid or Disclose Conflicts  /  استاندارد ۶(آ) اجتناب از تضاد منافع یا افشای آن
+      - Standard text  /  متن استاندارد
+      - What it requires  /  آنچه این استاندارد می‌خواهد
+      - Key definitions  /  تعاریف کلیدی
+      - Recommended procedures  /  رویه پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard VI(B) Priority of Transactions  /  استاندارد ۶(بی) اولویت معاملات
+      - Standard text  /  متن استاندارد
+      - What it requires  /  آنچه این استاندارد می‌خواهد
+      - Recommended procedures  /  رویه پیشنهادی
+      - Key definitions  /  تعاریف کلیدی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard VI(C) Referral Fees  /  استاندارد ۶(سی) کارمزد معرفی
+      - Standard text  /  متن استاندارد
+      - What it requires  /  آنچه این استاندارد می‌خواهد
+      - Recommended procedures  /  رویه پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+  - Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate  /  استاندارد ۷: مسئولیت‌ها به عنوان عضو مؤسسه سی اف ای یا داوطلب سی اف ای
+    - Standard VII(A) Conduct as Participants in CFA Institute Programs  /  استاندارد ۷(آ) رفتار به عنوان شرکت‌کننده در برنامه‌های مؤسسه سی اف ای
+      - Standard text  /  متن استاندارد
+      - What it requires  /  آنچه این استاندارد می‌خواهد
+      - Recommended procedures  /  رویه پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+    - Standard VII(B) Reference to CFA Institute, the CFA Designation, and the CFA Program  /  استاندارد ۷(بی) اشاره به مؤسسه سی اف ای، عنوان سی اف ای و برنامه سی اف ای
+      - Standard text  /  متن استاندارد
+      - What it requires  /  آنچه این استاندارد می‌خواهد
+      - Recommended procedures  /  رویه پیشنهادی
+      - Application examples  /  مثال‌های کاربردی
+      - Practice-problem lessons  /  درس‌های مسائل تمرینی
+  - Same facts, different Standards (cross-links in this part)  /  واقعیت‌های یکسان، استانداردهای متفاوت (ارجاع‌های متقابل در این بخش)
+- Level III application cases  /  موردهای کاربردی سطح سه
+  - What this module tests  /  این ماژول چه چیزی را می‌سنجد
+    - The 4-step framework (Exhibit 1, curriculum L5628 to L5636)  /  چارچوب چهارمرحله‌ای (نمایه ۱، کتاب، خط ۵۶۲۸ تا ۵۶۳۶)
+    - Principles that run through all the cases  /  اصولی که در همه موردها تکرار می‌شوند
+    - Recommended fixes and policies proposed in the case solutions  /  اصلاحات و سیاست‌های پیشنهادی در راه‌حل‌های موردها
+  - Case-by-case verdicts  /  رأی مورد به مورد
+    - Case 1: Sovereign Investment Corporation  /  مورد ۱: سوورین اینوستمنت کورپوریشن
+    - Case 2: Marcia Lopez, David Hockett, and the Kochanskis at BankGlobal  /  مورد ۲: مارشا لوپز، دیوید هاکت و خانواده کوچانسکی در بانک‌گلوبال
+    - Case 3: Castle Biotechnology (1), David Plume, PhD, CFA  /  مورد ۳: کسل بیوتکنولوژی (۱)، دیوید پلوم، دکترا، سی اف ای
+    - Case 4: Castle Biotechnology (2), Sandra Benning, CFA, and Claris Deacon  /  مورد ۴: کسل بیوتکنولوژی (۲)، ساندرا بنینگ، سی اف ای، و کلاریس دیکن
+    - Case 5: Lionsgate Limited and Bank of Australia (1), Tony Hill  /  مورد ۵: لاینزگیت لیمیتد و بانک استرالیا (۱)، تونی هیل
+    - Case 6: Lionsgate Limited and Bank of Australia (2)  /  مورد ۶: لاینزگیت لیمیتد و بانک استرالیا (۲)
+    - Case 7: Gabby Sim at Global Harvest Bank  /  مورد ۷: گبی سیم در گلوبال هاروست بانک
+  - Level III item-set practice: 47 questions  /  تمرین مجموعه‌سؤال‌های سطح سه: ۴۷ سؤال
+    - Format of the official practice sets  /  قالب مجموعه‌های تمرینی رسمی
+    - Stem types to recognize  /  انواع صورت سؤال که باید بشناسید
+    - Lessons from all 47 questions, grouped by standard  /  درس‌های هر ۴۷ سؤال، دسته‌بندی‌شده بر اساس استاندارد
+- Asset Manager Code of Professional Conduct  /  کد رفتار حرفه‌ای مدیران دارایی
+  - Learning outcomes  /  نتایج یادگیری
+  - Who it applies to and what it is  /  بر چه کسانی اعمال می‌شود و چیست
+  - Adopting the Code and claiming compliance  /  پذیرش کد و ادعای انطباق
+  - The six General Principles of Conduct (verbatim, curriculum L7016 to L7028)  /  شش اصل کلی رفتار (عین متن، کتاب، خط ۷۰۱۶ تا ۷۰۲۸)
+  - The provisions and their guidance  /  مقررات و راهنمای آنها
+    - A. Loyalty to Clients  /  آ. وفاداری به مشتریان
+    - B. Investment Process and Actions  /  بی. فرایند و اقدامات سرمایه‌گذاری
+    - C. Trading  /  سی. معاملات
+    - D. Risk Management, Compliance, and Support  /  دی. مدیریت ریسک، انطباق و پشتیبانی
+    - E. Performance and Valuation  /  ای. عملکرد و ارزش‌گذاری
+    - F. Disclosures  /  اف. افشاها
+  - Key numbers  /  اعداد کلیدی
+  - Practice-problem lessons (12 questions, curriculum L7551 to L7755)  /  درس‌های مسائل تمرینی (۱۲ سؤال، کتاب، خط ۷۵۵۱ تا ۷۷۵۵)
+    - Vignette 1: SZR LLC (Q1 to Q6)  /  مورد ۱: شرکت اس زد آر (سؤال ۱ تا ۶)
+    - Vignette 2: Bornelli Asset Management (Q7 to Q12)  /  مورد ۲: شرکت مدیریت دارایی بورنلی (سؤال ۷ تا ۱۲)
+  - AMC vs the Code and Standards  /  کد رفتار حرفه‌ای مدیران دارایی در برابر کد و استانداردها
+- Traps and fine distinctions  /  دام‌ها و تفاوت‌های ظریف
+  - A. Required vs recommended  /  الف. الزامی در برابر توصیه‌شده
+  - B. Disclosure vs prohibition (when disclosure cures and when it does not)  /  ب. افشا در برابر ممنوعیت (چه زمانی افشا مشکل را رفع می‌کند و چه زمانی نه)
+  - C. Who is the client, and to whom is the duty owed  /  ج. مشتری کیست و وظیفه در برابر چه کسی است
+  - D. Consent: written vs verbal, and whose consent  /  د. رضایت: کتبی در برابر شفاهی، و رضایت چه کسی
+  - E. Timing: before vs after  /  ه. زمان‌بندی: پیش از در برابر پس از
+  - F. Materiality and public vs nonpublic  /  و. اهمیت، و عمومی در برابر غیرعمومی
+  - G. Intent, knowledge, and defenses that fail  /  ز. نیت، آگاهی، و دفاع‌هایی که پذیرفته نمی‌شوند
+  - H. Supervision and compliance  /  ح. نظارت و تطبیق
+  - I. Which standard? Classic confusions  /  ط. کدام استاندارد؟ اشتباه‌های رایج
+  - J. Gifts, compensation, and incentives  /  ی. هدایا، جبران خدمت و مشوق‌ها
+  - K. Fair dealing, allocations, and trade errors  /  ک. رفتار منصفانه، تخصیص‌ها و خطاهای معاملاتی
+  - L. Suitability and the IPS  /  ل. تناسب و بیانیه سیاست سرمایه‌گذاری
+  - M. Performance presentation and GIPS  /  م. ارائه عملکرد و جیپس
+  - N. Confidentiality and record retention  /  ن. محرمانگی و نگهداری سوابق
+  - O. Loyalty to the employer and leaving  /  س. وفاداری به کارفرما و ترک کار
+  - P. Research, reasonable basis, and communication  /  ع. پژوهش، مبنای معقول و ارتباطات
+  - Q. Market manipulation  /  ف. دستکاری بازار
+  - R. Priority of transactions, soft dollars, best execution, proxies  /  ص. اولویت معاملات، دلارهای نرم، بهترین اجرا، آرای نیابتی
+  - S. CFA designation wording and CFA Institute programs  /  ق. عبارت‌پردازی عنوان سی اف ای و برنامه‌های مؤسسه سی اف ای
+  - T. Law, dissociation, and reporting  /  ر. قانون، اعلام جدایی و گزارش‌دهی
+  - U. Code basics, the Professional Conduct Program, and the 2023 revisions  /  ش. مبانی کد، برنامه رفتار حرفه‌ای و بازنگری‌های ۲۰۲۳
+  - V. Asset Manager Code (firm level)  /  ت. کد رفتار حرفه‌ای مدیران دارایی (سطح شرکت)
+  - W. Exam-format and answer-pattern traps  /  ث. دام‌های قالب آزمون و الگوی پاسخ
