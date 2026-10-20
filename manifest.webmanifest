@@ -1,0 +1,12 @@
+{
+  "name": "CFA Level III Ethics Practice",
+  "short_name": "CFA Ethics",
+  "start_url": "./#/exams",
+  "display": "browser",
+  "background_color": "#f4f6f9",
+  "theme_color": "#0b3d6e",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
