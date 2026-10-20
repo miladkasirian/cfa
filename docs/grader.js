@@ -38,13 +38,17 @@ function nrm(s) {
     .replace(AR_DIAC, '').replace(/‌/g, ' ').replace(/[‎‏ـ]/g, '');
   return s.replace(/[^\p{L}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim();
 }
-function lev(a, b, max) {
+function lev(a, b, max) { // edit distance; swapping two neighbouring letters counts as one typo
   if (Math.abs(a.length - b.length) > max) return max + 1;
-  let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+  let pp = null, prev = Array.from({ length: b.length + 1 }, (_, i) => i);
   for (let i = 1; i <= a.length; i++) {
     const cur = [i]; let best = i;
-    for (let j = 1; j <= b.length; j++) { cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); best = Math.min(best, cur[j]); }
-    if (best > max) return max + 1; prev = cur;
+    for (let j = 1; j <= b.length; j++) {
+      let v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      if (pp && i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) v = Math.min(v, pp[j - 2] + 1);
+      cur[j] = v; best = Math.min(best, v);
+    }
+    if (best > max) return max + 1; pp = prev; prev = cur;
   }
   return prev[b.length];
 }
@@ -110,7 +114,7 @@ function parseStd(raw) { // returns the set of standard codes the typed text nam
 const NUMW = { zero: 0, one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10, eleven: 11, twelve: 12, fifteen: 15, twenty: 20,
   'صفر': 0, 'یک': 1, 'دو': 2, 'سه': 3, 'چهار': 4, 'پنج': 5, 'شش': 6, 'هفت': 7, 'هشت': 8, 'نه': 9, 'ده': 10, 'یازده': 11, 'دوازده': 12, 'پانزده': 15, 'بیست': 20 };
 function parseNum(raw) {
-  const s = toAscii(String(raw || '')).replace(/٫/g, '.').replace(/,/g, '');
+  const s = toAscii(String(raw || '')).replace(/٫/g, '.').replace(/[,٬،']/g, '').replace(/(\d)\s+(?=\d{3}\b)/g, '$1');
   const m = s.match(/-?\d+(?:\.\d+)?/); if (m) return parseFloat(m[0]);
   const w = words(raw).find(x => x in NUMW); return w != null ? NUMW[w] : null;
 }
