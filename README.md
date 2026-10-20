@@ -13,27 +13,10 @@ A practice and testing web app for the **Ethical and Professional Standards** to
 ### 1. Static (GitHub Pages or any web host): results saved in the browser
 The `docs/` folder is a complete static site. On GitHub Pages it is served from the `docs` folder of the `main` branch. Results are saved in the browser's local storage on that device. You can move them with "Export my data" / "Import data" on the Progress page.
 
-### 2. Server mode (your VPS and domain): results saved on the server per user
-`server/server.js` serves the same app and adds user accounts, so a user signs in from any device and sees the same results. It has no dependencies (Node.js 18 or newer).
+### 2. Server mode: results saved on the server per user
+The same front end (`docs/`) also runs inside a separate Node.js server with Google sign-in and a PostgreSQL database. When the page finds that server (it calls `/api/config`), it asks the user to sign in with Google and stores flags, the exam in progress and every finished attempt in the database, so a user sees the same results on any device. Without a server it stays in browser mode.
 
-```
-cd server
-node server.js            # http://127.0.0.1:8080
-```
-
-The page detects the server automatically (it calls `api/health`). If the server answers, the page asks the user to sign in and stores everything on the server; otherwise it stays in browser mode.
-
-Settings (environment variables): `PORT`, `HOST`, `DATA_DIR`, `REGISTRATION` (`open`, `invite`, `closed`), `INVITE_CODE`, `COOKIE_SECURE=1` (when served over https), `SESSION_DAYS`.
-
-Admin commands:
-```
-node server.js adduser <username> <password>
-node server.js passwd  <username> <newpassword>
-node server.js deluser <username>
-node server.js listusers
-```
-
-Deployment details are in `DEPLOY.md`.
+Server API used by the page: `GET /api/config`, `GET /api/me`, `POST /api/auth/google`, `POST /api/auth/logout`, `POST /api/auth/logout-all`, `GET /api/state`, `PUT /api/state` (favorites, hard flags, exam in progress), `POST /api/attempts` (one finished attempt), `DELETE /api/attempts` (clear history).
 
 ## Rebuilding the question bank
 The questions live in `bank/*.json` (one file per two exams). After editing, validate and rebuild:
