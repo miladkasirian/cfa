@@ -74,9 +74,9 @@ const T = {
     backup: 'Backup and transfer', exportBtn: 'Export my data', importBtn: 'Import data', importOk: 'Data imported.',
     importBad: 'This file is not a valid backup.', localMode: 'Your results are saved in this browser.',
     serverMode: (u) => `Signed in as ${u}. Your results are saved on the server.`,
-    login: 'Sign in', register: 'Create account', logout: 'Sign out', user: 'Username', pass: 'Password',
-    invite: 'Invitation code', loginTitle: 'Sign in to save your results on the server',
-    loginTip: 'Use the same account on any device to see your results.',
+    logout: 'Sign out', logoutAll: 'Sign out on all devices', loginTitle: 'Sign in with your Google account',
+    loginTip: 'Only members on the access list can sign in. Your results are saved to your account, so you see them on any device.',
+    notMember: 'This Google account is not on the access list.', signFail: 'Sign-in failed.',
     importLocal: 'Copy results saved in this browser into my account', imported: 'Copied.',
     std: 'Standard', standardWord: 'Standard', setLbl: 'Case', ofTotal: (c, t) => `${c} of ${t}`,
     lang: 'Language', mins: (m) => `${m} min`
@@ -110,9 +110,9 @@ const T = {
     backup: 'پشتیبان و انتقال', exportBtn: 'گرفتن خروجی از اطلاعات من', importBtn: 'وارد کردن اطلاعات', importOk: 'اطلاعات وارد شد.',
     importBad: 'این فایل پشتیبان معتبر نیست.', localMode: 'نتیجه‌ها در همین مرورگر ذخیره می‌شود.',
     serverMode: (u) => `با نام ${u} وارد شده‌ای. نتیجه‌ها روی سرور ذخیره می‌شود.`,
-    login: 'ورود', register: 'ساخت حساب', logout: 'خروج', user: 'نام کاربری', pass: 'رمز',
-    invite: 'کد دعوت', loginTitle: 'برای ذخیره نتیجه‌ها روی سرور وارد شو',
-    loginTip: 'با همین حساب از هر دستگاهی نتیجه‌هایت را می‌بینی.',
+    logout: 'خروج', logoutAll: 'خروج از همه دستگاه‌ها', loginTitle: 'با حساب گوگل وارد شو',
+    loginTip: 'فقط اعضای فهرست دسترسی می‌توانند وارد شوند. نتیجه‌ها در حساب تو ذخیره می‌شود و از هر دستگاهی دیده می‌شود.',
+    notMember: 'این حساب گوگل در فهرست دسترسی نیست.', signFail: 'ورود انجام نشد.',
     importLocal: 'انتقال نتیجه‌های ذخیره‌شده در این مرورگر به حساب من', imported: 'منتقل شد.',
     std: 'استاندارد', standardWord: 'استاندارد', setLbl: 'متن مورد', ofTotal: (c, t) => `${c} از ${t}`,
     lang: 'زبان', mins: (m) => `${m} دقیقه`
@@ -151,15 +151,17 @@ const LETTERS = { en: ['A', 'B', 'C'], fa: ['الف', 'ب', 'ج'] };
 /* ---------------- storage ---------------- */
 const blank = () => ({ v: 1, fav: [], hard: [], runs: [], cur: null });
 let S = blank();
-let MODE = 'local', USER = null, INVITE = false;
+let MODE = 'local', USER = null, GCID = '';
 let saveTimer = null;
+const rid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 10);
 
 function normalize(s) {
   const o = blank();
   if (s && typeof s === 'object') {
     o.fav = Array.isArray(s.fav) ? s.fav.filter(id => QMAP[id]) : [];
     o.hard = Array.isArray(s.hard) ? s.hard.filter(id => QMAP[id]) : [];
-    o.runs = Array.isArray(s.runs) ? s.runs : [];
+    o.runs = Array.isArray(s.runs) ? s.runs.filter(r => r && typeof r === 'object') : [];
+    o.runs.forEach(r => { if (!r.id) r.id = rid(); });
     o.cur = s.cur && Array.isArray(s.cur.qids) ? s.cur : null;
   }
   return o;
@@ -167,35 +169,60 @@ function normalize(s) {
 function loadLocal() { try { return normalize(JSON.parse(localStorage.getItem(LS_KEY) || 'null')); } catch (e) { return blank(); } }
 function saveLocal(state) { try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch (e) {} }
 
+// server API (cfa.ringmk.com): Google sign-in, results stored in PostgreSQL per user
+async function api(path, method, body) {
+  const r = await fetch('/api/' + path, { method: method || 'GET', credentials: 'same-origin', cache: 'no-store',
+    headers: body ? { 'Content-Type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined });
+  const j = await r.json().catch(() => ({}));
+  if (r.status === 401 && MODE === 'server') { USER = null; render(); }
+  if (!r.ok) { const e = new Error(j.error || String(r.status)); e.status = r.status; throw e; }
+  return j;
+}
+const saveFail = () => toast(L === 'fa' ? 'ذخیره روی سرور انجام نشد. دوباره تلاش می‌شود.' : 'Could not save to the server. Will retry.');
+
 function save() {
   if (MODE === 'local') { saveLocal(S); return; }
   clearTimeout(saveTimer);
-  saveTimer = setTimeout(pushServer, 400);
+  saveTimer = setTimeout(pushPrefs, 500);
 }
-async function pushServer() {
-  try {
-    const r = await fetch('api/state', { method: 'PUT', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify(S) });
-    if (r.status === 401) { USER = null; render(); }
-  } catch (e) { toast(L === 'fa' ? 'ذخیره روی سرور انجام نشد. دوباره تلاش می‌شود.' : 'Could not save to the server. Will retry.'); clearTimeout(saveTimer); saveTimer = setTimeout(pushServer, 5000); }
+async function pushPrefs() {
+  try { await api('state', 'PUT', { fav: S.fav, hard: S.hard, cur: S.cur }); }
+  catch (e) { if (e.status !== 401) { saveFail(); clearTimeout(saveTimer); saveTimer = setTimeout(pushPrefs, 5000); } }
+}
+async function pushRun(run) {
+  if (MODE !== 'server') return;
+  for (let i = 0; i < 4; i++) {
+    try { await api('attempts', 'POST', run); return; }
+    catch (e) { if (e.status === 401 || e.status === 400) return; saveFail(); await new Promise(r => setTimeout(r, 3000 * (i + 1))); }
+  }
+}
+async function clearRuns() { if (MODE === 'server') { try { await api('attempts', 'DELETE'); } catch (e) { saveFail(); } } }
+async function mergeIn(state) { // import: add runs and flags from a backup, never delete anything
+  const inc = normalize(state); const have = new Set(S.runs.map(r => r.id)); const added = [];
+  inc.runs.forEach(r => { if (!have.has(r.id)) { S.runs.push(r); added.push(r); } });
+  S.runs.sort((a, b) => String(a.date).localeCompare(String(b.date)));
+  S.fav = [...new Set(S.fav.concat(inc.fav))]; S.hard = [...new Set(S.hard.concat(inc.hard))];
+  if (MODE === 'server') { await pushPrefs(); for (const r of added) await pushRun(r); }
+  else saveLocal(S);
 }
 async function detectServer() {
   try {
-    const ctl = new AbortController(); const tm = setTimeout(() => ctl.abort(), 2500);
-    const r = await fetch('api/health', { cache: 'no-store', signal: ctl.signal, credentials: 'same-origin' });
+    const ctl = new AbortController(); const tm = setTimeout(() => ctl.abort(), 3000);
+    const r = await fetch('/api/config', { cache: 'no-store', signal: ctl.signal, credentials: 'same-origin' });
     clearTimeout(tm);
     if (!r.ok) return false;
     const j = await r.json();
-    if (!j || j.app !== 'cfa-ethics') return false;
-    INVITE = !!j.invite;
+    if (!j || !j.googleClientId) return false;
+    GCID = j.googleClientId;
     return true;
   } catch (e) { return false; }
 }
 async function loadServer() {
-  const r = await fetch('api/me', { credentials: 'same-origin', cache: 'no-store' });
-  if (!r.ok) { USER = null; return; }
-  const j = await r.json(); USER = j.user;
-  const s = await fetch('api/state', { credentials: 'same-origin', cache: 'no-store' });
-  S = normalize(s.ok ? await s.json() : null);
+  try {
+    const j = await api('me');
+    USER = j.user ? (j.user.name || j.user.email) : null;
+    if (USER) S = normalize(await api('state'));
+  } catch (e) { USER = null; }
 }
 
 /* ---------------- deterministic exam build ---------------- */
@@ -395,8 +422,8 @@ function finish() {
   const correct = c.qids.filter(id => c.ans[id] === QMAP[id].a).length;
   const run = { exam: c.kind === 'exam' ? c.arg : null, kind: c.kind, arg: c.arg, date: new Date().toISOString(),
     mins: Math.max(1, Math.round((Date.now() - c.t0) / 60000)), total: n, answered: nAns, correct,
-    score: Math.round(correct / n * 100), qids: c.qids, ans: c.ans };
-  S.runs.push(run); S.cur = null; save();
+    score: Math.round(correct / n * 100), qids: c.qids, ans: c.ans, id: rid() };
+  S.runs.push(run); S.cur = null; save(); pushRun(run);
   viewRun = S.runs.length - 1; window.scrollTo(0, 0); render();
 }
 
@@ -503,7 +530,7 @@ function renderProgress() {
   h += backupCard();
   el.innerHTML = h;
   el.querySelectorAll('[data-run]').forEach(b => b.onclick = () => { viewRun = +b.dataset.run; window.scrollTo(0, 0); render(); });
-  const ch = el.querySelector('[data-a="clearh"]'); if (ch) ch.onclick = () => { if (confirm(t('confirmClear'))) { S.runs = []; save(); render(); } };
+  const ch = el.querySelector('[data-a="clearh"]'); if (ch) ch.onclick = () => { if (confirm(t('confirmClear'))) { S.runs = []; save(); clearRuns(); render(); } };
   wireBackup();
   drawChart(runs);
 }
@@ -522,7 +549,7 @@ function wireBackup() {
   const im = el.querySelector('[data-b="import"]');
   if (im) im.onchange = () => {
     const f = im.files[0]; if (!f) return; const rd = new FileReader();
-    rd.onload = () => { try { const j = JSON.parse(rd.result); if (!j || j.app !== 'cfa-ethics') throw 0; S = normalize(j.state); save(); toast(t('importOk')); render(); } catch (e) { toast(t('importBad')); } };
+    rd.onload = () => { try { const j = JSON.parse(rd.result); if (!j || j.app !== 'cfa-ethics') throw 0; mergeIn(j.state).then(() => { toast(t('importOk')); render(); }); } catch (e) { toast(t('importBad')); } };
     rd.readAsText(f);
   };
 }
@@ -546,35 +573,36 @@ function drawChart(runs) {
 }
 
 /* ---------------- server account views ---------------- */
+function loadGsi() {
+  return new Promise((ok, no) => {
+    if (window.google && window.google.accounts) return ok();
+    const sc = document.createElement('script'); sc.src = 'https://accounts.google.com/gsi/client'; sc.async = true;
+    sc.onload = () => ok(); sc.onerror = () => no(new Error('gsi')); document.head.appendChild(sc);
+  });
+}
 function renderLogin() {
-  el.innerHTML = `<div class="card"><h2>${esc(t('loginTitle'))}</h2><div class="tip" style="margin-bottom:.7rem">${esc(t('loginTip'))}</div>
-    <form class="form" id="lf" autocomplete="on">
-      <input name="u" autocomplete="username" placeholder="${esc(t('user'))}" required minlength="3" maxlength="40">
-      <input name="p" type="password" autocomplete="current-password" placeholder="${esc(t('pass'))}" required minlength="6" maxlength="200">
-      ${INVITE ? `<input name="i" placeholder="${esc(t('invite'))}" maxlength="100">` : ''}
-      <div class="err" id="lerr"></div>
-      <div class="bar" style="margin-top:0"><button class="act" type="submit" data-m="login">${esc(t('login'))}</button>
-      <button class="act ghost" type="submit" data-m="register">${esc(t('register'))}</button></div></form></div>`;
-  const f = document.getElementById('lf'); let m = 'login';
-  f.querySelectorAll('[data-m]').forEach(b => b.onclick = () => { m = b.dataset.m; });
-  f.onsubmit = async (e) => {
-    e.preventDefault();
-    const body = { username: f.u.value.trim(), password: f.p.value, invite: f.i ? f.i.value.trim() : '' };
-    const r = await fetch('api/' + m, { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify(body) });
-    const j = await r.json().catch(() => ({}));
-    if (!r.ok) { document.getElementById('lerr').textContent = (j.error && (j.error[L] || j.error.en)) || 'Error'; return; }
-    await loadServer(); view = 'home'; render();
-  };
+  el.innerHTML = `<div class="card"><h2>${esc(t('loginTitle'))}</h2><div class="tip" style="margin-bottom:.8rem">${esc(t('loginTip'))}</div>
+    <div id="gbtn" style="min-height:44px"></div><div class="err" id="lerr"></div></div>`;
+  loadGsi().then(() => {
+    google.accounts.id.initialize({ client_id: GCID, callback: async ({ credential }) => {
+      document.getElementById('lerr').textContent = '';
+      try { await api('auth/google', 'POST', { credential }); await loadServer(); view = 'home'; render(); }
+      catch (e) { const m = document.getElementById('lerr'); if (m) m.textContent = e.message === 'not_member' ? t('notMember') : (L === 'fa' ? t('signFail') : t('signFail') + ' (' + e.message + ')'); }
+    } });
+    google.accounts.id.renderButton(document.getElementById('gbtn'), { theme: 'filled_blue', size: 'large', shape: 'pill', locale: L });
+  }).catch(() => { const m = document.getElementById('lerr'); if (m) m.textContent = t('signFail'); });
 }
 function renderAccount() {
   const local = loadLocal();
   el.innerHTML = `<div class="card"><h2>${esc(t('tabAccount'))}</h2><div class="tip">${esc(t('serverMode', USER))}</div>
     <div class="bar">${local.runs.length || local.fav.length || local.hard.length ? `<button class="act ghost" data-a="imp">${esc(t('importLocal'))}</button>` : ''}
-    <button class="act" data-a="out">${esc(t('logout'))}</button></div></div>` + backupCard();
+    <button class="act" data-a="out">${esc(t('logout'))}</button><button class="act ghost" data-a="outall">${esc(t('logoutAll'))}</button></div></div>` + backupCard();
   wireBackup();
   const imp = el.querySelector('[data-a="imp"]');
-  if (imp) imp.onclick = () => { const lo = loadLocal(); S.runs = S.runs.concat(lo.runs); S.fav = [...new Set(S.fav.concat(lo.fav))]; S.hard = [...new Set(S.hard.concat(lo.hard))]; save(); toast(t('imported')); render(); };
-  el.querySelector('[data-a="out"]').onclick = async () => { await fetch('api/logout', { method: 'POST', credentials: 'same-origin' }); USER = null; S = blank(); render(); };
+  if (imp) imp.onclick = () => mergeIn(loadLocal()).then(() => { toast(t('imported')); render(); });
+  const out = async (p) => { try { await api(p, 'POST', {}); } catch (e) {} USER = null; S = blank(); view = 'home'; render(); };
+  el.querySelector('[data-a="out"]').onclick = () => out('auth/logout');
+  el.querySelector('[data-a="outall"]').onclick = () => out('auth/logout-all');
 }
 
 /* ---------------- boot ---------------- */
