@@ -3,7 +3,7 @@
 window.I18N = {
   en: {
     title: 'CFA Level III Ethics Practice',
-    sub: (n, e) => `Ethical and Professional Standards · ${n} questions · ${e} exams`,
+    sub: (e, n) => `Ethical and Professional Standards · ${e} exams · ${n} questions`,
     tabHome: 'Exams', tabLearn: 'Learn', tabReview: 'Review', tabReport: 'Results report', tabAccount: 'Account',
     exams: 'Practice exams',
     examsMeta: (e) => `${e} exams · Level III item-set format: 3 cases per exam, 4 questions per case, 3 options per question · unlimited retries`,
@@ -76,7 +76,7 @@ window.I18N = {
   },
   fa: {
     title: 'تمرین اخلاق حرفه‌ای سی اف ای، سطح سه',
-    sub: (n, e) => `استانداردهای اخلاقی و حرفه‌ای، ${n} سوال، ${e} امتحان`,
+    sub: (e, n) => `استانداردهای اخلاقی و حرفه‌ای، ${e} امتحان، ${n} سوال`,
     tabHome: 'امتحان‌ها', tabLearn: 'آموزش', tabReview: 'مرور', tabReport: 'گزارش نتایج', tabAccount: 'حساب کاربری',
     exams: 'امتحان‌های تمرینی',
     examsMeta: (e) => `${e} امتحان در قالب رسمی سطح سه: هر امتحان ۳ متن مورد، هر متن ۴ سوال، هر سوال ۳ گزینه، تکرار نامحدود`,
@@ -144,3 +144,53 @@ window.I18N = {
     saveFail: 'ذخیره روی سرور انجام نشد. دوباره تلاش می‌شود.', lang: 'زبان', ok: 'تایید', cancel: 'انصراف'
   }
 };
+
+/* added in version 2026.10.22: several exams in progress, essays, practice and important-exam tabs */
+Object.assign(window.I18N.en, {
+  tabImp: 'Important exams', tabPractice: 'Practice', impExam: 'Important exam',
+  impTitle: 'Important exams', impMeta: (n) => `${n} exams built from the most tested and most often missed points · same format as the main exams`,
+  examsMeta2: (n) => `${n} exams in Level III format · multiple-choice item sets (3 points per question) and essay sets (12 points) · unlimited retries`,
+  inProgress: (a, n) => `In progress: ${a} of ${n} answered`, lastScore: (p) => `last ${p}`,
+  start: 'Start', retake: 'Take again', results: 'Results', startOver: 'Start over',
+  confirmOver: 'Your answers in this unfinished attempt will be deleted and it will start from the beginning. Continue?',
+  filter: 'Filter', fAll: 'All', fNew: 'Not started', fProg: 'In progress', fDone: 'Done', noneHere: 'Nothing here with this filter.',
+  essaySets: (n) => `${n} essay set${n === '1' ? '' : 's'}`, points: (n) => `${n} point${n === '1' ? '' : 's'}`,
+  practiceTitle: 'Practice', practiceMeta: 'Practice your own lists or one standard at a time. Each list remembers its unfinished attempt.',
+  accSoFar: (p, n) => `${p} right so far (${n} seen)`, toList: 'Back to list',
+  essayTag: 'Essay', yes: 'Yes', no: 'No',
+  phStd: 'e.g. III(B) or Fair Dealing', phNum: 'a number', phKw: 'Write a short answer (one or two sentences)',
+  caseNote: 'Capital or small letters do not matter here, but in the real exam write carefully.',
+  pRight: 'Correct', pHalf: 'Partly correct', pEmpty: 'No answer', pWrong: 'Not correct', pGot: (a, b) => `${a} of ${b} point${b === '1' ? '' : 's'}`,
+  pAmb: '(your answer could mean more than one standard: write the code)', kwFound: (a, b) => `Key ideas found: ${a} of ${b}`,
+  pCorrect: 'Correct answer', firstCheck: (a, b) => `Your first check, which is what counts: ${a} of ${b}`,
+  itemScore: (a, b) => `Score for this item (first check): ${a} of ${b} points`, model: 'Model answer',
+  check: 'Check my answer', recheck: 'Check again',
+  recheckNote: 'You can fix your answer and check again to see whether it is recognized now. The score keeps your first check.',
+  attemptN: (n) => `Attempt ${n}`, ptsWord: 'points', mcRight: 'multiple-choice correct', crPts: 'essay points',
+  scoreNote2: 'Score = points earned ÷ all points in the exam. Multiple-choice questions are worth 3 points each; essay items have the points shown. Unanswered items earn 0.',
+  confirmClearList: 'Remove every question from this list?', dlZip: 'Download PDFs (zip)', mb: 'MB'
+});
+Object.assign(window.I18N.fa, {
+  tabImp: 'امتحانات مهم', tabPractice: 'تمرین', impExam: 'امتحان مهم',
+  impTitle: 'امتحانات مهم', impMeta: (n) => `${n} امتحان ساخته‌شده از پرتکرارترین نکته‌ها و نکته‌هایی که بیشتر اشتباه می‌شوند، با همان قالب امتحان‌های اصلی`,
+  examsMeta2: (n) => `${n} امتحان در قالب سطح سه: متن‌های مورد چندگزینه‌ای (هر سوال ۳ امتیاز) و متن مورد تشریحی (۱۲ امتیاز)، تکرار نامحدود`,
+  inProgress: (a, n) => `نیمه‌کاره: ${a} از ${n} پاسخ داده شده`, lastScore: (p) => `آخرین ${p}`,
+  start: 'شروع', retake: 'دوباره', results: 'نتایج', startOver: 'شروع از اول',
+  confirmOver: 'پاسخ‌های این امتحان نیمه‌کاره پاک می‌شود و از اول شروع می‌شود. ادامه می‌دهید؟',
+  filter: 'فیلتر', fAll: 'همه', fNew: 'شروع‌نشده', fProg: 'نیمه‌کاره', fDone: 'انجام‌شده', noneHere: 'با این فیلتر چیزی نیست.',
+  essaySets: (n) => `${n} متن مورد تشریحی`, points: (n) => `${n} امتیاز`,
+  practiceTitle: 'تمرین', practiceMeta: 'فهرست‌های خودتان یا هر استاندارد را جدا تمرین کنید. هر فهرست تمرین نیمه‌کاره‌اش را نگه می‌دارد.',
+  accSoFar: (p, n) => `تا الان ${p} درست (${n} سوال دیده‌شده)`, toList: 'بازگشت به فهرست',
+  essayTag: 'تشریحی', yes: 'بله', no: 'خیر',
+  phStd: 'مثلاً ۳(بی) یا رفتار منصفانه', phNum: 'یک عدد', phKw: 'پاسخ کوتاه بنویسید (یک یا دو جمله)',
+  caseNote: 'اینجا حروف بزرگ و کوچک مهم نیست، ولی در امتحان اصلی برای اطمینان دقیق بنویسید.',
+  pRight: 'درست', pHalf: 'بخشی درست', pEmpty: 'بدون پاسخ', pWrong: 'درست نیست', pGot: (a, b) => `${a} از ${b} امتیاز`,
+  pAmb: '(پاسخ شما می‌تواند چند استاندارد باشد: شماره استاندارد را بنویسید)', kwFound: (a, b) => `نکته‌های کلیدی پیدا شده: ${a} از ${b}`,
+  pCorrect: 'پاسخ درست', firstCheck: (a, b) => `بررسی اول شما که حساب می‌شود: ${a} از ${b}`,
+  itemScore: (a, b) => `امتیاز این بخش (بررسی اول): ${a} از ${b} امتیاز`, model: 'پاسخ نمونه',
+  check: 'بررسی پاسخ من', recheck: 'بررسی دوباره',
+  recheckNote: 'می‌توانید پاسخ را اصلاح کنید و دوباره بررسی کنید تا ببینید حالا شناخته می‌شود یا نه. امتیاز همان بررسی اول می‌ماند.',
+  attemptN: (n) => `دفعه ${n}`, ptsWord: 'امتیاز', mcRight: 'چندگزینه‌ای درست', crPts: 'امتیاز تشریحی',
+  scoreNote2: 'نمره = امتیاز گرفته‌شده تقسیم بر کل امتیاز امتحان. هر سوال چندگزینه‌ای ۳ امتیاز دارد و هر بخش تشریحی امتیاز نوشته‌شده را. موارد بی‌پاسخ صفر می‌گیرند.',
+  confirmClearList: 'همه سوال‌های این فهرست حذف شود؟', dlZip: 'دانلود پی دی اف‌ها (فایل زیپ)', mb: 'مگابایت'
+});
