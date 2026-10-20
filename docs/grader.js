@@ -66,13 +66,14 @@ function tokMatch(w, tok) { // w: expected word, tok: typed word
   return allow > 0 && lev(w, tok, allow) <= allow;
 }
 const STOP = new Set(['of', 'and', 'the', 'to', 'with', 'in', 'for', 'a', 'an', 'on', 'standard', 'std', 'cfa', 'institute', 'و', 'از', 'به', 'با', 'در', 'برای', 'استاندارد', 'یا']);
+const KEEP = new Set(['cfa', 'institute', 'standard']); // ignored when naming a standard, but they matter inside a justification
 const words = (s) => nrm(s).split(' ').filter(Boolean);
 function phraseIn(ph, text, toks) { // a synonym phrase is found in the typed text
   const p = nrm(ph); if (!p) return false;
   if ((' ' + text + ' ').includes(' ' + p + ' ')) return true;
   const ps = p.replace(/ /g, ''); // "pro rata" written as "prorata" or the other way round, but never inside a longer word
   for (let i = 0; i < toks.length; i++) { let j = ''; for (let k = i; k < Math.min(toks.length, i + 3); k++) { j += toks[k]; if ((k > i) !== (ps !== p)) { if (j === ps || (ps.length >= 7 && lev(ps, j, 1) <= 1)) return true; } } }
-  const pw = p.split(' ').filter(w => !STOP.has(w)); if (!pw.length) return false;
+  const pw = p.split(' ').filter(w => !STOP.has(w) || KEEP.has(w)); if (!pw.length) return false;
   return pw.every(w => toks.some(tk => tokMatch(w, tk)));
 }
 // standard names and short names people use, in both languages
