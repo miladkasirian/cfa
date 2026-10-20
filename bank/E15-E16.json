@@ -1,0 +1,926 @@
+{
+ "exams": [
+  {
+   "n": 15,
+   "sets": [
+    "E15S1",
+    "E15S2",
+    "E15S3"
+   ]
+  },
+  {
+   "n": 16,
+   "sets": [
+    "E16S1",
+    "E16S2",
+    "E16S3"
+   ]
+  }
+ ],
+ "sets": {
+  "E15S1": {
+   "title": {
+    "en": "Halden Quantitative Partners",
+    "fa": "شرکای کمّی هالدن"
+   },
+   "vig": {
+    "en": "Halden Quantitative Partners is a systematic equity manager with USD 6 billion in assets. Tomasz Wierzbicki, CFA, is head of quantitative equity and reports to Sunniva Hart, Halden's chief investment officer, who is not a CFA charterholder. Leila Okafor, a CFA Level III candidate, is the team's senior data scientist. The team's largest client is the Northfield Transit Workers' Pension Plan, whose separate account is managed against a US large-cap index with a 3% tracking-error limit.\n\nIn January, Okafor completes a review of a credit card transaction dataset offered by Signalwave Analytics. She reads the vendor's methodology documents, checks how the vendor handles data revisions, compares the data with six years of reported company revenues, and tests the signal out of sample, including during periods of market stress. She documents her work, and the team adds the signal to its model at a 10% weight.\n\nHalden pays for the Signalwave subscription through a client commission arrangement that Wierzbicki negotiates with Castellan Securities. Castellan charges commissions somewhat higher than Halden's execution-only brokers, and its execution quality has been satisfactory. In return, Castellan pays for two services: the Signalwave dataset, which is used in managing all client accounts, and ProspectIQ, a dashboard that Halden's business development staff use to identify and track prospective clients. Halden's brochure states that the firm \"may receive research and other services through client commission arrangements.\"\n\nIn March, Martin Esch, a Signalwave sales director who is not a CFA charterholder, invites Wierzbicki to join Signalwave's Client Advisory Council, which meets twice a year to comment on new products. Members receive an annual honorarium of USD 25,000 and a paid trip to the council's meeting in Lisbon. Wierzbicki mentions the invitation to Hart in a hallway conversation. Hart replies, \"Sounds fine to me.\" Wierzbicki accepts the seat the next day.\n\nIn June, Okafor prepares a presentation for prospective clients on the Halden Alt-Signal US Equity strategy, which began trading 18 months ago. The first page shows the strategy composite's actual returns since inception, gross and net of fees, and includes one account that terminated last year, with its termination date noted. The second page, titled \"Simulated Results: 2014 to 2023,\" shows returns produced by applying the current model retroactively to historical data. A boxed note on that page states that the results are hypothetical, do not represent actual trading, do not reflect transaction costs or fees, and were developed with the benefit of hindsight. The presentation states that detailed supporting information is available on request.\n\nIn September, Signalwave e-mails all subscribers that it has lost access to data from its largest card-issuer partner. As a result, its panel will shrink by about 40% and will contain a higher share of younger cardholders, and its historical series has been restated. Okafor recommends that the team re-test the signal before the next rebalance and reduce its weight in the meantime. Wierzbicki decides to keep the signal at its full weight without further testing. He tells Okafor, \"This signal has worked well for two years, and our initial review was thorough. We are renewing the contract anyway.\"",
+    "fa": "شرکای کمّی هالدن یک مدیر سرمایه‌گذاری سیستماتیک در سهام با ۶ میلیارد دلار دارایی است. توماش ویرزبیتسکی، دارنده مدرک سی اف ای، رئیس بخش سهام کمّی است و به سونیوا هارت، مدیر ارشد سرمایه‌گذاری هالدن، گزارش می‌دهد. هارت دارنده مدرک سی اف ای نیست. لیلا اوکافور، داوطلب سطح ۳ سی اف ای، دانشمند ارشد داده تیم است. بزرگ‌ترین مشتری تیم، طرح بازنشستگی کارکنان حمل‌ونقل نورث‌فیلد است که حساب جداگانه آن در برابر یک شاخص سهام بزرگ آمریکا و با سقف خطای ردیابی ۳٪ مدیریت می‌شود.\n\nدر ژانویه، اوکافور بررسی یک مجموعه داده تراکنش‌های کارت اعتباری را که شرکت سیگنال‌ویو آنالیتیکس عرضه می‌کند به پایان می‌رساند. او اسناد روش‌شناسی فروشنده را می‌خواند، بررسی می‌کند که فروشنده بازنگری‌های داده را چگونه انجام می‌دهد، داده‌ها را با شش سال درآمد گزارش‌شده شرکت‌ها مقایسه می‌کند و سیگنال را خارج از نمونه، از جمله در دوره‌های تنش بازار، آزمون می‌کند. او کار خود را مستند می‌کند و تیم این سیگنال را با وزن ۱۰٪ به مدل خود اضافه می‌کند.\n\nهالدن هزینه اشتراک سیگنال‌ویو را از طریق یک ترتیب کمیسیون مشتری می‌پردازد که ویرزبیتسکی با کاستلان سکیوریتیز مذاکره کرده است. کاستلان کمیسیونی کمی بالاتر از کارگزاران «فقط اجرای معامله» هالدن می‌گیرد و کیفیت اجرای معاملاتش رضایت‌بخش بوده است. در مقابل، کاستلان هزینه دو خدمت را می‌پردازد: مجموعه داده سیگنال‌ویو که در مدیریت همه حساب‌های مشتریان به کار می‌رود، و پراسپکت‌آی‌کیو، داشبوردی که کارکنان توسعه کسب‌وکار هالدن برای شناسایی و پیگیری مشتریان بالقوه از آن استفاده می‌کنند. بروشور هالدن می‌گوید که این شرکت «ممکن است از طریق ترتیبات کمیسیون مشتری، خدمات پژوهشی و خدمات دیگر دریافت کند».\n\nدر مارس، مارتین اش، مدیر فروش سیگنال‌ویو که دارنده مدرک سی اف ای نیست، ویرزبیتسکی را به عضویت در «شورای مشورتی مشتریان» سیگنال‌ویو دعوت می‌کند. این شورا سالی دو بار برای اظهارنظر درباره محصولات جدید تشکیل جلسه می‌دهد. اعضا سالانه ۲۵ هزار دلار حق‌الزحمه و یک سفر با هزینه شرکت به جلسه شورا در لیسبون دریافت می‌کنند. ویرزبیتسکی در گفت‌وگویی در راهرو موضوع دعوت را به هارت می‌گوید. هارت پاسخ می‌دهد: «به نظرم اشکالی ندارد.» ویرزبیتسکی روز بعد این کرسی را می‌پذیرد.\n\nدر ژوئن، اوکافور برای مشتریان بالقوه ارائه‌ای درباره استراتژی سهام آمریکای آلت‌سیگنال هالدن آماده می‌کند که ۱۸ ماه پیش معاملات خود را آغاز کرده است. صفحه اول، بازده واقعی ترکیب (کامپوزیت) این استراتژی از زمان آغاز را، هم پیش از کسر کارمزد و هم پس از کسر کارمزد، نشان می‌دهد و یک حساب را که سال گذشته بسته شده، همراه با تاریخ بسته شدن آن، در بر می‌گیرد. صفحه دوم با عنوان «نتایج شبیه‌سازی‌شده: ۲۰۱۴ تا ۲۰۲۳» بازده‌هایی را نشان می‌دهد که از اجرای عطف به ماسبق مدل فعلی روی داده‌های تاریخی به دست آمده است. یک یادداشت در کادر در همان صفحه می‌گوید که این نتایج فرضی هستند، معاملات واقعی را نشان نمی‌دهند، هزینه‌های معامله و کارمزدها را منعکس نمی‌کنند و با بهره‌گیری از آگاهی پس از وقوع تهیه شده‌اند. در ارائه آمده است که اطلاعات تفصیلی پشتیبان در صورت درخواست در دسترس است.\n\nدر سپتامبر، سیگنال‌ویو به همه مشترکان ایمیل می‌زند که دسترسی به داده‌های بزرگ‌ترین شریک صادرکننده کارت خود را از دست داده است. در نتیجه، نمونه آماری آن حدود ۴۰٪ کوچک‌تر می‌شود، سهم بیشتری از دارندگان کارت جوان‌تر را در بر می‌گیرد و سری تاریخی آن نیز بازنویسی شده است. اوکافور پیشنهاد می‌کند که تیم پیش از تعدیل بعدی پرتفوی سیگنال را دوباره آزمون کند و در این فاصله وزن آن را کاهش دهد. ویرزبیتسکی تصمیم می‌گیرد بدون آزمون بیشتر، سیگنال را با وزن کامل نگه دارد. او به اوکافور می‌گوید: «این سیگنال دو سال است که خوب کار کرده و بررسی اولیه ما کامل بود. در هر حال قرارداد را تمدید می‌کنیم.»"
+   }
+  },
+  "E15S2": {
+   "title": {
+    "en": "Brightwater Consulting Group",
+    "fa": "گروه مشاوره برایت‌واتر"
+   },
+   "vig": {
+    "en": "Brightwater Consulting Group advises endowments and foundations on asset allocation and manager selection. Helena Marsh, CFA, is a senior consultant. She reports to Graham Eller, Brightwater's managing director; Ana Ruiz is the firm's compliance officer. Neither Eller nor Ruiz holds the CFA designation. Brightwater's manager research team rates investment managers \"Buy,\" \"Hold,\" or \"Sell,\" and the firm's policy is to send rating changes to all clients in a written research note.\n\nMarsh's largest client is the Wendell Family Foundation, which has USD 900 million in assets. Its investment policy statement (IPS) requires annual grants of 5% of assets, quarterly liquidity for grant payments, and a limit of 10% on illiquid alternative investments. Illiquid holdings are currently 9% of the portfolio. Peter Wendell, the foundation's chief investment officer, is not a CFA charterholder.\n\nIn February, Peter Wendell, acting on behalf of the foundation, offers Marsh a personal bonus of USD 15,000, to be paid by the foundation, if the foundation's portfolio beats its policy benchmark by at least 2% a year over the next two years. Marsh sends Eller and Ruiz a memo describing the nature of the bonus, its amount, and its two-year duration. Peter Wendell confirms the terms in an e-mail to Ruiz. Eller replies in writing that he approves, and Marsh then accepts the arrangement.\n\nIn April, Brightwater's research team decides to downgrade Larkspur Capital from \"Buy\" to \"Sell\" after Larkspur's lead portfolio manager resigns. The research note to all clients is scheduled for Friday. On Tuesday, Marsh telephones her two largest clients, including the Wendell Foundation, to tell them about the downgrade so they can begin planning to terminate Larkspur. Both clients pay Brightwater higher retainer fees than her other clients do.\n\nIn June, the foundation hires Brightwater to run a search for an emerging markets equity manager. Marsh screens 40 firms and selects three finalists. While the search is underway, Marsh, who chairs the board of a children's literacy charity, asks each finalist to buy a USD 10,000 table at the charity's annual gala. Two finalists agree. Marsh says the request has nothing to do with the search, and she receives nothing personally from the charity.\n\nIn October, the foundation's board chair contacts Marsh. He has read about a newly launched digital asset venture fund with strong early returns and wants the foundation to invest 15% of its assets in it as soon as possible. The fund has a five-year lockup and no redemption rights. Marsh's own analysis concludes that the allocation would push illiquid holdings far above the IPS limit and could leave the foundation unable to meet its quarterly grant payments.",
+    "fa": "گروه مشاوره برایت‌واتر به موقوفه‌ها و بنیادها درباره تخصیص دارایی و انتخاب مدیران سرمایه‌گذاری مشاوره می‌دهد. هلنا مارش، دارنده مدرک سی اف ای، مشاور ارشد است. او به گراهام الر، مدیر عامل اجرایی برایت‌واتر، گزارش می‌دهد؛ آنا رویز مسئول تطبیق شرکت است. هیچ‌یک از الر و رویز دارنده مدرک سی اف ای نیستند. تیم پژوهش مدیران برایت‌واتر به مدیران سرمایه‌گذاری رتبه «خرید»، «نگهداری» یا «فروش» می‌دهد و سیاست شرکت این است که تغییرات رتبه را در قالب یک یادداشت پژوهشی کتبی برای همه مشتریان بفرستد.\n\nبزرگ‌ترین مشتری مارش، بنیاد خانوادگی وندل با ۹۰۰ میلیون دلار دارایی است. بیانیه سیاست سرمایه‌گذاری (آی پی اس) این بنیاد، کمک‌های بلاعوض سالانه معادل ۵٪ دارایی‌ها، نقدشوندگی فصلی برای پرداخت این کمک‌ها و سقف ۱۰٪ برای سرمایه‌گذاری‌های جایگزین غیرنقد را الزامی می‌کند. دارایی‌های غیرنقد در حال حاضر ۹٪ پرتفوی است. پیتر وندل، مدیر ارشد سرمایه‌گذاری بنیاد، دارنده مدرک سی اف ای نیست.\n\nدر فوریه، پیتر وندل از طرف بنیاد به مارش پیشنهاد می‌دهد که اگر پرتفوی بنیاد طی دو سال آینده سالانه دست‌کم ۲٪ از شاخص مبنای سیاستی خود بهتر عمل کند، بنیاد ۱۵ هزار دلار پاداش شخصی به او بپردازد. مارش یادداشتی برای الر و رویز می‌فرستد و ماهیت پاداش، مبلغ آن و مدت دوساله آن را شرح می‌دهد. پیتر وندل شرایط را در ایمیلی به رویز تأیید می‌کند. الر کتباً پاسخ می‌دهد که موافق است و پس از آن مارش این ترتیب را می‌پذیرد.\n\nدر آوریل، تیم پژوهش برایت‌واتر پس از استعفای مدیر اصلی پرتفوی لارکسپر کپیتال تصمیم می‌گیرد رتبه این شرکت را از «خرید» به «فروش» کاهش دهد. ارسال یادداشت پژوهشی به همه مشتریان برای روز جمعه برنامه‌ریزی شده است. روز سه‌شنبه، مارش به دو مشتری بزرگ خود، از جمله بنیاد وندل، تلفن می‌زند و کاهش رتبه را به آن‌ها اطلاع می‌دهد تا بتوانند برنامه‌ریزی برای کنار گذاشتن لارکسپر را آغاز کنند. هر دو مشتری حق‌الزحمه ثابت بالاتری نسبت به سایر مشتریان او به برایت‌واتر می‌پردازند.\n\nدر ژوئن، بنیاد برایت‌واتر را برای جست‌وجوی یک مدیر سهام بازارهای نوظهور به کار می‌گیرد. مارش ۴۰ شرکت را غربال می‌کند و سه نامزد نهایی را برمی‌گزیند. در حالی که جست‌وجو ادامه دارد، مارش که رئیس هیئت‌مدیره یک خیریه سوادآموزی کودکان است، از هر یک از نامزدهای نهایی می‌خواهد یک میز ۱۰ هزار دلاری در ضیافت سالانه خیریه بخرند. دو نامزد موافقت می‌کنند. مارش می‌گوید این درخواست هیچ ارتباطی با جست‌وجو ندارد و او شخصاً هیچ چیزی از خیریه دریافت نمی‌کند.\n\nدر اکتبر، رئیس هیئت‌مدیره بنیاد با مارش تماس می‌گیرد. او درباره یک صندوق جسورانه دارایی‌های دیجیتال تازه‌تأسیس با بازده اولیه قوی مطلبی خوانده و می‌خواهد بنیاد هرچه زودتر ۱۵٪ دارایی‌های خود را در آن سرمایه‌گذاری کند. این صندوق دوره قفل پنج‌ساله دارد و هیچ حق بازخریدی ندارد. تحلیل خود مارش نشان می‌دهد که این تخصیص، دارایی‌های غیرنقد را بسیار بالاتر از سقف آی پی اس می‌برد و ممکن است بنیاد را از پرداخت کمک‌های بلاعوض فصلی‌اش ناتوان کند."
+   }
+  },
+  "E15S3": {
+   "title": {
+    "en": "Calloway Wealth Partners",
+    "fa": "شرکای ثروت کالووی"
+   },
+   "vig": {
+    "en": "Calloway Wealth Partners manages discretionary portfolios for about 400 high-net-worth clients. Jun Park, CFA, is a senior portfolio manager who also meets with prospective clients. Mira Castellanos, a CFA Level III candidate, is an associate portfolio manager who also leads Calloway's review of custodians. Derek Holt, who is neither a CFA charterholder nor a candidate, heads the trading desk. Calloway has adopted the CFA Institute Code and Standards as part of its code of ethics.\n\nIn May, Calloway is choosing between its current custodian and Ferrous Trust. Ferrous invites Castellanos to its three-day client conference at a mountain resort and offers to pay her airfare, four nights' lodging, and a round of golf. With her supervisor's approval, Castellanos attends the sessions on Ferrous's reporting and trading systems. Calloway pays her airfare and hotel. She eats the conference meals served to all attendees and declines the golf. Two months later, after comparing fees, systems, and service with three other custodians, Calloway selects Ferrous.\n\nIn August, Castellanos sits for the Level III exam. The next week, a colleague who is registered for Level II asks how it went. Castellanos replies:\n\nStatement 1: \"It was much harder than the mock exams, and honestly I do not know whether I passed.\"\n\nStatement 2: \"When you get to Level III, spend extra time on currency hedging, because it came up in several questions this year.\"\n\nIn September, Park's model calls for buying 300,000 shares of Orrin Biotech, a small-cap stock, across 20 discretionary accounts of different sizes for which the stock is suitable, with each account's order sized in proportion to its assets. Holt's desk fills only 120,000 shares at an average price of USD 18.40. Park directs Holt to allocate the shares to the six accounts that pay Calloway a performance-based fee, filling their orders completely. The other 14 accounts receive no shares. By the following week, Orrin's price has risen to USD 21.10.\n\nIn October, Park meets Arthur Benn, a retired engineer who is considering moving USD 3 million to Calloway. Park's written proposal describes Calloway's investment process and states that the advisory fee is 0.85% a year of assets under management. Client assets are held at Ferrous Trust, which charges each client a custody fee of 0.12% of assets a year and deducts it directly from the account. Park's proposal does not mention the custody fee. When Benn asks what he will pay, Park answers, \"Our fee is 0.85% a year.\" Benn signs the advisory agreement two weeks later.",
+    "fa": "شرکای ثروت کالووی پرتفوی‌های اختیاری حدود ۴۰۰ مشتری با دارایی خالص بالا را مدیریت می‌کند. جون پارک، دارنده مدرک سی اف ای، مدیر ارشد پرتفوی است و با مشتریان بالقوه نیز دیدار می‌کند. میرا کاستیانوس، داوطلب سطح ۳ سی اف ای، دستیار مدیر پرتفوی است و بررسی امانت‌داران (کاستودین‌ها) را نیز در کالووی رهبری می‌کند. درک هولت که نه دارنده مدرک سی اف ای است و نه داوطلب آن، رئیس میز معاملات است. کالووی کد اخلاق و استانداردهای رفتار حرفه‌ای مؤسسه سی اف ای را به عنوان بخشی از کد اخلاق خود پذیرفته است.\n\nدر ماه مه، کالووی در حال انتخاب میان امانت‌دار فعلی خود و فروس تراست است. فروس، کاستیانوس را به همایش سه‌روزه مشتریان خود در یک تفرجگاه کوهستانی دعوت می‌کند و پیشنهاد می‌دهد هزینه بلیت هواپیما، چهار شب اقامت و یک دور بازی گلف او را بپردازد. کاستیانوس با تأیید سرپرستش در جلسات مربوط به سامانه‌های گزارش‌دهی و معاملاتی فروس شرکت می‌کند. کالووی هزینه بلیت و هتل او را می‌پردازد. او از وعده‌های غذایی همایش که برای همه شرکت‌کنندگان سرو می‌شود استفاده می‌کند و گلف را نمی‌پذیرد. دو ماه بعد، کالووی پس از مقایسه کارمزدها، سامانه‌ها و خدمات با سه امانت‌دار دیگر، فروس را برمی‌گزیند.\n\nدر اوت، کاستیانوس در آزمون سطح ۳ شرکت می‌کند. هفته بعد، همکاری که برای سطح ۲ ثبت‌نام کرده است می‌پرسد آزمون چطور بود. کاستیانوس پاسخ می‌دهد:\n\nگزاره ۱: «خیلی سخت‌تر از آزمون‌های آزمایشی بود و راستش نمی‌دانم قبول شده‌ام یا نه.»\n\nگزاره ۲: «وقتی به سطح ۳ رسیدی، وقت بیشتری روی پوشش ریسک ارز بگذار، چون امسال در چند سؤال آمد.»\n\nدر سپتامبر، مدل پارک خرید ۳۰۰ هزار سهم اورین بایوتک، یک سهم کوچک، را برای ۲۰ حساب اختیاری با اندازه‌های متفاوت که این سهم برایشان مناسب است تجویز می‌کند؛ سفارش هر حساب متناسب با دارایی آن تعیین شده است. میز هولت فقط ۱۲۰ هزار سهم را با میانگین قیمت ۱۸٫۴۰ دلار اجرا می‌کند. پارک به هولت دستور می‌دهد سهام را به شش حسابی تخصیص دهد که به کالووی کارمزد مبتنی بر عملکرد می‌پردازند و سفارش‌های آن‌ها را به طور کامل پر کند. ۱۴ حساب دیگر هیچ سهمی دریافت نمی‌کنند. تا هفته بعد، قیمت اورین به ۲۱٫۱۰ دلار می‌رسد.\n\nدر اکتبر، پارک با آرتور بن، یک مهندس بازنشسته که در فکر انتقال ۳ میلیون دلار به کالووی است، دیدار می‌کند. پیشنهاد کتبی پارک فرایند سرمایه‌گذاری کالووی را شرح می‌دهد و می‌گوید کارمزد مشاوره سالانه ۰٫۸۵٪ دارایی‌های تحت مدیریت است. دارایی‌های مشتریان نزد فروس تراست نگهداری می‌شود که از هر مشتری سالانه ۰٫۱۲٪ دارایی‌ها کارمزد امانت‌داری می‌گیرد و آن را مستقیماً از حساب کسر می‌کند. پیشنهاد پارک به کارمزد امانت‌داری اشاره‌ای نمی‌کند. وقتی بن می‌پرسد چه مبلغی خواهد پرداخت، پارک پاسخ می‌دهد: «کارمزد ما سالانه ۰٫۸۵٪ است.» بن دو هفته بعد قرارداد مشاوره را امضا می‌کند."
+   }
+  },
+  "E16S1": {
+   "title": {
+    "en": "Aldridge & Vance Securities",
+    "fa": "اوراق بهادار آلدریج و ونس"
+   },
+   "vig": {
+    "en": "Aldridge & Vance Securities issues structured notes that it distributes through its private bank. Ingrid Solberg, CFA, heads the structured products desk. Daniel Kwan, CFA, is a desk specialist who explains the notes to private bank advisers and recommends them for suitable clients. Priya Natarajan, a CFA Level II candidate, prepares the desk's marketing materials. Marco Bellini, a trader who is neither a CFA charterholder nor a candidate, executes the desk's hedging trades.\n\nIn January, the firm issues USD 30 million of Series 14, an autocallable note linked to a global equity index. Private bank clients submit indications of interest totaling USD 75 million, so each request can be filled at about 40%. The notes are sold in minimum denominations of USD 10,000. Five clients requested USD 15,000 each; a strict 40% fill would give them USD 6,000, below the minimum. Solberg allocates USD 10,000 to each of these five clients and reduces the other allocations slightly below 40% so the total equals the issue size. One of the clients receiving a pro rata allocation is her brother, Henrik Solberg, a long-standing private bank client who pays standard fees. Solberg had also requested USD 50,000 for her personal account, but she withdraws the request when the issue is oversubscribed.\n\nIn March, Natarajan prepares a presentation for advisers and their clients titled \"Our Track Record.\" It states that the firm's autocallable series issued from 2019 to 2024 earned an average annualized return of 7.6%. The figure is calculated correctly for the 11 series shown, all of which were called early or repaid at par. Three other series issued in the same period breached their barriers and repaid investors less than 70% of principal; they are not shown or mentioned. Solberg approves the presentation for distribution.\n\nKwan joined the desk in 2025 after eight years as a municipal bond analyst. Before recommending any notes, he spent two months studying term sheets, completed the firm's internal course on equity derivatives, worked with the desk's structurers on pricing models, and ran stress tests on each note's barrier features. In June, he recommends Series 11, linked to the shares of Corrin Medical, to advisers whose clients have high risk tolerance. Four months later, Corrin discloses that its chief executive had concealed large losses for years, a fraud that auditors and analysts had not detected. The share price falls 55%, the barrier is breached, and noteholders face large losses. Several advisers complain that Kwan was not competent to recommend the notes, noting that he has never completed a formal continuing education program in derivatives.\n\nSeries 9 pays a 12% coupon if Halvard Energy's share price closes at or above 70% of its initial level on 14 November. If Halvard closes below that level, the firm pays no coupon. On the afternoon of 14 November, Halvard is trading just above the 70% level. Solberg tells Bellini, \"Sell a large block of Halvard in the last ten minutes so it closes below 70. We can buy it back tomorrow morning.\" Bellini does so. Halvard closes at 69.6% of its initial level, and the desk buys back the shares the next morning.",
+    "fa": "اوراق بهادار آلدریج و ونس یادداشت‌های ساختاریافته منتشر می‌کند و آن‌ها را از طریق بانک خصوصی خود توزیع می‌کند. اینگرید سولبرگ، دارنده مدرک سی اف ای، رئیس میز محصولات ساختاریافته است. دنیل کوان، دارنده مدرک سی اف ای، متخصص میز است که یادداشت‌ها را برای مشاوران بانک خصوصی توضیح می‌دهد و آن‌ها را برای مشتریان مناسب توصیه می‌کند. پریا ناتاراجان، داوطلب سطح ۲ سی اف ای، مطالب بازاریابی میز را تهیه می‌کند. مارکو بلینی، معامله‌گری که نه دارنده مدرک سی اف ای است و نه داوطلب آن، معاملات پوشش ریسک میز را اجرا می‌کند.\n\nدر ژانویه، شرکت ۳۰ میلیون دلار از «سری ۱۴» را منتشر می‌کند که یک یادداشت قابل بازخرید خودکار (اتوکالبل) مرتبط با یک شاخص جهانی سهام است. مشتریان بانک خصوصی در مجموع ۷۵ میلیون دلار اعلام تمایل می‌کنند، پس هر درخواست را می‌توان حدود ۴۰٪ پر کرد. یادداشت‌ها با حداقل واحد ۱۰ هزار دلار فروخته می‌شوند. پنج مشتری هر کدام ۱۵ هزار دلار درخواست کرده بودند؛ تخصیص دقیق ۴۰٪ به آن‌ها ۶ هزار دلار می‌داد که کمتر از حداقل است. سولبرگ به هر یک از این پنج مشتری ۱۰ هزار دلار تخصیص می‌دهد و سایر تخصیص‌ها را اندکی کمتر از ۴۰٪ می‌کند تا جمع آن‌ها با اندازه انتشار برابر شود. یکی از مشتریانی که تخصیص متناسب دریافت می‌کند، برادر او هنریک سولبرگ است که از مدت‌ها پیش مشتری بانک خصوصی است و کارمزد استاندارد می‌پردازد. سولبرگ برای حساب شخصی خود نیز ۵۰ هزار دلار درخواست کرده بود، اما وقتی تقاضا از عرضه فراتر می‌رود درخواستش را پس می‌گیرد.\n\nدر مارس، ناتاراجان ارائه‌ای با عنوان «سابقه ما» برای مشاوران و مشتریان آن‌ها تهیه می‌کند. در آن آمده است که سری‌های اتوکالبل شرکت که از ۲۰۱۹ تا ۲۰۲۴ منتشر شده‌اند، میانگین بازده سالانه ۷٫۶٪ داشته‌اند. این رقم برای ۱۱ سری نشان‌داده‌شده که همگی پیش از موعد بازخرید شده یا به ارزش اسمی بازپرداخت شده‌اند درست محاسبه شده است. سه سری دیگر که در همان دوره منتشر شدند از سد خود عبور کردند و کمتر از ۷۰٪ اصل سرمایه را به سرمایه‌گذاران بازگرداندند؛ این سه سری نه نشان داده شده‌اند و نه ذکری از آن‌ها شده است. سولبرگ ارائه را برای توزیع تأیید می‌کند.\n\nکوان در سال ۲۰۲۵، پس از هشت سال کار به عنوان تحلیلگر اوراق قرضه شهرداری، به این میز پیوست. او پیش از توصیه هر یادداشتی، دو ماه برگه‌های شرایط را مطالعه کرد، دوره داخلی شرکت درباره مشتقات سهام را گذراند، با طراحان ساختار میز روی مدل‌های قیمت‌گذاری کار کرد و روی ویژگی‌های سد هر یادداشت آزمون تنش انجام داد. در ژوئن، او سری ۱۱ را که به سهام کورین مدیکال مرتبط است به مشاورانی توصیه می‌کند که مشتریانشان تحمل ریسک بالایی دارند. چهار ماه بعد، کورین فاش می‌کند که مدیرعامل آن سال‌ها زیان‌های بزرگی را پنهان کرده بود؛ تقلبی که حسابرسان و تحلیلگران آن را کشف نکرده بودند. قیمت سهم ۵۵٪ سقوط می‌کند، سد شکسته می‌شود و دارندگان یادداشت با زیان‌های بزرگی روبه‌رو می‌شوند. چند مشاور شکایت می‌کنند که کوان صلاحیت توصیه این یادداشت‌ها را نداشت و یادآوری می‌کنند که او هرگز یک برنامه رسمی آموزش مستمر در زمینه مشتقات را نگذرانده است.\n\nسری ۹ در صورتی کوپن ۱۲٪ می‌پردازد که قیمت پایانی سهم هالوارد انرژی در ۱۴ نوامبر برابر یا بالاتر از ۷۰٪ سطح اولیه آن باشد. اگر قیمت پایانی هالوارد پایین‌تر از این سطح باشد، شرکت هیچ کوپنی نمی‌پردازد. در بعدازظهر ۱۴ نوامبر، هالوارد کمی بالاتر از سطح ۷۰٪ معامله می‌شود. سولبرگ به بلینی می‌گوید: «در ده دقیقه آخر یک بلوک بزرگ هالوارد بفروش تا زیر ۷۰ بسته شود. فردا صبح دوباره می‌خریمش.» بلینی همین کار را می‌کند. هالوارد در ۶۹٫۶٪ سطح اولیه خود بسته می‌شود و میز صبح روز بعد سهام را بازمی‌خرد."
+   }
+  },
+  "E16S2": {
+   "title": {
+    "en": "Ridgeline Letter",
+    "fa": "خبرنامه ریج‌لاین"
+   },
+   "vig": {
+    "en": "Ridgeline Letter is an independent investment newsletter founded in 2024 by Celeste Varga, CFA. Ridgeline sells two subscription tiers. Standard subscribers pay USD 250 a year and receive all recommendations and changes by e-mail. Pro subscribers pay USD 1,500 a year and also receive live webinars and question-and-answer sessions with Varga. Both tiers are described on Ridgeline's website, and anyone may buy either tier. Tobias Lindqvist, a CFA Level I candidate, is Ridgeline's research associate and manages its social media accounts. Ridgeline has about 6,000 subscribers, roughly one-fifth of them in the Pro tier, and it does not manage money for clients.\n\nBefore founding Ridgeline, Varga spent nine years at Kestrel Funds, where she was one of three co-managers of the Kestrel Global Opportunities Fund. In February, Ridgeline's advertising states: \"Celeste Varga: nine years, 13.8% annualized, beating the global equity benchmark by 4% a year.\" The return figures are those of the Kestrel fund and are calculated correctly, and Kestrel has given written permission to use them. The advertisement does not mention Kestrel or the other two co-managers.\n\nIn April, Varga changes her rating on Pinecrest Robotics from \"Buy\" to \"Sell.\" She owns no Pinecrest shares. At 7:00 a.m., Ridgeline e-mails the change and a summary of her reasons to all subscribers in both tiers. At noon, Varga hosts a one-hour webinar for Pro subscribers in which she discusses her reasons in detail and answers questions.\n\nIn June, a small software company asks Ridgeline to prepare a \"Spotlight\" research report on it. Before any work begins, Varga agrees to a flat fee of USD 30,000 and, at the company's suggestion, also accepts warrants to buy 50,000 of the company's shares. The report, which rates the stock a \"Buy,\" states prominently on its first page that the company paid Ridgeline a flat fee and granted Varga warrants.\n\nRidgeline also posts short recommendation updates for subscribers on its social media accounts several times a week. To keep the feed clean, Varga instructs Lindqvist to delete each post after 48 hours without saving a copy. The weekly e-mail reports are archived on Ridgeline's server. Ridgeline's jurisdiction has no regulation on retaining social media posts, and Ridgeline has no written record retention policy.",
+    "fa": "خبرنامه ریج‌لاین یک خبرنامه مستقل سرمایه‌گذاری است که در سال ۲۰۲۴ به دست سلست وارگا، دارنده مدرک سی اف ای، تأسیس شد. ریج‌لاین دو سطح اشتراک می‌فروشد. مشترکان «استاندارد» سالانه ۲۵۰ دلار می‌پردازند و همه توصیه‌ها و تغییرات آن‌ها را با ایمیل دریافت می‌کنند. مشترکان «حرفه‌ای» سالانه ۱٬۵۰۰ دلار می‌پردازند و علاوه بر آن، وبینارهای زنده و جلسات پرسش و پاسخ با وارگا دریافت می‌کنند. هر دو سطح در وب‌سایت ریج‌لاین شرح داده شده‌اند و هر کسی می‌تواند هر یک از آن‌ها را بخرد. توبیاس لیندکویست، داوطلب سطح ۱ سی اف ای، دستیار پژوهشی ریج‌لاین است و حساب‌های رسانه‌های اجتماعی آن را اداره می‌کند. ریج‌لاین حدود ۶٬۰۰۰ مشترک دارد که تقریباً یک‌پنجم آن‌ها در سطح حرفه‌ای هستند، و این خبرنامه برای مشتریان پول مدیریت نمی‌کند.\n\nوارگا پیش از تأسیس ریج‌لاین، نه سال در صندوق‌های کسترل کار می‌کرد و یکی از سه مدیر مشترک صندوق فرصت‌های جهانی کسترل بود. در فوریه، آگهی ریج‌لاین می‌گوید: «سلست وارگا: نه سال، بازده سالانه ۱۳٫۸٪، سالانه ۴٪ بهتر از شاخص مبنای سهام جهانی.» این ارقام بازده متعلق به صندوق کسترل است و درست محاسبه شده، و کسترل اجازه کتبی استفاده از آن‌ها را داده است. آگهی هیچ اشاره‌ای به کسترل یا دو مدیر مشترک دیگر نمی‌کند.\n\nدر آوریل، وارگا رتبه خود برای پاین‌کرست رباتیکس را از «خرید» به «فروش» تغییر می‌دهد. او هیچ سهمی از پاین‌کرست ندارد. ساعت ۷ صبح، ریج‌لاین این تغییر و خلاصه‌ای از دلایل او را برای همه مشترکان هر دو سطح ایمیل می‌کند. ظهر، وارگا یک وبینار یک‌ساعته برای مشترکان حرفه‌ای برگزار می‌کند و در آن دلایل خود را با جزئیات توضیح می‌دهد و به پرسش‌ها پاسخ می‌دهد.\n\nدر ژوئن، یک شرکت کوچک نرم‌افزاری از ریج‌لاین می‌خواهد یک گزارش پژوهشی «زیر ذره‌بین» درباره آن تهیه کند. پیش از آغاز هر کاری، وارگا با یک کارمزد ثابت ۳۰ هزار دلاری موافقت می‌کند و به پیشنهاد شرکت، اختیار خرید (وارانت) ۵۰ هزار سهم شرکت را نیز می‌پذیرد. گزارش که به سهم رتبه «خرید» می‌دهد، در صفحه اول خود به طور برجسته اعلام می‌کند که شرکت به ریج‌لاین کارمزد ثابت پرداخته و به وارگا وارانت داده است.\n\nریج‌لاین همچنین چند بار در هفته به‌روزرسانی‌های کوتاهی از توصیه‌ها را برای مشترکان در حساب‌های رسانه اجتماعی خود منتشر می‌کند. وارگا برای «مرتب ماندن صفحه» به لیندکویست دستور می‌دهد هر پست را پس از ۴۸ ساعت بدون نگه داشتن نسخه‌ای از آن حذف کند. گزارش‌های ایمیلی هفتگی روی سرور ریج‌لاین بایگانی می‌شوند. حوزه قضایی ریج‌لاین هیچ مقرراتی درباره نگهداری پست‌های رسانه اجتماعی ندارد و ریج‌لاین هیچ سیاست مکتوبی برای نگهداری سوابق ندارد."
+   }
+  },
+  "E16S3": {
+   "title": {
+    "en": "Harrowgate Private Wealth",
+    "fa": "ثروت خصوصی هروگیت"
+   },
+   "vig": {
+    "en": "Harrowgate Private Wealth is a 30-person advisory firm owned by its founder, Victor Lindahl, who is not a CFA charterholder. Nadia Karimi, CFA, is a senior adviser who manages discretionary accounts for about 80 families. Harrowgate's advisory agreements give it authority to vote proxies for client accounts, and its written proxy policy says that nonroutine proposals will be reviewed by the responsible adviser. Theo Mensah, a CFA Level II candidate, is Karimi's associate. Ruth Okonjo, who is not a CFA charterholder, is Harrowgate's compliance officer.\n\nSince 2024, Karimi has volunteered on a CFA Institute panel that reviews draft questions for CFA Program exams. In March, while presenting to a prospective client, she says: \"Because I review draft CFA exam questions, I see where the profession's thinking is heading before almost anyone else, and Harrowgate clients get the benefit of that.\"\n\nIn April, Karimi recommends the Belmont Bank Income Note to several clients. The note pays a 9% annual coupon for five years. If the underlying stock index is below 60% of its starting level at maturity, investors lose principal one-for-one with the index decline. Payments depend on Belmont Bank's creditworthiness, and Belmont does not commit to making a secondary market. Karimi writes a two-page summary for her clients that shows the coupon and the results if the index rises or stays flat. The summary does not show results if the index falls, and it does not mention the principal risk, Belmont's credit risk, or the limited liquidity. It states that Belmont's 90-page offering document is available on request.\n\nIn May, many Harrowgate clients hold shares of Dunmore Logistics. Dunmore's board proposes creating a new class of shares with ten votes per share, to be held by the founding family. Busy with client reviews, Karimi tells Mensah to vote all client shares as management recommends, without reviewing the proposal. Mensah does so.\n\nIn June, Harrowgate learns that the securities regulator will examine its files. Local rules require a signed risk questionnaire for each client before an account is opened. Mensah finds that 12 accounts were opened before questionnaires were signed. Lindahl tells Mensah to have those clients sign new questionnaires and to date them before each account's opening date. Mensah has not yet discussed the matter with anyone else.",
+    "fa": "ثروت خصوصی هروگیت یک شرکت مشاوره ۳۰ نفره است که مالک آن بنیان‌گذارش ویکتور لیندال است. لیندال دارنده مدرک سی اف ای نیست. نادیا کریمی، دارنده مدرک سی اف ای، مشاور ارشدی است که حساب‌های اختیاری حدود ۸۰ خانواده را مدیریت می‌کند. قراردادهای مشاوره هروگیت به این شرکت اختیار می‌دهد که برای حساب‌های مشتریان رأی وکالتی (پراکسی) بدهد، و سیاست مکتوب رأی‌دهی آن می‌گوید پیشنهادهای غیرعادی توسط مشاور مسئول بررسی می‌شوند. تئو منسا، داوطلب سطح ۲ سی اف ای، دستیار کریمی است. روث اوکونجو که دارنده مدرک سی اف ای نیست، مسئول تطبیق هروگیت است.\n\nکریمی از سال ۲۰۲۴ به صورت داوطلبانه در هیئتی از مؤسسه سی اف ای فعالیت می‌کند که پیش‌نویس سؤالات آزمون‌های برنامه سی اف ای را بازبینی می‌کند. در مارس، هنگام ارائه برای یک مشتری بالقوه، می‌گوید: «چون من پیش‌نویس سؤالات آزمون سی اف ای را بازبینی می‌کنم، زودتر از تقریباً هر کس دیگری می‌بینم که تفکر حرفه به کدام سو می‌رود، و مشتریان هروگیت از این موضوع بهره می‌برند.»\n\nدر آوریل، کریمی «یادداشت درآمدی بانک بلمونت» را به چند مشتری توصیه می‌کند. این یادداشت پنج سال کوپن سالانه ۹٪ می‌پردازد. اگر شاخص سهام پایه در سررسید کمتر از ۶۰٪ سطح آغازین خود باشد، سرمایه‌گذاران به همان نسبت کاهش شاخص، اصل سرمایه را از دست می‌دهند. پرداخت‌ها به اعتبار بانک بلمونت بستگی دارد و بلمونت تعهدی به ایجاد بازار ثانویه ندارد. کریمی خلاصه‌ای دو صفحه‌ای برای مشتریانش می‌نویسد که کوپن و نتایج را در حالتی که شاخص بالا برود یا ثابت بماند نشان می‌دهد. این خلاصه نتایج حالت کاهش شاخص را نشان نمی‌دهد و به ریسک اصل سرمایه، ریسک اعتباری بلمونت یا نقدشوندگی محدود اشاره‌ای نمی‌کند. در آن آمده است که سند عرضه ۹۰ صفحه‌ای بلمونت در صورت درخواست در دسترس است.\n\nدر ماه مه، بسیاری از مشتریان هروگیت سهام دانمور لجستیکس را دارند. هیئت‌مدیره دانمور پیشنهاد می‌کند طبقه جدیدی از سهام با ده رأی برای هر سهم ایجاد شود که در اختیار خانواده بنیان‌گذار قرار گیرد. کریمی که سرگرم بررسی حساب مشتریان است، به منسا می‌گوید بدون بررسی پیشنهاد، به نمایندگی از همه سهام مشتریان مطابق توصیه مدیریت رأی بدهد. منسا همین کار را می‌کند.\n\nدر ژوئن، هروگیت مطلع می‌شود که نهاد ناظر اوراق بهادار پرونده‌هایش را بررسی خواهد کرد. مقررات محلی امضای یک پرسشنامه ریسک توسط هر مشتری را پیش از افتتاح حساب الزامی می‌کند. منسا متوجه می‌شود که ۱۲ حساب پیش از امضای پرسشنامه‌ها افتتاح شده‌اند. لیندال به منسا می‌گوید از این مشتریان بخواهد پرسشنامه‌های جدید امضا کنند و تاریخ آن‌ها را پیش از تاریخ افتتاح هر حساب بزند. منسا هنوز این موضوع را با هیچ کس دیگری در میان نگذاشته است."
+   }
+  }
+ },
+ "qs": [
+  {
+   "id": "E15S1Q1",
+   "set": "E15S1",
+   "k": 1,
+   "std": [
+    "III(A)"
+   ],
+   "q": {
+    "en": "In arranging the Castellan commission bundle, did Wierzbicki violate any of the Standards?",
+    "fa": "آیا ویرزبیتسکی در تنظیم بسته کمیسیون کاستلان هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "No, because Halden's brochure discloses that it receives services through client commission arrangements.",
+     "fa": "خیر، چون بروشور هالدن افشا می‌کند که این شرکت از طریق ترتیبات کمیسیون مشتری خدمات دریافت می‌کند."
+    },
+    {
+     "en": "Yes, because client brokerage was used to pay for a service that benefits Halden rather than its clients.",
+     "fa": "بله، چون از کمیسیون کارگزاری مشتریان برای پرداخت هزینه خدمتی استفاده شده که به جای مشتریان به نفع خود هالدن است."
+    },
+    {
+     "en": "Yes, because client commissions may not be used to pay for third-party data.",
+     "fa": "بله، چون نمی‌توان از کمیسیون مشتریان برای پرداخت هزینه داده‌های اشخاص ثالث استفاده کرد."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Under Standard III(A), client brokerage is an asset of the client. A manager who pays higher commissions to obtain goods or services without a corresponding benefit to the client breaches the duty of loyalty. The Signalwave data is research used in managing client accounts, so paying for it with commissions can be acceptable. ProspectIQ, however, is a marketing tool that helps Halden find new business; it does not help make investment decisions for current clients, so clients' commissions are paying Halden's own business expense. A is wrong: a general brochure statement does not make an improper use of client brokerage acceptable, because disclosure does not cure a loyalty breach. C is wrong: the Standards do not prohibit using client commissions for research, such as data, that directly benefits clients. Lesson: client commissions may buy only research that helps manage the clients' money, never the firm's marketing or overhead.",
+    "fa": "گزینه ب درست است. طبق استاندارد ۳(آ)، کمیسیون کارگزاری متعلق به مشتری و دارایی اوست. مدیری که کمیسیون بالاتری می‌پردازد تا کالا یا خدمتی بخرد که منفعت متناظری برای مشتری ندارد، وظیفه وفاداری را نقض می‌کند. داده سیگنال‌ویو پژوهشی است که در مدیریت حساب‌های مشتریان به کار می‌رود، پس پرداخت هزینه آن با کمیسیون می‌تواند پذیرفتنی باشد. اما پراسپکت‌آی‌کیو ابزاری بازاریابی است که به هالدن کمک می‌کند کسب‌وکار جدید پیدا کند؛ این ابزار به تصمیم‌گیری سرمایه‌گذاری برای مشتریان فعلی کمکی نمی‌کند، پس کمیسیون مشتریان هزینه کسب‌وکار خود هالدن را می‌پردازد. گزینه الف نادرست است: یک جمله کلی در بروشور، استفاده نادرست از کمیسیون مشتری را پذیرفتنی نمی‌کند، زیرا افشا نقض وفاداری را جبران نمی‌کند. گزینه ج نادرست است: استانداردها استفاده از کمیسیون مشتری را برای پژوهشی مانند داده که مستقیماً به نفع مشتریان است ممنوع نمی‌کنند. درس: با کمیسیون مشتری فقط می‌توان پژوهشی خرید که به مدیریت پول مشتریان کمک کند، هرگز هزینه بازاریابی یا سربار شرکت را."
+   },
+   "ref": {
+    "en": "Standard III(A) Loyalty, Prudence, and Care, Guidance: Soft Commission Policies; see also Learning Module 2 Practice Problems 16 and 17 (client commissions may not pay the manager's own expenses; disclosure does not make a non-research use permissible).",
+    "fa": "استاندارد ۳(آ) وفاداری، احتیاط و مراقبت، راهنما: سیاست‌های کمیسیون نرم؛ همچنین مسائل تمرینی ۱۶ و ۱۷ ماژول یادگیری ۲ (کمیسیون مشتری نمی‌تواند هزینه‌های خود مدیر را بپردازد؛ افشا، استفاده غیرپژوهشی را مجاز نمی‌کند)."
+   }
+  },
+  {
+   "id": "E15S1Q2",
+   "set": "E15S1",
+   "k": 2,
+   "std": [
+    "IV(B)",
+    "I(B)"
+   ],
+   "q": {
+    "en": "By accepting the seat on Signalwave's Client Advisory Council, did Wierzbicki violate any of the Standards?",
+    "fa": "آیا ویرزبیتسکی با پذیرفتن کرسی شورای مشورتی مشتریان سیگنال‌ویو هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because he also needed written consent from each of Halden's clients.",
+     "fa": "بله، چون او به رضایت کتبی تک‌تک مشتریان هالدن نیز نیاز داشت."
+    },
+    {
+     "en": "No, because his supervisor approved the arrangement before he accepted.",
+     "fa": "خیر، چون سرپرست او پیش از پذیرش، این ترتیب را تأیید کرد."
+    },
+    {
+     "en": "Yes, because he accepted the compensation without obtaining written consent from Halden.",
+     "fa": "بله، چون او بدون گرفتن رضایت کتبی از هالدن این جبران خدمت را پذیرفت."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard IV(B) prohibits accepting compensation or benefits that compete with, or might reasonably be expected to create a conflict with, the employer's interest unless written consent is obtained. Wierzbicki decides whether Halden buys and renews Signalwave data, so a USD 25,000 honorarium and a paid trip from that vendor could conflict with Halden's interest in choosing data on merit. A casual hallway remark is verbal, not written, consent. The recommended procedure is an immediate written report to the supervisor and compliance officer stating the nature, approximate amount, and duration of the compensation. B is wrong because verbal approval does not meet the written consent requirement. A is wrong because the Standards do not require client permission for this kind of outside arrangement; the consent required is the employer's. Lesson: before accepting outside pay, put the terms in writing to your employer and get documented approval.",
+    "fa": "گزینه ج درست است. استاندارد ۴(بی) پذیرفتن جبران خدمت یا منافعی را که با منافع کارفرما رقابت می‌کند یا به طور معقول انتظار می‌رود با آن تضاد ایجاد کند، بدون گرفتن رضایت کتبی ممنوع می‌کند. ویرزبیتسکی تصمیم می‌گیرد که هالدن داده سیگنال‌ویو را بخرد و تمدید کند، پس حق‌الزحمه ۲۵ هزار دلاری و سفر رایگان از سوی همین فروشنده می‌تواند با منافع هالدن در انتخاب داده بر اساس کیفیت آن تضاد داشته باشد. یک جمله گذرا در راهرو رضایت شفاهی است، نه کتبی. رویه توصیه‌شده، گزارش کتبی فوری به سرپرست و مسئول تطبیق است که ماهیت، مبلغ تقریبی و مدت جبران خدمت را بیان کند. گزینه ب نادرست است، چون تأیید شفاهی شرط رضایت کتبی را برآورده نمی‌کند. گزینه الف نادرست است، چون استانداردها برای این نوع ترتیب بیرونی اجازه مشتریان را لازم نمی‌دانند؛ رضایت لازم، رضایت کارفرماست. درس: پیش از پذیرفتن درآمد بیرونی، شرایط را کتباً به کارفرما بدهید و تأیید مستند بگیرید."
+   },
+   "ref": {
+    "en": "Standard IV(B) Additional Compensation Arrangements, standard text (\"written consent from all parties involved\") and Recommended Procedures; Level III item-set Practice Problem 36 and its solution (Riser: written, not verbal, consent from the employer; client permission not required).",
+    "fa": "استاندارد ۴(بی) ترتیبات جبران خدمت اضافی، متن استاندارد («رضایت کتبی همه طرف‌های درگیر») و رویه‌های توصیه‌شده؛ مسئله تمرینی ۳۶ مجموعه‌سؤال‌های سطح ۳ و پاسخ آن (رایزر: رضایت کتبی، نه شفاهی، از کارفرما؛ اجازه مشتریان لازم نیست)."
+   }
+  },
+  {
+   "id": "E15S1Q3",
+   "set": "E15S1",
+   "k": 3,
+   "std": [
+    "III(D)"
+   ],
+   "q": {
+    "en": "Does Okafor's June presentation violate any of the Standards?",
+    "fa": "آیا ارائه ماه ژوئن اوکافور هیچ‌یک از استانداردها را نقض می‌کند؟"
+   },
+   "o": [
+    {
+     "en": "No.",
+     "fa": "خیر."
+    },
+    {
+     "en": "Yes, because simulated results may not be presented to prospective clients.",
+     "fa": "بله، چون نتایج شبیه‌سازی‌شده را نمی‌توان به مشتریان بالقوه ارائه کرد."
+    },
+    {
+     "en": "Yes, because an 18-month live record is too short to be presented to prospective clients.",
+     "fa": "بله، چون سابقه واقعی ۱۸ ماهه برای ارائه به مشتریان بالقوه بسیار کوتاه است."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard III(D) requires reasonable efforts to make performance information fair, accurate, and complete. The guidance lists ways to meet the standard without applying GIPS: include terminated accounts with a clear indication of when they terminated, and include disclosures that fully explain the results, such as stating when results are simulated and whether returns are gross or net of fees. Okafor did all of this: actual and simulated results are on separate pages, the backtest is clearly labeled as hypothetical with its limitations, and supporting details are available on request. B is wrong: simulated results are permitted when clearly identified; in Example 4 of III(D), the violation was the failure to label them as simulated. C is wrong: no minimum track record length is required, as long as the period shown is clearly stated. Lesson: backtests are allowed if they are clearly labeled and kept separate from actual results.",
+    "fa": "گزینه الف درست است. استاندارد ۳(دی) تلاش معقول برای منصفانه، دقیق و کامل بودن اطلاعات عملکرد را الزامی می‌کند. راهنما روش‌هایی را برای رعایت این استاندارد بدون اجرای جیپس برمی‌شمارد: گنجاندن حساب‌های بسته‌شده با نشان دادن روشن زمان بسته شدن آن‌ها، و افشاهایی که نتایج را کاملاً توضیح دهد، مثلاً بیان اینکه نتایج شبیه‌سازی‌شده‌اند و بازده پیش یا پس از کسر کارمزد است. اوکافور همه این کارها را کرده است: نتایج واقعی و شبیه‌سازی‌شده در صفحه‌های جدا آمده‌اند، آزمون گذشته‌نگر به روشنی فرضی نامیده شده و محدودیت‌هایش ذکر شده، و جزئیات پشتیبان در صورت درخواست در دسترس است. گزینه ب نادرست است: نتایج شبیه‌سازی‌شده در صورت شناسایی روشن مجازند؛ در مثال ۴ استاندارد ۳(دی)، نقض در این بود که نتایج به عنوان شبیه‌سازی‌شده معرفی نشده بودند. گزینه ج نادرست است: حداقل طول سابقه لازم نیست، به شرط آنکه دوره نشان‌داده‌شده به روشنی بیان شود. درس: آزمون گذشته‌نگر مجاز است، اگر به روشنی برچسب بخورد و از نتایج واقعی جدا نگه داشته شود."
+   },
+   "ref": {
+    "en": "Standard III(D) Performance Presentation, Recommended Procedures: Compliance without Applying GIPS Standards; Application Example 4 (Performance Presentation and Simulated Results).",
+    "fa": "استاندارد ۳(دی) ارائه عملکرد، رویه‌های توصیه‌شده: رعایت بدون اجرای استانداردهای جیپس؛ مثال کاربردی ۴ (ارائه عملکرد و نتایج شبیه‌سازی‌شده)."
+   }
+  },
+  {
+   "id": "E15S1Q4",
+   "set": "E15S1",
+   "k": 4,
+   "std": [
+    "V(A)"
+   ],
+   "q": {
+    "en": "When deciding to keep the Signalwave signal at full weight in September, did Wierzbicki violate any of the Standards?",
+    "fa": "آیا ویرزبیتسکی هنگام تصمیم به نگه داشتن سیگنال سیگنال‌ویو با وزن کامل در سپتامبر، هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "No, because Okafor's initial due diligence established a reasonable basis for using the data.",
+     "fa": "خیر، چون بررسی دقیق اولیه اوکافور مبنای معقولی برای استفاده از داده‌ها فراهم کرده بود."
+    },
+    {
+     "en": "Yes, because he kept relying on the data without reassessing its soundness after learning of a material change in how it is constructed.",
+     "fa": "بله، چون پس از آگاهی از تغییر مهم در نحوه ساخت داده‌ها، بدون ارزیابی دوباره اعتبار آن‌ها همچنان به آن‌ها تکیه کرد."
+    },
+    {
+     "en": "Yes, because users of third-party data must independently verify every data point the vendor supplies.",
+     "fa": "بله، چون استفاده‌کنندگان داده اشخاص ثالث باید تک‌تک داده‌های ارائه‌شده فروشنده را مستقلاً راستی‌آزمایی کنند."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard V(A) requires diligence, thoroughness, and a reasonable and adequate basis for investment actions. When relying on third-party research or data, members must make reasonable and diligent efforts to determine that it is sound, considering its assumptions, rigor, and timeliness, and must not rely on a source they have reason to question. Diligence is ongoing: in Example 4 of V(A), a consultant failed the standard by not updating her report after learning material new information. Signalwave's panel lost about 40% of its data, changed composition, and restated its history, so the earlier testing no longer supports the signal. A is wrong because a past review does not cover a materially different dataset. C is wrong because the standard does not require users to become experts or check every data point; it requires understanding assumptions and limitations and testing before use. Lesson: when a data source changes materially, re-test it before you keep trading on it.",
+    "fa": "گزینه ب درست است. استاندارد ۵(آ) سخت‌کوشی، دقت و مبنای معقول و کافی برای اقدامات سرمایه‌گذاری را الزامی می‌کند. هنگام تکیه بر پژوهش یا داده اشخاص ثالث، اعضا باید تلاش معقول و جدی کنند تا اطمینان یابند که آن معتبر است و فرض‌ها، دقت و به‌روز بودن آن را در نظر بگیرند، و نباید به منبعی تکیه کنند که دلیلی برای تردید درباره آن دارند. سخت‌کوشی امری مستمر است: در مثال ۴ استاندارد ۵(آ)، یک مشاور با به‌روز نکردن گزارش خود پس از آگاهی از اطلاعات مهم جدید، الزام استاندارد را برآورده نکرد. نمونه آماری سیگنال‌ویو حدود ۴۰٪ داده‌های خود را از دست داده، ترکیبش تغییر کرده و تاریخچه‌اش بازنویسی شده است، پس آزمون‌های قبلی دیگر پشتوانه سیگنال نیستند. گزینه الف نادرست است، چون بررسی گذشته، مجموعه داده‌ای را که به طور اساسی تغییر کرده پوشش نمی‌دهد. گزینه ج نادرست است، چون استاندارد از استفاده‌کنندگان نمی‌خواهد متخصص شوند یا تک‌تک داده‌ها را بررسی کنند؛ آنچه لازم است درک فرض‌ها و محدودیت‌ها و آزمون پیش از استفاده است. درس: وقتی منبع داده به طور اساسی تغییر می‌کند، پیش از ادامه معامله بر اساس آن، دوباره آزمونش کنید."
+   },
+   "ref": {
+    "en": "Standard V(A) Diligence and Reasonable Basis, Guidance: Using Secondary or Third-Party Research and Using Quantitatively Oriented Research; Application Example 4 (Timely Client Updates).",
+    "fa": "استاندارد ۵(آ) سخت‌کوشی و مبنای معقول، راهنما: استفاده از پژوهش ثانویه یا پژوهش اشخاص ثالث، و استفاده از پژوهش کمّی؛ مثال کاربردی ۴ (به‌روزرسانی به‌موقع برای مشتری)."
+   }
+  },
+  {
+   "id": "E15S2Q1",
+   "set": "E15S2",
+   "k": 1,
+   "std": [
+    "IV(B)"
+   ],
+   "q": {
+    "en": "By accepting the bonus arrangement offered by Peter Wendell, did Marsh violate any of the Standards?",
+    "fa": "آیا مارش با پذیرفتن ترتیب پاداشی که پیتر وندل پیشنهاد داد، هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because consultants may not accept performance-based compensation from a client.",
+     "fa": "بله، چون مشاوران نمی‌توانند از مشتری جبران خدمت مبتنی بر عملکرد بپذیرند."
+    },
+    {
+     "en": "No.",
+     "fa": "خیر."
+    },
+    {
+     "en": "Yes, because she also needed written consent from Brightwater's other clients.",
+     "fa": "بله، چون او به رضایت کتبی سایر مشتریان برایت‌واتر نیز نیاز داشت."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard IV(B) allows members to accept compensation from a client that might create a conflict with the employer's interest if they first obtain written consent. A performance bonus from a client is exactly this kind of arrangement, because it could tempt Marsh to favor the foundation over her other clients. Marsh followed the recommended procedure closely: she gave a written report to her supervisor and the compliance officer stating the nature, amount, and duration of the bonus, the client confirmed the terms, and Eller approved in writing before she accepted. A is wrong: the Standards do not ban client bonuses; in Practice Problem 27 of Learning Module 2, the correct action is to obtain employer permission before accepting such an offer. C is wrong: the consent required is that of the parties involved in the arrangement, chiefly the employer, not every other client of the firm. Lesson: a client bonus is allowed when the employer gives documented consent before you accept it.",
+    "fa": "گزینه ب درست است. استاندارد ۴(بی) به اعضا اجازه می‌دهد جبران خدمتی را از مشتری که ممکن است با منافع کارفرما تضاد ایجاد کند بپذیرند، به شرط آنکه پیش از آن رضایت کتبی بگیرند. پاداش عملکرد از سوی مشتری دقیقاً از همین نوع است، چون ممکن است مارش را وسوسه کند بنیاد را بر سایر مشتریانش ترجیح دهد. مارش رویه توصیه‌شده را به دقت رعایت کرد: گزارشی کتبی به سرپرست و مسئول تطبیق داد که ماهیت، مبلغ و مدت پاداش را بیان می‌کرد، مشتری شرایط را تأیید کرد و الر پیش از پذیرش کتباً موافقت کرد. گزینه الف نادرست است: استانداردها پاداش مشتری را ممنوع نمی‌کنند؛ در مسئله تمرینی ۲۷ ماژول یادگیری ۲، اقدام درست گرفتن اجازه کارفرما پیش از پذیرش چنین پیشنهادی است. گزینه ج نادرست است: رضایت لازم، رضایت طرف‌های درگیر در این ترتیب، به‌ویژه کارفرما، است، نه همه مشتریان دیگر شرکت. درس: پاداش مشتری مجاز است، اگر کارفرما پیش از پذیرش شما رضایت مستند بدهد."
+   },
+   "ref": {
+    "en": "Standard IV(B) Additional Compensation Arrangements, Guidance and Recommended Procedures; Application Example 1 (Notification of Client Bonus Compensation); Learning Module 2 Practice Problem 27.",
+    "fa": "استاندارد ۴(بی) ترتیبات جبران خدمت اضافی، راهنما و رویه‌های توصیه‌شده؛ مثال کاربردی ۱ (اطلاع‌رسانی درباره پاداش مشتری)؛ مسئله تمرینی ۲۷ ماژول یادگیری ۲."
+   }
+  },
+  {
+   "id": "E15S2Q2",
+   "set": "E15S2",
+   "k": 2,
+   "std": [
+    "III(B)"
+   ],
+   "q": {
+    "en": "When telephoning her two largest clients about the Larkspur downgrade, did Marsh violate any of the Standards?",
+    "fa": "آیا مارش هنگام تلفن زدن به دو مشتری بزرگ خود درباره کاهش رتبه لارکسپر، هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "No, because clients who pay higher fees may receive premium service.",
+     "fa": "خیر، چون مشتریانی که کارمزد بالاتری می‌پردازند می‌توانند خدمات ممتاز دریافت کنند."
+    },
+    {
+     "en": "Yes, because a changed rating must reach every client at exactly the same moment.",
+     "fa": "بله، چون تغییر رتبه باید دقیقاً در یک لحظه به همه مشتریان برسد."
+    },
+    {
+     "en": "Yes, because she gave the changed rating to select clients before it was disseminated to all clients.",
+     "fa": "بله، چون او تغییر رتبه را پیش از انتشار برای همه مشتریان، به چند مشتری منتخب داد."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard III(B) requires members to deal fairly with all clients when disseminating investment recommendations, and the guidance says this duty may be more critical for changes in recommendations. A manager rating is an investment recommendation. Telling a favored group about a downgrade days before the note goes to everyone gives those clients a head start, at the expense of other clients who also use Larkspur. Example 1 of III(B) (Selective Disclosure) describes the same problem. A is wrong: premium service is allowed only if it does not disadvantage other clients; Example 6 shows that extra discussion with large clients is fine only after the recommendation has been sent to all clients. B is wrong: fair dealing does not require that all clients be reached at exactly the same moment, which is impossible; it requires dissemination to all clients at approximately the same time. Lesson: send a changed recommendation to everyone first, then offer extra discussion.",
+    "fa": "گزینه ج درست است. استاندارد ۳(بی) از اعضا می‌خواهد هنگام انتشار توصیه‌های سرمایه‌گذاری با همه مشتریان منصفانه رفتار کنند و راهنما می‌گوید این وظیفه در مورد تغییر توصیه‌ها ممکن است مهم‌تر باشد. رتبه‌بندی یک مدیر، یک توصیه سرمایه‌گذاری است. گفتن کاهش رتبه به گروهی مورد علاقه، چند روز پیش از ارسال یادداشت برای همه، به آن مشتریان پیشی می‌دهد و به ضرر مشتریان دیگری است که آن‌ها هم از لارکسپر استفاده می‌کنند. مثال ۱ استاندارد ۳(بی) (افشای گزینشی) همین مشکل را شرح می‌دهد. گزینه الف نادرست است: خدمات ممتاز فقط وقتی مجاز است که به مشتریان دیگر زیان نرساند؛ مثال ۶ نشان می‌دهد گفت‌وگوی بیشتر با مشتریان بزرگ فقط پس از ارسال توصیه برای همه مشتریان پذیرفتنی است. گزینه ب نادرست است: رفتار منصفانه لازم نمی‌داند که همه مشتریان دقیقاً در یک لحظه مطلع شوند، که ناممکن است؛ آنچه لازم است انتشار تقریباً همزمان برای همه مشتریان است. درس: تغییر توصیه را اول برای همه بفرستید، بعد گفت‌وگوی بیشتر پیشنهاد کنید."
+   },
+   "ref": {
+    "en": "Standard III(B) Fair Dealing, Guidance: Investment Recommendations (changes in recommendations); Application Example 1 (Selective Disclosure) and Application Example 6 (Additional Services for Select Clients).",
+    "fa": "استاندارد ۳(بی) رفتار منصفانه، راهنما: توصیه‌های سرمایه‌گذاری (تغییر توصیه‌ها)؛ مثال کاربردی ۱ (افشای گزینشی) و مثال کاربردی ۶ (خدمات اضافی برای مشتریان منتخب)."
+   }
+  },
+  {
+   "id": "E15S2Q3",
+   "set": "E15S2",
+   "k": 3,
+   "std": [
+    "I(B)"
+   ],
+   "q": {
+    "en": "When asking the finalists to buy gala tables, did Marsh violate any of the Standards?",
+    "fa": "آیا مارش با درخواست از نامزدهای نهایی برای خرید میز ضیافت، هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "No, because the contributions go to a charity and Marsh receives no personal benefit.",
+     "fa": "خیر، چون کمک‌ها به یک خیریه می‌رسد و مارش هیچ منفعت شخصی نمی‌برد."
+    },
+    {
+     "en": "Yes, because consultants may not have any social contact with managers they are evaluating.",
+     "fa": "بله، چون مشاوران نباید هیچ ارتباط اجتماعی با مدیرانی که ارزیابی می‌کنند داشته باشند."
+    },
+    {
+     "en": "Yes, because soliciting contributions from managers in an active search could reasonably be expected to compromise her independence and objectivity.",
+     "fa": "بله، چون درخواست کمک مالی از مدیرانی که در یک جست‌وجوی جاری حضور دارند، به طور معقول انتظار می‌رود استقلال و بی‌طرفی او را خدشه‌دار کند."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard I(B) prohibits members from offering, soliciting, or accepting any benefit that reasonably could be expected to compromise their own or another's independence and objectivity. The guidance on the manager selection process says that those in a hiring role should not solicit gifts, contributions, or other compensation; that solicitations do not have to benefit the member personally to conflict with I(B); and that requesting contributions to a favorite charity may be perceived as an attempt to influence the decision. Marsh is choosing among the very firms she asked, so a finalist that declines may fear losing the mandate. A is wrong for the reason just stated: a charitable recipient does not remove the conflict. B is wrong: the Standards do not ban all social contact with managers; the problem is soliciting a benefit during the search. Lesson: during a manager search, never ask candidates for money, even for a good cause.",
+    "fa": "گزینه ج درست است. استاندارد ۱(بی) اعضا را از پیشنهاد، درخواست یا پذیرش هر منفعتی که به طور معقول انتظار می‌رود استقلال و بی‌طرفی خودشان یا دیگری را خدشه‌دار کند منع می‌کند. راهنمای مربوط به فرایند انتخاب مدیر می‌گوید کسانی که در نقش استخدام‌کننده هستند نباید هدیه، کمک مالی یا جبران دیگری درخواست کنند؛ برای تعارض با استاندارد ۱(بی) لازم نیست درخواست به نفع شخص عضو باشد؛ و درخواست کمک به خیریه مورد علاقه ممکن است تلاشی برای اثرگذاری بر تصمیم تلقی شود. مارش دقیقاً از میان همان شرکت‌هایی انتخاب می‌کند که از آن‌ها درخواست کرده است، پس نامزدی که نپذیرد ممکن است از دست دادن قرارداد بترسد. گزینه الف به همان دلیل نادرست است: خیریه بودن دریافت‌کننده تعارض را از بین نمی‌برد. گزینه ب نادرست است: استانداردها هر نوع ارتباط اجتماعی با مدیران را ممنوع نمی‌کنند؛ مشکل، درخواست منفعت در جریان جست‌وجوست. درس: در جریان جست‌وجوی مدیر، هرگز از نامزدها پول نخواهید، حتی برای کاری خیر."
+   },
+   "ref": {
+    "en": "Standard I(B) Independence and Objectivity, Guidance: Influence during the Manager Selection/Procurement Process.",
+    "fa": "استاندارد ۱(بی) استقلال و بی‌طرفی، راهنما: اثرگذاری در فرایند انتخاب یا تأمین مدیر."
+   }
+  },
+  {
+   "id": "E15S2Q4",
+   "set": "E15S2",
+   "k": 4,
+   "std": [
+    "III(C)"
+   ],
+   "q": {
+    "en": "In responding to the board chair's request, Marsh's most appropriate course of action is to:",
+    "fa": "در پاسخ به درخواست رئیس هیئت‌مدیره، مناسب‌ترین اقدام مارش این است که:"
+   },
+   "o": [
+    {
+     "en": "explain how the request departs from the IPS and, if the foundation still wants to proceed, revise the IPS before the allocation is made.",
+     "fa": "توضیح دهد که درخواست چگونه از آی پی اس فاصله می‌گیرد و اگر بنیاد همچنان بخواهد ادامه دهد، پیش از انجام تخصیص، آی پی اس را بازنگری کند."
+    },
+    {
+     "en": "recommend the allocation, because the foundation's board has directed it, and keep a record of the instruction.",
+     "fa": "تخصیص را توصیه کند، چون هیئت‌مدیره بنیاد آن را خواسته است، و سابقه‌ای از این دستور نگه دارد."
+    },
+    {
+     "en": "resign from the foundation's account immediately, because the request is unsuitable.",
+     "fa": "فوراً از حساب بنیاد کناره‌گیری کند، چون این درخواست نامناسب است."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Under Standard III(C), members in an advisory relationship must make reasonable efforts to balance a client's unsolicited request with the agreed IPS. When a member knows a request is unsuitable, the member should refrain from acting on it until discussing the concerns with the client. Because a 15% locked-up allocation would materially affect the portfolio and its ability to fund grants, the guidance says the member should use the opportunity to update the IPS so the client fully understands the effect on its goals and risk levels. B is wrong: a client's direction does not remove the duty to judge suitability and to discuss the deviation first. C is wrong: ending the relationship is considered only if the client refuses to change the IPS, insists on the trade, and no alternative is available; it is not the first step. Lesson: an unsuitable client request starts a conversation and, if the effect is material, an IPS update.",
+    "fa": "گزینه الف درست است. طبق استاندارد ۳(سی)، اعضایی که در رابطه مشاوره‌ای هستند باید تلاش معقول کنند تا میان درخواست خودجوش مشتری و آی پی اس توافق‌شده توازن برقرار کنند. وقتی عضو می‌داند درخواستی نامناسب است، باید تا زمان گفت‌وگو با مشتری درباره نگرانی‌ها از اقدام بر اساس آن خودداری کند. چون تخصیص ۱۵٪ قفل‌شده اثر مهمی بر پرتفوی و توانایی آن در تأمین کمک‌های بلاعوض دارد، راهنما می‌گوید عضو باید از این فرصت برای به‌روزرسانی آی پی اس استفاده کند تا مشتری اثر آن را بر اهداف و سطح ریسک خود کاملاً درک کند. گزینه ب نادرست است: دستور مشتری وظیفه ارزیابی تناسب و گفت‌وگوی پیشین درباره انحراف را از بین نمی‌برد. گزینه ج نادرست است: پایان دادن به رابطه تنها زمانی مطرح می‌شود که مشتری از تغییر آی پی اس سر باز زند، بر معامله اصرار کند و هیچ راه دیگری وجود نداشته باشد؛ این گام نخست نیست. درس: درخواست نامناسب مشتری آغاز یک گفت‌وگوست و اگر اثرش مهم باشد، آغاز به‌روزرسانی آی پی اس."
+   },
+   "ref": {
+    "en": "Standard III(C) Suitability, Guidance: Addressing Unsolicited Trading Requests.",
+    "fa": "استاندارد ۳(سی) تناسب، راهنما: برخورد با درخواست‌های معاملاتی خودجوش."
+   }
+  },
+  {
+   "id": "E15S3Q1",
+   "set": "E15S3",
+   "k": 1,
+   "std": [
+    "I(B)"
+   ],
+   "q": {
+    "en": "By attending the Ferrous Trust conference, did Castellanos violate any of the Standards?",
+    "fa": "آیا کاستیانوس با شرکت در همایش فروس تراست هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because she attended an event hosted by a custodian that her firm was evaluating.",
+     "fa": "بله، چون در رویدادی شرکت کرد که امانت‌داری برگزار کرده بود که شرکتش در حال ارزیابی آن بود."
+    },
+    {
+     "en": "Yes, because she accepted meals without disclosing them to Calloway's clients.",
+     "fa": "بله، چون وعده‌های غذایی را پذیرفت بدون آنکه آن را به مشتریان کالووی افشا کند."
+    },
+    {
+     "en": "No.",
+     "fa": "خیر."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard I(B) requires members to use reasonable care to maintain independence and objectivity and not to accept benefits that reasonably could be expected to compromise them. The guidance says those who hire third-party custodians should not accept gifts, entertainment, or travel funding that may be perceived as impairing their decisions, and that they must review the merits of each offer individually to decide whether they may attend and remain independent. Best practice is for the member or her firm to pay for travel, as Example 9 of I(B) explains. Castellanos had her firm pay her airfare and lodging, declined the golf, and accepted only the ordinary conference meals served to all attendees, which are modest. A is wrong: attending an educational event is not prohibited when independence is preserved. B is wrong: modest conference meals do not have to be disclosed to clients. Lesson: you may learn at a vendor's event, but pay your own way and refuse the extras.",
+    "fa": "گزینه ج درست است. استاندارد ۱(بی) از اعضا می‌خواهد با مراقبت معقول استقلال و بی‌طرفی خود را حفظ کنند و منافعی را که به طور معقول انتظار می‌رود آن را خدشه‌دار کند نپذیرند. راهنما می‌گوید کسانی که امانت‌داران ثالث را انتخاب می‌کنند نباید هدیه، سرگرمی یا هزینه سفری را بپذیرند که ممکن است مخل تصمیم‌هایشان تلقی شود، و باید هر پیشنهاد را جداگانه بسنجند تا تشخیص دهند آیا می‌توانند شرکت کنند و مستقل بمانند. بهترین رویه این است که عضو یا شرکتش هزینه سفر را بپردازد، همان‌طور که مثال ۹ استاندارد ۱(بی) توضیح می‌دهد. کاستیانوس هزینه بلیت و اقامتش را به شرکتش سپرد، گلف را رد کرد و فقط وعده‌های غذایی معمول همایش را که برای همه شرکت‌کنندگان سرو می‌شد و ناچیز است پذیرفت. گزینه الف نادرست است: شرکت در رویداد آموزشی در صورت حفظ استقلال ممنوع نیست. گزینه ب نادرست است: وعده‌های غذایی ساده همایش لازم نیست به مشتریان افشا شود. درس: می‌توانید در رویداد یک فروشنده چیز یاد بگیرید، اما هزینه خود را بپردازید و امتیازات اضافی را رد کنید."
+   },
+   "ref": {
+    "en": "Standard I(B) Independence and Objectivity, Guidance: Fund Manager and Custodial Relationships, and Travel Funding; Application Example 9 (Travel Expenses from External Manager).",
+    "fa": "استاندارد ۱(بی) استقلال و بی‌طرفی، راهنما: روابط با مدیران صندوق و امانت‌داران، و تأمین هزینه سفر؛ مثال کاربردی ۹ (هزینه‌های سفر از سوی مدیر بیرونی)."
+   }
+  },
+  {
+   "id": "E15S3Q2",
+   "set": "E15S3",
+   "k": 2,
+   "std": [
+    "VII(A)"
+   ],
+   "q": {
+    "en": "With respect to Statement 1 and Statement 2, did Castellanos violate the Standards?",
+    "fa": "آیا کاستیانوس در مورد گزاره ۱ و گزاره ۲ استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Statement 1: No; Statement 2: Yes",
+     "fa": "گزاره ۱: خیر؛ گزاره ۲: بله"
+    },
+    {
+     "en": "Statement 1: Yes; Statement 2: Yes",
+     "fa": "گزاره ۱: بله؛ گزاره ۲: بله"
+    },
+    {
+     "en": "Statement 1: No; Statement 2: No",
+     "fa": "گزاره ۱: خیر؛ گزاره ۲: خیر"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard VII(A) prohibits conduct that compromises the integrity, validity, or security of CFA Institute programs. Candidates may not disclose specific details of exam questions or the broad topical areas tested or not tested on the exam. They may, however, say how difficult they found the exam and how they think they did. Statement 1 only describes difficulty and her own uncertainty, which is permitted, as Example 4 of VII(A) shows. Statement 2 tells a future candidate that a specific topic, currency hedging, appeared in several questions; this reveals a broad topical area that was tested and gives that colleague an unfair advantage. B is wrong because commenting on difficulty is not a violation. C is wrong because naming a tested topic is a violation even in a casual conversation with a colleague. Lesson: after the exam, talk about how it felt, never about what was on it.",
+    "fa": "گزینه الف درست است. استاندارد ۷(آ) رفتاری را که یکپارچگی، اعتبار یا امنیت برنامه‌های مؤسسه سی اف ای را خدشه‌دار کند ممنوع می‌کند. داوطلبان نباید جزئیات مشخص سؤالات آزمون یا حوزه‌های موضوعی کلی را که در آزمون آمده یا نیامده افشا کنند. اما می‌توانند بگویند آزمون را چقدر دشوار یافتند و فکر می‌کنند چگونه عمل کردند. گزاره ۱ فقط دشواری آزمون و تردید خود او را بیان می‌کند که مجاز است، همان‌طور که مثال ۴ استاندارد ۷(آ) نشان می‌دهد. گزاره ۲ به یک داوطلب آینده می‌گوید که موضوعی مشخص، یعنی پوشش ریسک ارز، در چند سؤال آمده است؛ این کار یک حوزه موضوعی آزموده‌شده را آشکار می‌کند و به آن همکار مزیتی ناعادلانه می‌دهد. گزینه ب نادرست است، چون اظهارنظر درباره دشواری نقض نیست. گزینه ج نادرست است، چون نام بردن از موضوعی که در آزمون آمده، حتی در گفت‌وگویی خودمانی با همکار، نقض است. درس: پس از آزمون، درباره حس‌وحال آن حرف بزنید، هرگز درباره محتوای آن."
+   },
+   "ref": {
+    "en": "Standard VII(A) Conduct as Participants in CFA Institute Programs, Guidance: Confidential Program Information and Expressing an Opinion; Application Example 4 (Sharing Exam Content).",
+    "fa": "استاندارد ۷(آ) رفتار به عنوان شرکت‌کننده در برنامه‌های مؤسسه سی اف ای، راهنما: اطلاعات محرمانه برنامه و ابراز نظر؛ مثال کاربردی ۴ (به اشتراک گذاشتن محتوای آزمون)."
+   }
+  },
+  {
+   "id": "E15S3Q3",
+   "set": "E15S3",
+   "k": 3,
+   "std": [
+    "III(B)"
+   ],
+   "q": {
+    "en": "When allocating the partially filled Orrin Biotech order, did Park violate any of the Standards?",
+    "fa": "آیا پارک هنگام تخصیص سفارش نیمه‌اجراشده اورین بایوتک هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because the partial fill should have been allocated pro rata on the basis of order size.",
+     "fa": "بله، چون بخش اجراشده سفارش باید به نسبت اندازه سفارش هر حساب تخصیص داده می‌شد."
+    },
+    {
+     "en": "Yes, because each of the 20 accounts should have received the same number of shares.",
+     "fa": "بله، چون هر یک از ۲۰ حساب باید تعداد سهام یکسانی دریافت می‌کرد."
+    },
+    {
+     "en": "No, because accounts that pay performance-based fees may be given priority in allocations.",
+     "fa": "خیر، چون می‌توان به حساب‌هایی که کارمزد مبتنی بر عملکرد می‌پردازند در تخصیص اولویت داد."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard III(B) requires fair treatment of all clients when taking investment action. The recommended trade allocation procedures say that when a block order is only partly executed, the shares should be allocated among the participating accounts pro rata on the basis of order size. Park instead gave all the shares to the six accounts whose performance fees benefit Calloway, so the other 14 clients, for whom the stock was equally suitable, missed a price gain from USD 18.40 to USD 21.10. B is wrong: fair dealing means fair, not equal, and giving every account the same number of shares ignores differences in order size. C is wrong: the fee an account pays the firm is not a fair basis for allocating investment opportunities; favoring accounts that produce higher fees puts the firm's interest ahead of other clients. Lesson: partial fills are shared pro rata by order size, not by how much each client pays the firm.",
+    "fa": "گزینه الف درست است. استاندارد ۳(بی) رفتار منصفانه با همه مشتریان را هنگام اقدام سرمایه‌گذاری الزامی می‌کند. رویه‌های توصیه‌شده تخصیص معاملات می‌گویند وقتی یک سفارش بلوکی فقط بخشی از آن اجرا می‌شود، سهام باید به نسبت اندازه سفارش میان حساب‌های مشارکت‌کننده تخصیص یابد. پارک در عوض همه سهام را به شش حسابی داد که کارمزد عملکردشان به نفع کالووی است، پس ۱۴ مشتری دیگر که سهم برای آن‌ها به همان اندازه مناسب بود، از افزایش قیمت از ۱۸٫۴۰ به ۲۱٫۱۰ دلار محروم شدند. گزینه ب نادرست است: رفتار منصفانه یعنی انصاف، نه برابری، و دادن تعداد سهام یکسان به همه حساب‌ها تفاوت اندازه سفارش‌ها را نادیده می‌گیرد. گزینه ج نادرست است: کارمزدی که یک حساب به شرکت می‌پردازد مبنای منصفانه‌ای برای تخصیص فرصت‌های سرمایه‌گذاری نیست؛ ترجیح حساب‌هایی که کارمزد بیشتری تولید می‌کنند، منافع شرکت را بر مشتریان دیگر مقدم می‌کند. درس: بخش اجراشده سفارش به نسبت اندازه سفارش تقسیم می‌شود، نه بر اساس مبلغی که هر مشتری به شرکت می‌پردازد."
+   },
+   "ref": {
+    "en": "Standard III(B) Fair Dealing, Recommended Procedures: Develop and Document Trade Allocation Procedures (partially executed orders allocated pro rata on the basis of order size).",
+    "fa": "استاندارد ۳(بی) رفتار منصفانه، رویه‌های توصیه‌شده: تدوین و مستندسازی رویه‌های تخصیص معاملات (تخصیص سفارش‌های نیمه‌اجراشده به نسبت اندازه سفارش)."
+   }
+  },
+  {
+   "id": "E15S3Q4",
+   "set": "E15S3",
+   "k": 4,
+   "std": [
+    "V(B)"
+   ],
+   "q": {
+    "en": "In his proposal and meeting with Benn, did Park violate any of the Standards?",
+    "fa": "آیا پارک در پیشنهاد کتبی و دیدار خود با بن هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "No, because the custody fee is charged by Ferrous Trust rather than by Calloway.",
+     "fa": "خیر، چون کارمزد امانت‌داری را فروس تراست می‌گیرد، نه کالووی."
+    },
+    {
+     "en": "Yes, because he did not disclose all the costs Benn would bear for the services, including the custody fee.",
+     "fa": "بله، چون همه هزینه‌هایی را که بن بابت خدمات متحمل می‌شد، از جمله کارمزد امانت‌داری، افشا نکرد."
+    },
+    {
+     "en": "Yes, because he did not state the exact dollar amount Benn would pay in fees in his first year.",
+     "fa": "بله، چون مبلغ دقیق دلاری کارمزدی را که بن در سال اول می‌پرداخت بیان نکرد."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard V(B), as revised in 2023, requires members to disclose to clients and prospective clients the nature of the services provided and information about the costs to the client associated with those services. The guidance says these disclosures cover all costs associated with the services, including costs arising from affiliates, related entities, or third parties whose services are used in serving the client. The Ferrous custody fee is deducted from every Calloway account, so Benn needs it to judge the full cost of hiring Calloway. A is wrong for that reason: the cost disclosure duty is not limited to fees charged by the member's own firm. C is wrong: the standard requires a reasonable amount of detail on costs but does not require specific dollar amounts, which an asset-based fee cannot give in advance. Lesson: tell prospects every cost they will pay, including third-party fees, before they sign.",
+    "fa": "گزینه ب درست است. استاندارد ۵(بی)، پس از بازنگری ۲۰۲۳، از اعضا می‌خواهد ماهیت خدمات ارائه‌شده و اطلاعات مربوط به هزینه‌های آن خدمات برای مشتری را به مشتریان و مشتریان بالقوه افشا کنند. راهنما می‌گوید این افشا همه هزینه‌های مرتبط با خدمات را در بر می‌گیرد، از جمله هزینه‌هایی که از سوی شرکت‌های وابسته، اشخاص مرتبط یا اشخاص ثالثی ایجاد می‌شود که از خدماتشان برای خدمت به مشتری استفاده می‌شود. کارمزد امانت‌داری فروس از همه حساب‌های کالووی کسر می‌شود، پس بن برای سنجش هزینه کامل به کارگیری کالووی به آن نیاز دارد. گزینه الف به همین دلیل نادرست است: وظیفه افشای هزینه به کارمزدهای خود شرکت عضو محدود نیست. گزینه ج نادرست است: استاندارد جزئیات معقولی درباره هزینه‌ها می‌خواهد، اما بیان مبلغ دقیق دلاری را الزامی نمی‌کند، که برای کارمزد مبتنی بر دارایی از پیش ممکن هم نیست. درس: پیش از امضای قرارداد، همه هزینه‌هایی را که مشتری می‌پردازد، از جمله کارمزد اشخاص ثالث، به او بگویید."
+   },
+   "ref": {
+    "en": "Standard V(B) Communication with Clients and Prospective Clients, standard text item 1 and Guidance: Nature of Services and Information on Cost.",
+    "fa": "استاندارد ۵(بی) ارتباط با مشتریان و مشتریان بالقوه، بند ۱ متن استاندارد و راهنما: ماهیت خدمات و اطلاعات مربوط به هزینه."
+   }
+  },
+  {
+   "id": "E16S1Q1",
+   "set": "E16S1",
+   "k": 1,
+   "std": [
+    "III(B)"
+   ],
+   "q": {
+    "en": "In allocating Series 14, did Solberg violate any of the Standards?",
+    "fa": "آیا سولبرگ در تخصیص سری ۱۴ هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because the allocation was not made on a strictly pro rata basis.",
+     "fa": "بله، چون تخصیص به صورت کاملاً متناسب انجام نشد."
+    },
+    {
+     "en": "Yes, because her brother's account should have been excluded from an oversubscribed issue.",
+     "fa": "بله، چون حساب برادرش باید از انتشاری که تقاضای آن بیش از عرضه بود کنار گذاشته می‌شد."
+    },
+    {
+     "en": "No.",
+     "fa": "خیر."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard III(B) requires that an oversubscribed issue be prorated among all subscribers, and the recommended procedures allow partial fills to be allocated pro rata on the basis of order size while not going below an established minimum lot size. In Example 7 of III(B), a manager who gave small accounts the minimum lot and reduced the larger accounts did not violate the standard, even though the result was not strictly pro rata. Solberg did the same. She also withdrew her own request, as the guidance says members should forgo purchases for themselves in an oversubscribed issue. A is wrong because a small deviation needed to meet the minimum denomination is acceptable. B is wrong: the guidance says family-member accounts that are managed like other client accounts should not be excluded, and Henrik is a regular fee-paying client treated like everyone else. Lesson: in an oversubscribed issue, step aside yourself, but treat family clients like any other client.",
+    "fa": "گزینه ج درست است. استاندارد ۳(بی) می‌خواهد انتشاری که تقاضای آن بیش از عرضه است به تناسب میان همه متقاضیان تقسیم شود، و رویه‌های توصیه‌شده اجازه می‌دهند بخش اجراشده به نسبت اندازه سفارش تخصیص یابد، بدون آنکه از حداقل واحد تعیین‌شده کمتر شود. در مثال ۷ استاندارد ۳(بی)، مدیری که به حساب‌های کوچک حداقل واحد را داد و سهم حساب‌های بزرگ‌تر را کاهش داد، با وجود آنکه نتیجه کاملاً متناسب نبود، استاندارد را نقض نکرد. سولبرگ نیز همین کار را کرد. او درخواست خود را هم پس گرفت، همان‌طور که راهنما می‌گوید اعضا باید در انتشار پرتقاضا از خرید برای خودشان چشم بپوشند. گزینه الف نادرست است، چون انحراف کوچکی که برای رعایت حداقل واحد لازم است پذیرفتنی است. گزینه ب نادرست است: راهنما می‌گوید حساب‌های اعضای خانواده که مانند حساب‌های سایر مشتریان مدیریت می‌شوند نباید کنار گذاشته شوند، و هنریک مشتری عادی با کارمزد استاندارد است که مانند همه با او رفتار شده است. درس: در انتشار پرتقاضا خودتان کنار بروید، اما با مشتریانی که خویشاوند شما هستند مثل هر مشتری دیگری رفتار کنید."
+   },
+   "ref": {
+    "en": "Standard III(B) Fair Dealing, Guidance: Investment Action (oversubscribed issues and family-member accounts); Recommended Procedures (partial fills and minimum lot size); Application Example 7 (Minimum Lot Allocations).",
+    "fa": "استاندارد ۳(بی) رفتار منصفانه، راهنما: اقدام سرمایه‌گذاری (انتشارهای پرتقاضا و حساب‌های اعضای خانواده)؛ رویه‌های توصیه‌شده (اجرای بخشی از سفارش و حداقل واحد)؛ مثال کاربردی ۷ (تخصیص با حداقل واحد)."
+   }
+  },
+  {
+   "id": "E16S1Q2",
+   "set": "E16S1",
+   "k": 2,
+   "std": [
+    "III(D)"
+   ],
+   "q": {
+    "en": "Does the \"Our Track Record\" presentation prepared by Natarajan and approved by Solberg violate the Standards?",
+    "fa": "آیا ارائه «سابقه ما» که ناتاراجان تهیه و سولبرگ تأیید کرده است، استانداردها را نقض می‌کند؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because leaving out the series that lost principal makes the record unfair and incomplete.",
+     "fa": "بله، چون کنار گذاشتن سری‌هایی که اصل سرمایه را از دست دادند، سابقه را ناعادلانه و ناقص می‌کند."
+    },
+    {
+     "en": "No, because every return figure shown was calculated correctly.",
+     "fa": "خیر، چون همه ارقام بازده نشان‌داده‌شده درست محاسبه شده‌اند."
+    },
+    {
+     "en": "Yes, because the returns of matured notes may not be shown to prospective investors.",
+     "fa": "بله، چون بازده یادداشت‌های سررسیدشده را نمی‌توان به سرمایه‌گذاران بالقوه نشان داد."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard III(D) requires reasonable efforts to ensure that performance information is fair, accurate, and complete, and it covers any practice that misrepresents a performance record. A record built only from the series that succeeded, while leaving out series from the same period that lost principal, is cherry picking: each number may be correct, but the overall picture is misleading. The recommended procedures call for including terminated accounts in performance history, and in Example 5 of III(D), a manager violated the standard by leaving accounts out of a composite without disclosure to improve results. B is wrong: accurate figures for selected items do not make an incomplete record fair. C is wrong: past performance may be shown if it is fair, accurate, complete, and properly explained. Lesson: a track record must include the failures from the same period, not only the winners.",
+    "fa": "گزینه الف درست است. استاندارد ۳(دی) تلاش معقول برای منصفانه، دقیق و کامل بودن اطلاعات عملکرد را الزامی می‌کند و هر رویه‌ای را که سابقه عملکرد را نادرست جلوه دهد در بر می‌گیرد. سابقه‌ای که فقط از سری‌های موفق ساخته شود و سری‌های همان دوره را که اصل سرمایه را از دست دادند کنار بگذارد، گلچین کردن است: هر رقم ممکن است درست باشد، اما تصویر کلی گمراه‌کننده است. رویه‌های توصیه‌شده گنجاندن حساب‌های بسته‌شده را در سابقه عملکرد می‌خواهند، و در مثال ۵ استاندارد ۳(دی)، مدیری با کنار گذاشتن بدون افشای برخی حساب‌ها از ترکیب برای بهتر نشان دادن نتایج، استاندارد را نقض کرد. گزینه ب نادرست است: ارقام دقیق برای موارد گزینش‌شده، سابقه ناقص را منصفانه نمی‌کند. گزینه ج نادرست است: عملکرد گذشته را می‌توان نشان داد، اگر منصفانه، دقیق، کامل و به درستی توضیح داده شده باشد. درس: سابقه عملکرد باید شکست‌های همان دوره را هم در بر بگیرد، نه فقط برنده‌ها را."
+   },
+   "ref": {
+    "en": "Standard III(D) Performance Presentation, Guidance and Recommended Procedures (including terminated accounts; disclosures that fully explain results); Application Example 5 (Performance Calculation and Selected Accounts Only).",
+    "fa": "استاندارد ۳(دی) ارائه عملکرد، راهنما و رویه‌های توصیه‌شده (گنجاندن حساب‌های بسته‌شده؛ افشاهایی که نتایج را کاملاً توضیح دهد)؛ مثال کاربردی ۵ (محاسبه عملکرد فقط با حساب‌های گزینش‌شده)."
+   }
+  },
+  {
+   "id": "E16S1Q3",
+   "set": "E16S1",
+   "k": 3,
+   "std": [
+    "I(E)"
+   ],
+   "q": {
+    "en": "Based on the advisers' complaint, did Kwan violate any of the Standards?",
+    "fa": "بر اساس شکایت مشاوران، آیا کوان هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because the losses on Series 11 show that he lacked the competence to recommend the notes.",
+     "fa": "بله، چون زیان‌های سری ۱۱ نشان می‌دهد که او صلاحیت توصیه این یادداشت‌ها را نداشت."
+    },
+    {
+     "en": "Yes, because he took on a new role without completing a formal continuing education program.",
+     "fa": "بله، چون بدون گذراندن یک برنامه رسمی آموزش مستمر، نقش جدیدی را بر عهده گرفت."
+    },
+    {
+     "en": "No.",
+     "fa": "خیر."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard I(E) requires members to act with and maintain the competence needed for their professional responsibilities, and new duties call for new knowledge and skills. Kwan prepared for his new role by studying term sheets, completing internal training, learning the pricing models, and stress-testing barrier features before recommending anything. The guidance says a lack of competence cannot necessarily be determined from a negative outcome: in Example 5 of I(E), an adviser whose thorough research failed to uncover a concealed fraud was not shown, by that alone, to be incompetent. A is wrong for that reason: a fraud that misled auditors and analysts is not evidence that Kwan lacked competence. B is wrong: I(E) does not mandate any particular continuing education program or professional development plan; competence can be gained and maintained in many ways. Lesson: competence is judged by preparation and process, not by whether an investment later loses money.",
+    "fa": "گزینه ج درست است. استاندارد ۱(ای) از اعضا می‌خواهد با صلاحیت لازم برای مسئولیت‌های حرفه‌ای خود عمل کنند و آن را حفظ کنند، و وظایف جدید دانش و مهارت جدید می‌طلبد. کوان پیش از توصیه هر چیزی، با مطالعه برگه‌های شرایط، گذراندن آموزش داخلی، یادگیری مدل‌های قیمت‌گذاری و آزمون تنش ویژگی‌های سد، خود را برای نقش جدید آماده کرد. راهنما می‌گوید فقدان صلاحیت را لزوماً نمی‌توان از یک نتیجه منفی تشخیص داد: در مثال ۵ استاندارد ۱(ای)، مشاوری که پژوهش کاملش نتوانست تقلبی پنهان را کشف کند، صرفاً به همین دلیل فاقد صلاحیت شناخته نشد. گزینه الف به همین دلیل نادرست است: تقلبی که حسابرسان و تحلیلگران را فریب داد، نشانه نداشتن صلاحیت کوان نیست. گزینه ب نادرست است: استاندارد ۱(ای) هیچ برنامه آموزش مستمر یا برنامه توسعه حرفه‌ای خاصی را الزامی نمی‌کند؛ صلاحیت را می‌توان از راه‌های گوناگون به دست آورد و حفظ کرد. درس: صلاحیت با آمادگی و فرایند سنجیده می‌شود، نه با اینکه یک سرمایه‌گذاری بعداً زیان بدهد یا نه."
+   },
+   "ref": {
+    "en": "Standard I(E) Competence, Guidance (a negative outcome does not by itself show incompetence; no particular continuing education program is mandated); Application Example 5 (Choosing Investments).",
+    "fa": "استاندارد ۱(ای) صلاحیت حرفه‌ای، راهنما (نتیجه منفی به تنهایی نشانه فقدان صلاحیت نیست؛ هیچ برنامه آموزش مستمر خاصی الزامی نیست)؛ مثال کاربردی ۵ (انتخاب سرمایه‌گذاری‌ها)."
+   }
+  },
+  {
+   "id": "E16S1Q4",
+   "set": "E16S1",
+   "k": 4,
+   "std": [
+    "II(B)"
+   ],
+   "q": {
+    "en": "In instructing Bellini on 14 November, did Solberg violate any of the Standards?",
+    "fa": "آیا سولبرگ با دستوری که در ۱۴ نوامبر به بلینی داد، هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "No, because the desk is entitled to manage its exposure to the notes it issues.",
+     "fa": "خیر، چون میز حق دارد ریسک خود را در قبال یادداشت‌هایی که منتشر می‌کند مدیریت کند."
+    },
+    {
+     "en": "Yes, because she directed trades intended to distort the closing price that determines the notes' payment.",
+     "fa": "بله، چون دستور معاملاتی را داد که هدفشان تحریف قیمت پایانی تعیین‌کننده پرداخت یادداشت‌ها بود."
+    },
+    {
+     "en": "Yes, because an issuer of notes may not trade the shares to which the notes are linked.",
+     "fa": "بله، چون ناشر یادداشت‌ها نمی‌تواند سهامی را که یادداشت‌ها به آن مرتبط‌اند معامله کند."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard II(B) prohibits practices that distort prices or artificially inflate trading volume with the intent to mislead market participants. Transaction-based manipulation includes trades that artificially affect prices and actions taken to manipulate the price of an underlying asset in order to exploit a related derivative. Solberg's purpose was to push Halvard's close just below the 70% level so the firm would avoid paying the coupon, and her plan to buy the shares back the next morning shows the sale had no legitimate investment or hedging purpose. A is wrong: legitimate hedging is allowed, but these trades were designed to move the closing price, not to manage risk. C is wrong: an issuer may trade the underlying for legitimate reasons; the guidance says the standard does not preclude legitimate trading strategies and that intent is critical in deciding whether there is a violation. Lesson: trading to move a reference price that sets a payoff is manipulation, whatever it is called.",
+    "fa": "گزینه ب درست است. استاندارد ۲(بی) رویه‌هایی را که با قصد گمراه کردن فعالان بازار قیمت‌ها را تحریف کند یا حجم معاملات را به طور مصنوعی بالا ببرد ممنوع می‌کند. دستکاری مبتنی بر معامله شامل معاملاتی است که به طور مصنوعی بر قیمت اثر می‌گذارند و نیز اقداماتی برای دستکاری قیمت یک دارایی پایه به منظور بهره‌برداری از یک مشتق مرتبط. هدف سولبرگ این بود که قیمت پایانی هالوارد را درست به زیر سطح ۷۰٪ براند تا شرکت از پرداخت کوپن معاف شود، و برنامه او برای بازخرید سهام در صبح روز بعد نشان می‌دهد که این فروش هیچ هدف مشروع سرمایه‌گذاری یا پوشش ریسک نداشت. گزینه الف نادرست است: پوشش ریسک مشروع مجاز است، اما این معاملات برای جابه‌جا کردن قیمت پایانی طراحی شده بودند، نه برای مدیریت ریسک. گزینه ج نادرست است: ناشر می‌تواند به دلایل مشروع دارایی پایه را معامله کند؛ راهنما می‌گوید این استاندارد مانع راهبردهای معاملاتی مشروع نیست و قصد، عامل تعیین‌کننده در تشخیص نقض است. درس: معامله برای جابه‌جا کردن قیمت مرجعی که پرداخت را تعیین می‌کند، دستکاری است، هر نامی که رویش بگذارید."
+   },
+   "ref": {
+    "en": "Standard II(B) Market Manipulation, Guidance: Transaction-Based Manipulation (intent is critical).",
+    "fa": "استاندارد ۲(بی) دستکاری بازار، راهنما: دستکاری مبتنی بر معامله (قصد عامل تعیین‌کننده است)."
+   }
+  },
+  {
+   "id": "E16S2Q1",
+   "set": "E16S2",
+   "k": 1,
+   "std": [
+    "III(D)",
+    "I(C)"
+   ],
+   "q": {
+    "en": "Does Ridgeline's February advertisement violate the Standards?",
+    "fa": "آیا آگهی ماه فوریه ریج‌لاین استانداردها را نقض می‌کند؟"
+   },
+   "o": [
+    {
+     "en": "No, because the returns were calculated correctly and Kestrel gave written permission to use them.",
+     "fa": "خیر، چون بازده‌ها درست محاسبه شده‌اند و کسترل اجازه کتبی استفاده از آن‌ها را داده است."
+    },
+    {
+     "en": "Yes, because performance earned at a prior employer may never be used to promote a new business.",
+     "fa": "بله، چون عملکرد کسب‌شده نزد کارفرمای قبلی هرگز نمی‌تواند برای تبلیغ یک کسب‌وکار جدید استفاده شود."
+    },
+    {
+     "en": "Yes, because it does not disclose that the record was earned at Kestrel by a team in which Varga was one of three co-managers.",
+     "fa": "بله، چون افشا نمی‌کند که این سابقه در کسترل و توسط تیمی به دست آمده که وارگا یکی از سه مدیر مشترک آن بوده است."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard III(D) requires reasonable efforts to ensure performance information is fair, accurate, and complete. Example 3 of III(D) says a member may show performance from a prior firm only with appropriate disclosure of where it was achieved and the person's specific role. In Learning Module 2 Practice Problem 22, a manager violated III(D) by presenting a team's results without disclosing that he was part of a team. Varga's advertisement does both: it presents the record as hers alone and hides both its source and the two other managers who shared responsibility. A is wrong: correct numbers and the former employer's permission do not cure the missing disclosures; the permission addresses a different issue. B is wrong: prior-firm performance is not banned; it may be shown with full disclosure of its source and the member's role. Lesson: a track record from another firm must say where it came from and who else produced it.",
+    "fa": "گزینه ج درست است. استاندارد ۳(دی) تلاش معقول برای منصفانه، دقیق و کامل بودن اطلاعات عملکرد را الزامی می‌کند. مثال ۳ استاندارد ۳(دی) می‌گوید عضو تنها با افشای مناسب محل کسب عملکرد و نقش مشخص خود می‌تواند عملکرد شرکت قبلی را نشان دهد. در مسئله تمرینی ۲۲ ماژول یادگیری ۲، مدیری با ارائه نتایج یک تیم بدون افشای اینکه عضوی از آن تیم بوده، استاندارد ۳(دی) را نقض کرد. آگهی وارگا هر دو اشکال را دارد: سابقه را تنها متعلق به او نشان می‌دهد و هم منبع آن و هم دو مدیر دیگری را که در مسئولیت شریک بودند پنهان می‌کند. گزینه الف نادرست است: ارقام درست و اجازه کارفرمای قبلی، افشاهای ناقص را جبران نمی‌کند؛ آن اجازه به موضوع دیگری مربوط است. گزینه ب نادرست است: عملکرد شرکت قبلی ممنوع نیست؛ می‌توان آن را با افشای کامل منبع و نقش عضو نشان داد. درس: سابقه‌ای که در شرکت دیگری ساخته شده باید بگوید از کجا آمده و چه کسان دیگری در آن سهم داشته‌اند."
+   },
+   "ref": {
+    "en": "Standard III(D) Performance Presentation, Application Example 3 (Performance Presentation and Prior Fund/Employer); Learning Module 2 Practice Problem 22 (team-managed results).",
+    "fa": "استاندارد ۳(دی) ارائه عملکرد، مثال کاربردی ۳ (ارائه عملکرد و صندوق یا کارفرمای قبلی)؛ مسئله تمرینی ۲۲ ماژول یادگیری ۲ (نتایج مدیریت تیمی)."
+   }
+  },
+  {
+   "id": "E16S2Q2",
+   "set": "E16S2",
+   "k": 2,
+   "std": [
+    "III(B)"
+   ],
+   "q": {
+    "en": "In communicating the Pinecrest rating change, did Varga violate any of the Standards?",
+    "fa": "آیا وارگا در اطلاع‌رسانی تغییر رتبه پاین‌کرست هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because Pro subscribers received a more detailed explanation than Standard subscribers.",
+     "fa": "بله، چون مشترکان حرفه‌ای توضیح مفصل‌تری نسبت به مشترکان استاندارد دریافت کردند."
+    },
+    {
+     "en": "No.",
+     "fa": "خیر."
+    },
+    {
+     "en": "Yes, because she discussed a changed recommendation with a select group of subscribers.",
+     "fa": "بله، چون او یک توصیه تغییریافته را با گروهی منتخب از مشترکان در میان گذاشت."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard III(B) requires fair, not equal, treatment of clients. Every subscriber received the rating change and a summary of the reasons at the same time, so all had a fair opportunity to act. The guidance allows members to give more in-depth service to clients who pay for premium service, provided that the different service levels do not disadvantage other clients, are disclosed, and are available to everyone. Ridgeline's tiers meet these conditions. In Example 6 of III(B), a member who sent a recommendation to all clients and then discussed it in detail with his largest clients did not violate the standard. A is wrong because extra discussion after full dissemination is permitted premium service. C is wrong because selective disclosure means telling a select group before everyone else; here the webinar came after all subscribers had received the change. Lesson: disseminate to everyone first; after that, paying clients may get extra discussion.",
+    "fa": "گزینه ب درست است. استاندارد ۳(بی) رفتار منصفانه، و نه برابر، با مشتریان را الزامی می‌کند. همه مشترکان تغییر رتبه و خلاصه دلایل را همزمان دریافت کردند، پس همه فرصت منصفانه‌ای برای اقدام داشتند. راهنما به اعضا اجازه می‌دهد به مشتریانی که برای خدمات ممتاز پول می‌پردازند خدمات عمیق‌تری بدهند، به شرط آنکه سطوح مختلف خدمت به مشتریان دیگر زیان نرساند، افشا شود و در دسترس همه باشد. سطوح اشتراک ریج‌لاین این شرایط را دارند. در مثال ۶ استاندارد ۳(بی)، عضوی که توصیه‌ای را برای همه مشتریان فرستاد و سپس آن را با بزرگ‌ترین مشتریانش به تفصیل بررسی کرد، استاندارد را نقض نکرد. گزینه الف نادرست است، چون گفت‌وگوی بیشتر پس از انتشار کامل، خدمت ممتاز مجاز است. گزینه ج نادرست است، چون افشای گزینشی یعنی گفتن به گروهی منتخب پیش از دیگران؛ در اینجا وبینار پس از دریافت تغییر توسط همه مشترکان برگزار شد. درس: اول برای همه منتشر کنید؛ پس از آن، مشتریانی که پول بیشتری می‌پردازند می‌توانند گفت‌وگوی بیشتری داشته باشند."
+   },
+   "ref": {
+    "en": "Standard III(B) Fair Dealing, Guidance (fairly versus equally; different levels of service); Recommended Procedures: Disclose Levels of Service; Application Example 6 (Additional Services for Select Clients).",
+    "fa": "استاندارد ۳(بی) رفتار منصفانه، راهنما (منصفانه در برابر برابر؛ سطوح مختلف خدمت)؛ رویه‌های توصیه‌شده: افشای سطوح خدمت؛ مثال کاربردی ۶ (خدمات اضافی برای مشتریان منتخب)."
+   }
+  },
+  {
+   "id": "E16S2Q3",
+   "set": "E16S2",
+   "k": 3,
+   "std": [
+    "I(B)"
+   ],
+   "q": {
+    "en": "By accepting the compensation for the Spotlight report, did Varga violate any of the Standards?",
+    "fa": "آیا وارگا با پذیرفتن جبران خدمت برای گزارش «زیر ذره‌بین»، هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because warrants that gain value from positive coverage could reasonably be expected to compromise her independence and objectivity.",
+     "fa": "بله، چون وارانت‌هایی که با پوشش مثبت ارزش پیدا می‌کنند، به طور معقول انتظار می‌رود استقلال و بی‌طرفی او را خدشه‌دار کنند."
+    },
+    {
+     "en": "No, because the fee and the warrants are disclosed prominently in the report.",
+     "fa": "خیر، چون کارمزد و وارانت‌ها به طور برجسته در گزارش افشا شده‌اند."
+    },
+    {
+     "en": "Yes, because an independent analyst may not accept payment from a company to write research on it.",
+     "fa": "بله، چون تحلیلگر مستقل نمی‌تواند برای نوشتن پژوهش درباره یک شرکت از خود آن شرکت پول بگیرد."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard I(B) prohibits accepting compensation that reasonably could be expected to compromise independence and objectivity. The guidance on issuer-paid research says independent analysts must strictly limit the type of compensation they accept; indirect compensation such as stock warrants that could rise in value because of positive coverage gives the analyst an incentive to avoid negative information and conclusions. Best practice is to negotiate only a flat fee, before writing the report, that is not linked to the conclusions. Varga's flat fee is fine, but the warrants tie her wealth to the report's message. B is wrong: disclosure of the nature of compensation is required, but it does not make a compensation structure that compromises objectivity acceptable. C is wrong: issuer-paid research is allowed if the analysis is thorough and independent, the compensation is a flat fee, and conflicts are disclosed. Lesson: for issuer-paid research, take a flat fee only, never equity in the subject company.",
+    "fa": "گزینه الف درست است. استاندارد ۱(بی) پذیرفتن جبران خدمتی را که به طور معقول انتظار می‌رود استقلال و بی‌طرفی را خدشه‌دار کند ممنوع می‌کند. راهنمای پژوهش با هزینه ناشر می‌گوید تحلیلگران مستقل باید نوع جبران خدمتی را که می‌پذیرند به شدت محدود کنند؛ جبران غیرمستقیم مانند وارانت سهام که ممکن است به سبب پوشش مثبت ارزش پیدا کند، به تحلیلگر انگیزه می‌دهد از اطلاعات و نتیجه‌گیری‌های منفی دوری کند. بهترین رویه آن است که پیش از نوشتن گزارش، فقط بر سر یک کارمزد ثابت که به نتیجه‌گیری‌ها وابسته نیست مذاکره شود. کارمزد ثابت وارگا اشکالی ندارد، اما وارانت‌ها ثروت او را به پیام گزارش گره می‌زنند. گزینه ب نادرست است: افشای ماهیت جبران خدمت الزامی است، اما ساختار جبرانی را که بی‌طرفی را خدشه‌دار می‌کند پذیرفتنی نمی‌کند. گزینه ج نادرست است: پژوهش با هزینه ناشر مجاز است، اگر تحلیل کامل و مستقل باشد، جبران خدمت کارمزد ثابت باشد و تضادها افشا شوند. درس: در پژوهش با هزینه ناشر فقط کارمزد ثابت بگیرید، هرگز سهمی از شرکت موضوع گزارش."
+   },
+   "ref": {
+    "en": "Standard I(B) Independence and Objectivity, Guidance: Issuer-Paid Research; Application Example 10 (Research Independence and Compensation Arrangements).",
+    "fa": "استاندارد ۱(بی) استقلال و بی‌طرفی، راهنما: پژوهش با هزینه ناشر؛ مثال کاربردی ۱۰ (استقلال پژوهش و ترتیبات جبران خدمت)."
+   }
+  },
+  {
+   "id": "E16S2Q4",
+   "set": "E16S2",
+   "k": 4,
+   "std": [
+    "V(C)"
+   ],
+   "q": {
+    "en": "With respect to the social media posts, did Varga violate any of the Standards?",
+    "fa": "آیا وارگا در مورد پست‌های رسانه اجتماعی هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because she failed to maintain records of investment-related communications with clients.",
+     "fa": "بله، چون سوابق ارتباطات مرتبط با سرمایه‌گذاری با مشتریان را نگهداری نکرد."
+    },
+    {
+     "en": "No, because the full weekly reports are archived on Ridgeline's server.",
+     "fa": "خیر، چون گزارش‌های کامل هفتگی روی سرور ریج‌لاین بایگانی می‌شوند."
+    },
+    {
+     "en": "No, because no regulation in Ridgeline's jurisdiction requires social media posts to be kept.",
+     "fa": "خیر، چون هیچ مقرراتی در حوزه قضایی ریج‌لاین نگهداری پست‌های رسانه اجتماعی را الزامی نمی‌کند."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard V(C) requires members to develop and maintain appropriate records to support their investment recommendations and other investment-related communications with clients. The guidance on new media records says the format of the information does not remove this duty and lists e-mails, text messages, blog posts, and social media posts as records to keep; because firm and regulatory digital policies may lag new channels, more responsibility falls on the individual. The posts are recommendation updates sent to subscribers, so deleting them without a copy leaves those communications unrecorded. B is wrong: archiving the weekly reports does not cover separate communications made through another channel. C is wrong: when no regulation or firm policy applies, the Code and Standards still require appropriate records, and CFA Institute recommends keeping them for at least seven years. Lesson: if a post tells clients what to do, it is a record, so keep it.",
+    "fa": "گزینه الف درست است. استاندارد ۵(سی) از اعضا می‌خواهد سوابق مناسبی برای پشتیبانی از توصیه‌های سرمایه‌گذاری و دیگر ارتباطات مرتبط با سرمایه‌گذاری با مشتریان ایجاد و نگهداری کنند. راهنمای سوابق رسانه‌های جدید می‌گوید قالب اطلاعات این وظیفه را از بین نمی‌برد و ایمیل، پیامک، پست وبلاگ و پست رسانه اجتماعی را از جمله سوابقی برمی‌شمارد که باید نگهداری شوند؛ چون سیاست‌های دیجیتال شرکت‌ها و نهادهای ناظر ممکن است از کانال‌های جدید عقب بمانند، مسئولیت بیشتری بر دوش فرد است. این پست‌ها به‌روزرسانی توصیه‌هایی هستند که برای مشترکان فرستاده می‌شوند، پس حذف آن‌ها بدون نسخه، این ارتباطات را بی‌سابقه می‌گذارد. گزینه ب نادرست است: بایگانی گزارش‌های هفتگی، ارتباطات جداگانه‌ای را که از کانال دیگری انجام می‌شود پوشش نمی‌دهد. گزینه ج نادرست است: وقتی هیچ مقررات یا سیاست شرکتی وجود ندارد، کد اخلاق و استانداردها همچنان سوابق مناسب را الزامی می‌کنند و مؤسسه سی اف ای نگهداری آن‌ها را دست‌کم برای هفت سال توصیه می‌کند. درس: اگر پستی به مشتریان می‌گوید چه کنند، آن پست یک سابقه است، پس نگهش دارید."
+   },
+   "ref": {
+    "en": "Standard V(C) Record Retention, Guidance: New Media Records and Local Requirements (seven-year recommendation in the absence of regulatory guidance or firm policy).",
+    "fa": "استاندارد ۵(سی) نگهداری سوابق، راهنما: سوابق رسانه‌های جدید و الزامات محلی (توصیه هفت‌ساله در نبود راهنمای مقرراتی یا سیاست شرکت)."
+   }
+  },
+  {
+   "id": "E16S3Q1",
+   "set": "E16S3",
+   "k": 1,
+   "std": [
+    "VII(A)"
+   ],
+   "q": {
+    "en": "In her statement to the prospective client, did Karimi violate any of the Standards?",
+    "fa": "آیا کریمی با سخنی که به مشتری بالقوه گفت، هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "No, because she did not reveal any exam question or topic.",
+     "fa": "خیر، چون هیچ سؤال یا موضوعی از آزمون را فاش نکرد."
+    },
+    {
+     "en": "Yes, because she implied that her volunteer role gives Harrowgate's clients an advantage.",
+     "fa": "بله، چون القا کرد که نقش داوطلبانه‌اش برای مشتریان هروگیت مزیت ایجاد می‌کند."
+    },
+    {
+     "en": "Yes, because volunteers may not mention their CFA Institute volunteer work to clients.",
+     "fa": "بله، چون داوطلبان نمی‌توانند فعالیت داوطلبانه خود در مؤسسه سی اف ای را نزد مشتریان ذکر کنند."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard VII(A) prohibits conduct that compromises the reputation or integrity of CFA Institute or the integrity of its programs, and the guidance lists improperly using an association with CFA Institute to further personal or professional goals. In Example 9 of VII(A), a committee volunteer violated the standard by presenting her role as a business advantage and implying that clients would benefit from confidential information. Karimi does the same by suggesting that her access to draft exam questions benefits Harrowgate clients. A is wrong: the violation is the implied business use of a confidential volunteer role, not only the disclosure of specific questions. C is wrong: volunteers may factually state their involvement with CFA Institute; they may not claim any special advantage for clients from it. Lesson: you may say you volunteer for CFA Institute, but never sell that role as an edge for clients.",
+    "fa": "گزینه ب درست است. استاندارد ۷(آ) رفتاری را که اعتبار یا یکپارچگی مؤسسه سی اف ای یا یکپارچگی برنامه‌های آن را خدشه‌دار کند ممنوع می‌کند، و راهنما استفاده نادرست از ارتباط با مؤسسه سی اف ای برای پیشبرد اهداف شخصی یا حرفه‌ای را از جمله این رفتارها برمی‌شمارد. در مثال ۹ استاندارد ۷(آ)، یک داوطلب کمیته با معرفی نقش خود به عنوان یک مزیت تجاری و القای اینکه مشتریان از اطلاعات محرمانه بهره می‌برند، استاندارد را نقض کرد. کریمی نیز با القای اینکه دسترسی‌اش به پیش‌نویس سؤالات آزمون به نفع مشتریان هروگیت است، همین کار را می‌کند. گزینه الف نادرست است: نقض در استفاده تجاری القاشده از یک نقش داوطلبانه محرمانه است، نه فقط در افشای سؤالات مشخص. گزینه ج نادرست است: داوطلبان می‌توانند مشارکت خود در مؤسسه سی اف ای را به صورت واقعی بیان کنند؛ آنچه نمی‌توانند، ادعای مزیت ویژه برای مشتریان است. درس: می‌توانید بگویید برای مؤسسه سی اف ای داوطلبانه کار می‌کنید، اما هرگز آن را به عنوان برتری برای مشتریان نفروشید."
+   },
+   "ref": {
+    "en": "Standard VII(A) Conduct as Participants in CFA Institute Programs, Guidance (improperly using an association with CFA Institute to further personal or professional goals); Application Example 9 (Compromising CFA Institute Integrity as a Volunteer).",
+    "fa": "استاندارد ۷(آ) رفتار به عنوان شرکت‌کننده در برنامه‌های مؤسسه سی اف ای، راهنما (استفاده نادرست از ارتباط با مؤسسه سی اف ای برای پیشبرد اهداف شخصی یا حرفه‌ای)؛ مثال کاربردی ۹ (خدشه‌دار کردن یکپارچگی مؤسسه سی اف ای به عنوان داوطلب)."
+   }
+  },
+  {
+   "id": "E16S3Q2",
+   "set": "E16S3",
+   "k": 2,
+   "std": [
+    "V(B)"
+   ],
+   "q": {
+    "en": "In the summary she wrote for clients about the Belmont note, did Karimi violate any of the Standards?",
+    "fa": "آیا کریمی در خلاصه‌ای که درباره یادداشت بلمونت برای مشتریان نوشت، هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "No, because the full offering document, which describes all the risks, was available on request.",
+     "fa": "خیر، چون سند کامل عرضه که همه ریسک‌ها را شرح می‌دهد، در صورت درخواست در دسترس بود."
+    },
+    {
+     "en": "Yes, because she did not disclose the costs Harrowgate incurs in researching and sourcing the note.",
+     "fa": "بله، چون هزینه‌هایی را که هروگیت برای بررسی و تأمین یادداشت متحمل می‌شود افشا نکرد."
+    },
+    {
+     "en": "Yes, because the summary did not describe the significant risks and limitations of the note.",
+     "fa": "بله، چون خلاصه، ریسک‌ها و محدودیت‌های مهم یادداشت را شرح نداد."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard V(B) requires members to disclose to clients the significant limitations and risks associated with the investment process and to include the factors important to their recommendations. In Example 6 of V(B), an analyst violated the standard by describing a structured product's possible high returns without explaining its risks or how it would perform if the expected scenario did not occur. Karimi's summary shows only rising or flat markets and leaves out the loss of principal below the 60% barrier, the issuer's credit risk, and the limited liquidity, so clients cannot understand what they are buying. A is wrong: a long document available only on request does not replace a balanced description in the communication clients actually rely on. B is wrong: V(B) requires disclosure of the costs to the client, and the guidance says members are not required to disclose the firm's own costs of providing services. Lesson: when you recommend a structured note, show the downside as clearly as the coupon.",
+    "fa": "گزینه ج درست است. استاندارد ۵(بی) از اعضا می‌خواهد محدودیت‌ها و ریسک‌های مهم مرتبط با فرایند سرمایه‌گذاری را به مشتریان افشا کنند و عوامل مهم در توصیه‌های خود را در ارتباطاتشان بگنجانند. در مثال ۶ استاندارد ۵(بی)، تحلیلگری با شرح بازده‌های بالای ممکن یک محصول ساختاریافته، بدون توضیح ریسک‌های آن یا عملکردش در صورت رخ ندادن سناریوی مورد انتظار، استاندارد را نقض کرد. خلاصه کریمی فقط بازار رو به بالا یا ثابت را نشان می‌دهد و از دست رفتن اصل سرمایه در زیر سد ۶۰٪، ریسک اعتباری ناشر و نقدشوندگی محدود را کنار می‌گذارد، پس مشتریان نمی‌توانند بفهمند چه می‌خرند. گزینه الف نادرست است: یک سند طولانی که فقط در صورت درخواست در دسترس است، جای شرح متوازن را در ارتباطی که مشتریان واقعاً به آن تکیه می‌کنند نمی‌گیرد. گزینه ب نادرست است: استاندارد ۵(بی) افشای هزینه‌های مشتری را الزامی می‌کند و راهنما می‌گوید اعضا ملزم به افشای هزینه‌های خود شرکت برای ارائه خدمات نیستند. درس: وقتی یک یادداشت ساختاریافته را توصیه می‌کنید، زیان احتمالی را به همان روشنی کوپن نشان دهید."
+   },
+   "ref": {
+    "en": "Standard V(B) Communication with Clients and Prospective Clients, Guidance: Identifying Risks and Limitations, and Nature of Services and Information on Cost; Application Example 6 (Proper Description of a Security).",
+    "fa": "استاندارد ۵(بی) ارتباط با مشتریان و مشتریان بالقوه، راهنما: شناسایی ریسک‌ها و محدودیت‌ها، و ماهیت خدمات و اطلاعات مربوط به هزینه؛ مثال کاربردی ۶ (شرح درست یک اوراق بهادار)."
+   }
+  },
+  {
+   "id": "E16S3Q3",
+   "set": "E16S3",
+   "k": 3,
+   "std": [
+    "III(A)"
+   ],
+   "q": {
+    "en": "In handling the Dunmore proxy vote, did Karimi violate any of the Standards?",
+    "fa": "آیا کریمی در رسیدگی به رأی‌گیری وکالتی دانمور هیچ‌یک از استانداردها را نقض کرده است؟"
+   },
+   "o": [
+    {
+     "en": "No, because management is best placed to judge the company's capital structure.",
+     "fa": "خیر، چون مدیریت در بهترین جایگاه برای قضاوت درباره ساختار سرمایه شرکت است."
+    },
+    {
+     "en": "Yes, because she voted blindly with management on a nonroutine governance issue without considering its effect on clients.",
+     "fa": "بله، چون در یک موضوع غیرعادی حاکمیتی، بدون در نظر گرفتن اثر آن بر مشتریان، چشم‌بسته با مدیریت رأی داد."
+    },
+    {
+     "en": "Yes, because she delegated the vote to a CFA candidate.",
+     "fa": "بله، چون رأی‌گیری را به یک داوطلب سی اف ای واگذار کرد."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Under Standard III(A), voting proxies in an informed and responsible manner is part of the duty of loyalty, because proxies have economic value to clients. The guidance says a manager who casts a vote without considering the impact of the question, or votes blindly with management on nonroutine governance issues such as a change in company capitalization, may violate the standard. A new class of ten-vote shares for the founding family is a nonroutine change that could reduce the value of clients' shares, and Harrowgate's own policy required review. A is wrong: supporting management is acceptable only after an informed, independent review, not automatically. C is wrong: the Standards do not forbid assigning work to an associate; the problem is that no one considered the proposal. Lesson: on nonroutine proxy issues, study the proposal and vote for clients, not out of habit.",
+    "fa": "گزینه ب درست است. طبق استاندارد ۳(آ)، رأی دادن آگاهانه و مسئولانه در رأی‌گیری‌های وکالتی بخشی از وظیفه وفاداری است، چون این رأی‌ها برای مشتریان ارزش اقتصادی دارند. راهنما می‌گوید مدیری که بدون در نظر گرفتن اثر موضوع رأی می‌دهد، یا در موضوعات غیرعادی حاکمیتی مانند تغییر ساختار سرمایه شرکت چشم‌بسته با مدیریت رأی می‌دهد، ممکن است این استاندارد را نقض کند. طبقه جدید سهام ده‌رأیی برای خانواده بنیان‌گذار یک تغییر غیرعادی است که ممکن است ارزش سهام مشتریان را کاهش دهد، و سیاست خود هروگیت هم بررسی آن را الزامی می‌کرد. گزینه الف نادرست است: حمایت از مدیریت فقط پس از بررسی آگاهانه و مستقل پذیرفتنی است، نه به صورت خودکار. گزینه ج نادرست است: استانداردها واگذاری کار به دستیار را ممنوع نمی‌کنند؛ مشکل این است که هیچ کس پیشنهاد را بررسی نکرد. درس: در موضوعات غیرعادی رأی وکالتی، پیشنهاد را بررسی کنید و به نفع مشتریان رأی دهید، نه از روی عادت."
+   },
+   "ref": {
+    "en": "Standard III(A) Loyalty, Prudence, and Care, Guidance: Proxy Voting Policies.",
+    "fa": "استاندارد ۳(آ) وفاداری، احتیاط و مراقبت، راهنما: سیاست‌های رأی‌دهی وکالتی."
+   }
+  },
+  {
+   "id": "E16S3Q4",
+   "set": "E16S3",
+   "k": 4,
+   "std": [
+    "I(A)"
+   ],
+   "q": {
+    "en": "Mensah's most appropriate initial course of action is to:",
+    "fa": "مناسب‌ترین اقدام اولیه منسا این است که:"
+   },
+   "o": [
+    {
+     "en": "decline to date the questionnaires falsely and bring the matter to Harrowgate's compliance officer.",
+     "fa": "از زدن تاریخ نادرست روی پرسشنامه‌ها خودداری کند و موضوع را نزد مسئول تطبیق هروگیت مطرح کند."
+    },
+    {
+     "en": "report Lindahl to the securities regulator immediately.",
+     "fa": "فوراً لیندال را به نهاد ناظر اوراق بهادار گزارش کند."
+    },
+    {
+     "en": "follow Lindahl's instruction but keep a written record of his objection.",
+     "fa": "دستور لیندال را اجرا کند، اما سابقه‌ای کتبی از اعتراض خود نگه دارد."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard I(A) prohibits members and candidates from knowingly participating or assisting in a violation of laws, rules, or regulations and requires them to dissociate from it. Backdating client documents to mislead the regulator would break local rules. The guidance says the first step should be to try to stop the behavior by bringing it to the employer's attention through a supervisor or the firm's compliance department; if that fails, the member must step away and dissociate from the activity. Refusing to backdate the forms and going to Okonjo does both. B is wrong: the Code and Standards do not compel reporting to a regulator unless the law makes it mandatory, although it may be prudent in some circumstances; it is not the first step. C is wrong: carrying out the instruction is participating in the violation, and a private note of objection does not dissociate him from it. Lesson: refuse to take part, then escalate inside the firm first.",
+    "fa": "گزینه الف درست است. استاندارد ۱(آ) اعضا و داوطلبان را از مشارکت یا کمک آگاهانه در نقض قوانین، قواعد یا مقررات منع می‌کند و از آن‌ها می‌خواهد از آن فاصله بگیرند (کناره‌گیری کنند). زدن تاریخ گذشته روی اسناد مشتری برای گمراه کردن نهاد ناظر، مقررات محلی را نقض می‌کند. راهنما می‌گوید گام نخست باید تلاش برای متوقف کردن این رفتار با رساندن آن به اطلاع کارفرما از طریق سرپرست یا واحد تطبیق شرکت باشد؛ اگر این کار نتیجه ندهد، عضو باید کنار برود و از آن فعالیت کناره‌گیری کند. خودداری از تاریخ‌گذاری نادرست فرم‌ها و مراجعه به اوکونجو هر دو کار را انجام می‌دهد. گزینه ب نادرست است: کد اخلاق و استانداردها گزارش به نهاد ناظر را الزامی نمی‌کنند، مگر آنکه قانون آن را اجباری کند، هرچند در برخی شرایط ممکن است محتاطانه باشد؛ این گام نخست نیست. گزینه ج نادرست است: اجرای دستور یعنی مشارکت در نقض، و یک یادداشت خصوصی اعتراض او را از آن جدا نمی‌کند. درس: از مشارکت خودداری کنید و سپس موضوع را اول در داخل شرکت پیگیری کنید."
+   },
+   "ref": {
+    "en": "Standard I(A) Knowledge of the Law, Guidance: Participation in or Association with Violations by Others; Recommended Procedures: Dissociation.",
+    "fa": "استاندارد ۱(آ) آگاهی از قانون، راهنما: مشارکت در نقض‌های دیگران یا همراهی با آن‌ها؛ رویه‌های توصیه‌شده: کناره‌گیری."
+   }
+  }
+ ]
+}

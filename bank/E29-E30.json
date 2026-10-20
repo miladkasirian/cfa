@@ -1,0 +1,928 @@
+{
+ "exams": [
+  {
+   "n": 29,
+   "sets": [
+    "E29S1",
+    "E29S2",
+    "E29S3"
+   ]
+  },
+  {
+   "n": 30,
+   "sets": [
+    "E30S1",
+    "E30S2",
+    "E30S3"
+   ]
+  }
+ ],
+ "sets": {
+  "E29S1": {
+   "title": {
+    "en": "Verdant Ridge Capital",
+    "fa": "وردانت ریج کپیتال"
+   },
+   "vig": {
+    "en": "Verdant Ridge Capital is a mid-sized asset manager that runs only environmental, social, and governance (ESG) strategies. It manages separate accounts for pension plans, foundations, and wealthy families, as well as two pooled funds, including the Verdant Impact Fund. Hannah Lindqvist, CFA, is the chief investment officer. Marco Bellini, CFA, is a portfolio manager who also votes proxies for the accounts he manages. Ines Duarte, who is neither a CFA charterholder nor a CFA candidate, heads client service. Verdant's proxy voting policy, which is disclosed to all clients, requires portfolio managers to review the economic impact of every nonroutine proposal before voting.\n\nIn March, Halvard Shipping, a holding in several of Bellini's accounts, asks shareholders to approve a new class of shares carrying ten votes per share, to be issued only to the founding family. The change would sharply reduce the voting power of outside shareholders. Bellini has long admired Halvard's emissions reduction program. Facing several proxy deadlines that week, he votes the Halvard shares in all of his accounts in favor of the proposal without reading the proxy materials, telling a colleague that \"management has always done right by sustainability.\" Halvard's share price rises 4% over the following month.\n\nIn April, Duarte launches Stewardship Plus, an optional service that costs an additional 0.05% of assets per year. Subscribers receive a quarterly call with Verdant's engagement analysts and a detailed log of Verdant's meetings with portfolio companies. All new research notes continue to be released to every client at the same time through Verdant's client portal, and Stewardship Plus calls take place only after the notes have been released. The service and its fee are described in Verdant's published fee schedule and are offered to every client. Lindqvist approves the launch.\n\nIn May, Bellini is asked to write Verdant's stewardship report recommending Brightwater Hydrogen for the Impact Fund and for suitable separate accounts. Last year, Bellini's wife inherited Brightwater shares worth about $900,000. Bellini reports the holding in writing to Verdant's compliance department, but the report distributed to clients does not mention it. Bellini is confident that his recommendation would be the same even if his wife did not own the shares.\n\nIn June, Lindqvist speaks on a panel at a sustainable finance conference. At a dinner afterward, Sunvale Energy's head of sustainability tells her privately that Sunvale's auditor has found that the company overstated its emissions reductions for the past three years. He adds that Sunvale will announce a restatement next Tuesday and that a national utility is expected to cancel a $400 million supply contract with Sunvale as a result. The next morning, Lindqvist instructs Bellini to sell all Sunvale bonds held by the Impact Fund. Sunvale's bonds had already been trading below par for several months because of rising interest rates.",
+    "fa": "وردانت ریج کپیتال یک شرکت مدیریت دارایی متوسط است که فقط راهبردهای زیست‌محیطی، اجتماعی و حاکمیتی (ای اس جی) را اجرا می‌کند. این شرکت حساب‌های جداگانه‌ای برای طرح‌های بازنشستگی، بنیادها و خانواده‌های ثروتمند و همچنین دو صندوق مشترک، از جمله صندوق اثرگذاری وردانت، را مدیریت می‌کند. هانا لیندکویست، دارنده مدرک سی اف ای، مدیر ارشد سرمایه‌گذاری است. مارکو بلینی، دارنده مدرک سی اف ای، مدیر پرتفوی است و برای حساب‌هایی که مدیریت می‌کند به نمایندگی از مشتریان رأی هم می‌دهد. اینس دوارته که نه دارنده مدرک سی اف ای است و نه داوطلب آن، رئیس بخش خدمات مشتریان است. سیاست رأی‌دهی نیابتی وردانت که برای همه مشتریان افشا شده است، مدیران پرتفوی را ملزم می‌کند پیش از رأی دادن، اثر اقتصادی هر پیشنهاد غیرعادی را بررسی کنند.\n\nدر ماه مارس، شرکت هالوارد شیپینگ که سهام آن در چند حساب تحت مدیریت بلینی نگهداری می‌شود، از سهامداران می‌خواهد طبقه جدیدی از سهام با ده رأی برای هر سهم را تصویب کنند که فقط به خانواده مؤسس واگذار می‌شود. این تغییر قدرت رأی سهامداران بیرونی را به شدت کاهش می‌دهد. بلینی مدت‌هاست برنامه کاهش انتشار گازهای هالوارد را تحسین می‌کند. او که در آن هفته با چند مهلت رأی‌دهی نیابتی روبه‌رو است، بدون خواندن اسناد رأی‌دهی، با همه سهام هالوارد در حساب‌های تحت مدیریت خود به این پیشنهاد رأی موافق می‌دهد و به یکی از همکارانش می‌گوید: «مدیریت در زمینه پایداری همیشه درست عمل کرده است.» قیمت سهام هالوارد در ماه بعد ۴٪ افزایش می‌یابد.\n\nدر ماه آوریل، دوارته خدمتی اختیاری به نام استوردشیپ پلاس را راه‌اندازی می‌کند که سالانه ۰٫۰۵٪ از دارایی‌ها هزینه اضافه دارد. مشترکان هر فصل یک تماس با تحلیلگران تعامل وردانت دارند و گزارشی مفصل از جلسات وردانت با شرکت‌های موجود در پرتفوی دریافت می‌کنند. همه یادداشت‌های پژوهشی جدید همچنان در یک زمان و از طریق درگاه مشتریان وردانت برای همه مشتریان منتشر می‌شود و تماس‌های استوردشیپ پلاس فقط پس از انتشار یادداشت‌ها برگزار می‌شود. این خدمت و هزینه آن در جدول کارمزد منتشرشده وردانت شرح داده شده و به همه مشتریان پیشنهاد می‌شود. لیندکویست راه‌اندازی آن را تأیید می‌کند.\n\nدر ماه مه، از بلینی خواسته می‌شود گزارش مباشرت وردانت را بنویسد که سهام شرکت برایت‌واتر هیدروژن را برای صندوق اثرگذاری و حساب‌های جداگانه مناسب توصیه می‌کند. سال گذشته همسر بلینی سهامی از برایت‌واتر به ارزش حدود ۹۰۰ هزار دلار به ارث برده است. بلینی این دارایی را به صورت کتبی به واحد انطباق وردانت گزارش می‌دهد، اما در گزارشی که برای مشتریان توزیع می‌شود به آن اشاره‌ای نمی‌شود. بلینی مطمئن است که حتی اگر همسرش این سهام را نداشت، توصیه او همین بود.\n\nدر ماه ژوئن، لیندکویست در یک پنل در همایش مالی پایدار سخنرانی می‌کند. در شام پس از آن، مسئول پایداری شرکت سان‌ویل انرژی به طور خصوصی به او می‌گوید حسابرس سان‌ویل دریافته است که شرکت کاهش انتشار گازهای خود را در سه سال گذشته بیش از واقع گزارش کرده است. او اضافه می‌کند که سان‌ویل سه‌شنبه آینده اصلاح و ارائه مجدد این داده‌ها را اعلام خواهد کرد و انتظار می‌رود در نتیجه آن یک شرکت ملی برق قرارداد تأمین ۴۰۰ میلیون دلاری خود با سان‌ویل را لغو کند. صبح روز بعد، لیندکویست به بلینی دستور می‌دهد همه اوراق قرضه سان‌ویل را که در صندوق اثرگذاری نگهداری می‌شود بفروشد. اوراق قرضه سان‌ویل از چند ماه پیش به دلیل افزایش نرخ بهره زیر ارزش اسمی معامله می‌شد."
+   }
+  },
+  "E29S2": {
+   "title": {
+    "en": "Marlowe Bank Private Banking",
+    "fa": "بانکداری خصوصی بانک مارلو"
+   },
+   "vig": {
+    "en": "Marlowe Bank's private banking division serves about 900 wealthy families. Daniel Osei, CFA, heads the division and supervises 12 relationship managers, including Sofia Marchetti, a CFA candidate who is registered for the Level III exam, and Rahul Mehta, who is neither a CFA charterholder nor a CFA candidate. The division offers the bank's proprietary funds and structured notes as well as funds from outside managers. It also provides estate planning reviews for its clients.\n\nIn January, Marlowe changes its bonus plan for relationship managers. Managers now earn a bonus equal to 0.40% of every new client dollar placed in the bank's proprietary Marlowe Income Notes, compared with 0.10% for third-party funds. The plan is described only in an internal memo. Over the next quarter, Marchetti recommends the notes to several clients for whom they are suitable, but she does not mention the bonus plan to them. The notes' fees are in line with those of comparable third-party products.\n\nIn February, Eleanor Vance, a 68-year-old retired architect, calls Marchetti. Vance's investment policy statement, last updated in October, sets a moderate risk tolerance and objectives of income and capital preservation for her $2.4 million portfolio. Vance asks to buy $15,000 of shares in a small biotechnology company where her nephew works. Marchetti explains that the stock is far riskier than her investment policy statement allows and how the purchase departs from her stated objectives. Vance still wants the shares. Following the bank's policy for unsolicited trades, Marchetti documents the discussion, and Vance signs a form acknowledging that the trade is her own idea and is inconsistent with her investment policy statement. Marchetti then executes the trade.\n\nIn March, an operations exception report shows that Mehta processed three withdrawals totaling $60,000 from the account of an 84-year-old client on telephone instructions from the client's son, who has no power of attorney or other authority over the account. Osei sends Mehta an e-mail warning him not to accept such instructions again and forwards the report to the compliance department. He takes no further action, and Mehta continues to service all of his clients as before.\n\nMarchetti volunteers on the fundraising committee of a children's hospital foundation. During an estate planning review in April, her client George Whitlock told her that he intends to leave $2 million to charity but has not yet chosen a recipient. In May, Marchetti gives Whitlock's name, telephone number, and planned gift amount to the foundation's development director. She believes Whitlock would welcome the chance to support a children's hospital.",
+    "fa": "بخش بانکداری خصوصی بانک مارلو به حدود ۹۰۰ خانواده ثروتمند خدمات می‌دهد. دنیل اوسی، دارنده مدرک سی اف ای، رئیس این بخش است و بر ۱۲ مدیر روابط مشتریان نظارت می‌کند، از جمله سوفیا مارکتی که داوطلب سی اف ای است و برای آزمون سطح ۳ ثبت‌نام کرده است، و راهول مهتا که نه دارنده مدرک سی اف ای است و نه داوطلب آن. این بخش صندوق‌ها و اوراق ساختاریافته اختصاصی بانک و همچنین صندوق‌های مدیران بیرونی را عرضه می‌کند. همچنین برای مشتریانش بررسی برنامه‌ریزی املاک و ترکه انجام می‌دهد.\n\nدر ماه ژانویه، مارلو طرح پاداش مدیران روابط مشتریان را تغییر می‌دهد. اکنون مدیران به ازای هر دلار جدید مشتری که در اوراق درآمدی مارلو، محصول اختصاصی بانک، سرمایه‌گذاری شود پاداشی برابر ۰٫۴۰٪ دریافت می‌کنند، در حالی که این رقم برای صندوق‌های اشخاص ثالث ۰٫۱۰٪ است. این طرح فقط در یک یادداشت داخلی شرح داده شده است. در فصل بعد، مارکتی این اوراق را به چند مشتری که برایشان مناسب است توصیه می‌کند، اما درباره طرح پاداش چیزی به آنها نمی‌گوید. کارمزد این اوراق با محصولات مشابه اشخاص ثالث هم‌سطح است.\n\nدر ماه فوریه، النور ونس، معمار بازنشسته ۶۸ ساله، با مارکتی تماس می‌گیرد. بیانیه سیاست سرمایه‌گذاری ونس که آخرین بار در ماه اکتبر به‌روز شده، تحمل ریسک متوسط و اهداف کسب درآمد و حفظ سرمایه را برای پرتفوی ۲٫۴ میلیون دلاری او تعیین کرده است. ونس می‌خواهد به ارزش ۱۵ هزار دلار سهام یک شرکت کوچک زیست‌فناوری را که برادرزاده‌اش در آن کار می‌کند بخرد. مارکتی توضیح می‌دهد که این سهام بسیار پرریسک‌تر از حدی است که بیانیه سیاست سرمایه‌گذاری او اجازه می‌دهد و این خرید چگونه از اهداف اعلام‌شده او فاصله می‌گیرد. ونس همچنان این سهام را می‌خواهد. مارکتی طبق سیاست بانک برای معاملات درخواستی مشتری، این گفتگو را مستند می‌کند و ونس فرمی را امضا می‌کند که تأیید می‌کند این معامله ایده خود اوست و با بیانیه سیاست سرمایه‌گذاری‌اش سازگار نیست. سپس مارکتی معامله را اجرا می‌کند.\n\nدر ماه مارس، گزارش موارد استثنای واحد عملیات نشان می‌دهد که مهتا سه برداشت به مبلغ کل ۶۰ هزار دلار از حساب یک مشتری ۸۴ ساله را بر اساس دستور تلفنی پسر این مشتری انجام داده است، در حالی که پسر هیچ وکالت‌نامه یا اختیار دیگری بر حساب ندارد. اوسی ایمیلی به مهتا می‌فرستد و به او هشدار می‌دهد که دیگر چنین دستورهایی را نپذیرد و گزارش را برای واحد انطباق ارسال می‌کند. او اقدام دیگری انجام نمی‌دهد و مهتا مانند گذشته به همه مشتریانش خدمات می‌دهد.\n\nمارکتی به طور داوطلبانه عضو کمیته جذب کمک‌های مالی بنیاد یک بیمارستان کودکان است. در ماه آوریل، در جریان بررسی برنامه‌ریزی املاک، مشتری او جورج ویتلاک به او گفته بود قصد دارد ۲ میلیون دلار برای امور خیریه به ارث بگذارد، اما هنوز دریافت‌کننده را انتخاب نکرده است. در ماه مه، مارکتی نام، شماره تلفن و مبلغ هدیه برنامه‌ریزی‌شده ویتلاک را به مدیر توسعه منابع بنیاد می‌دهد. او باور دارد ویتلاک از فرصت حمایت از یک بیمارستان کودکان استقبال خواهد کرد."
+   }
+  },
+  "E29S3": {
+   "title": {
+    "en": "Kestrel Bay Asset Management",
+    "fa": "مدیریت دارایی کسترل بی"
+   },
+   "vig": {
+    "en": "Kestrel Bay Asset Management manages institutional separate accounts and the Clean Transition Equity Fund, a pooled fund whose prospectus states that it will not invest in companies that earn more than 5% of their revenue from extracting or refining fossil fuels. Amara Okoye, CFA, manages the fund and a separate account for the Thornfield Family Foundation. Felix Brandt, a sales associate, has passed Level II of the CFA Program and is registered for the Level III exam. Julia Serrano, who is neither a CFA charterholder nor a CFA candidate, heads distribution.\n\nIn February, Okoye concludes that Norrland Petroleum, an integrated oil company that earns about 70% of its revenue from oil and gas production, is undervalued and is investing heavily in offshore wind. She buys a 2% position for the Clean Transition Equity Fund and documents her reasoning in detail. She tells a colleague that the fund's investors are sophisticated institutions that will appreciate the return potential. Norrland's shares rise 8% over the next two months.\n\nIn March, the chair of the Thornfield Family Foundation offers Okoye a personal payment of $10,000 for each year in which the foundation's portfolio beats its benchmark by more than two percentage points, for the next three years. Before accepting, Okoye sends an e-mail to her supervisor and to Kestrel Bay's compliance officer describing the nature of the payment, the approximate amount, and the three-year duration. The foundation's chair confirms the terms in a letter to Kestrel Bay. Kestrel Bay gives its consent by return e-mail, and Okoye then accepts the arrangement.\n\nIn April, Kestrel Bay begins distributing a five-year capital-protected note issued by Albrecht Bank. Under the note's terms, Albrecht Bank will repay 100% of the principal at maturity, and investors receive 60% of any rise in a clean energy equity index. Meeting a prospective client, Brandt makes two statements:\n\nStatement 1: \"Under the note's terms, Albrecht Bank is obligated to repay your full principal at maturity, so if you hold the note for five years, you will get back at least what you invested, as long as Albrecht Bank is able to pay.\"\n\nStatement 2: \"Clean energy stocks have returned more than 9% a year over the past decade, so you will earn at least 9% a year on this note.\"\n\nIn May, Serrano proposes that Kestrel Bay pay independent financial planners 0.20% of the assets of each client they refer to Kestrel Bay's separate account service, every year the client stays. Compliance asks Brandt, who meets referred prospects, to recommend how the arrangement should be disclosed. He considers three approaches:\n\nApproach 1: After a referred prospect signs the investment management agreement, tell the client that the referring planner receives compensation from Kestrel Bay.\n\nApproach 2: Before a referred prospect signs the agreement, tell the prospect in writing that the referring planner will receive an ongoing annual payment of 0.20% of the client's assets, with an estimate of the annual dollar amount.\n\nApproach 3: Make no disclosure to prospects, because Kestrel Bay pays the planners out of its own revenue and the client's fee does not increase.",
+    "fa": "مدیریت دارایی کسترل بی حساب‌های جداگانه نهادی و صندوق سهام گذار پاک را مدیریت می‌کند. صندوق سهام گذار پاک یک صندوق مشترک است که در امیدنامه آن آمده است در شرکت‌هایی که بیش از ۵٪ درآمدشان از استخراج یا پالایش سوخت‌های فسیلی است سرمایه‌گذاری نمی‌کند. آمارا اوکویه، دارنده مدرک سی اف ای، مدیر این صندوق و یک حساب جداگانه برای بنیاد خانوادگی تورنفیلد است. فلیکس برانت، کارشناس فروش، سطح ۲ برنامه سی اف ای را گذرانده و برای آزمون سطح ۳ ثبت‌نام کرده است. جولیا سرانو که نه دارنده مدرک سی اف ای است و نه داوطلب آن، رئیس بخش توزیع است.\n\nدر ماه فوریه، اوکویه به این نتیجه می‌رسد که نورلند پترولیوم، یک شرکت نفتی یکپارچه که حدود ۷۰٪ درآمدش از تولید نفت و گاز است، کمتر از ارزش واقعی قیمت‌گذاری شده و سرمایه‌گذاری سنگینی در انرژی بادی دریایی انجام می‌دهد. او موقعیتی به اندازه ۲٪ برای صندوق سهام گذار پاک می‌خرد و استدلال خود را با جزئیات مستند می‌کند. او به یکی از همکارانش می‌گوید سرمایه‌گذاران صندوق نهادهای حرفه‌ای هستند که پتانسیل بازده را درک خواهند کرد. سهام نورلند در دو ماه بعد ۸٪ افزایش می‌یابد.\n\nدر ماه مارس، رئیس بنیاد خانوادگی تورنفیلد به اوکویه پیشنهاد می‌کند برای هر سال از سه سال آینده که پرتفوی بنیاد بیش از دو واحد درصد از شاخص مبنای خود بهتر عمل کند، مبلغ ۱۰ هزار دلار به طور شخصی به او بپردازد. اوکویه پیش از پذیرفتن، ایمیلی به سرپرست خود و مسئول انطباق کسترل بی می‌فرستد و ماهیت پرداخت، مبلغ تقریبی و مدت سه‌ساله آن را شرح می‌دهد. رئیس بنیاد این شرایط را در نامه‌ای به کسترل بی تأیید می‌کند. کسترل بی با ایمیل پاسخ موافقت خود را اعلام می‌کند و سپس اوکویه این ترتیب را می‌پذیرد.\n\nدر ماه آوریل، کسترل بی توزیع یک اوراق پنج‌ساله با حفاظت از سرمایه را آغاز می‌کند که بانک آلبرشت منتشر کرده است. طبق شرایط این اوراق، بانک آلبرشت ۱۰۰٪ اصل سرمایه را در سررسید بازپرداخت می‌کند و سرمایه‌گذاران ۶۰٪ از هر افزایش در یک شاخص سهام انرژی پاک را دریافت می‌کنند. برانت در جلسه با یک مشتری بالقوه دو جمله می‌گوید:\n\nجمله ۱: «طبق شرایط این اوراق، بانک آلبرشت متعهد است کل اصل سرمایه شما را در سررسید بازپرداخت کند، پس اگر اوراق را پنج سال نگه دارید، دست‌کم همان مبلغی را که سرمایه‌گذاری کرده‌اید پس می‌گیرید، به شرط آنکه بانک آلبرشت توان پرداخت داشته باشد.»\n\nجمله ۲: «سهام انرژی پاک در دهه گذشته سالانه بیش از ۹٪ بازده داشته‌اند، پس شما از این اوراق دست‌کم سالانه ۹٪ بازده خواهید گرفت.»\n\nدر ماه مه، سرانو پیشنهاد می‌کند کسترل بی به برنامه‌ریزان مالی مستقل، به ازای هر مشتری که به خدمات حساب جداگانه کسترل بی معرفی می‌کنند، در هر سالی که مشتری باقی بماند ۰٫۲۰٪ از دارایی‌های آن مشتری را بپردازد. واحد انطباق از برانت که با مشتریان بالقوه معرفی‌شده جلسه می‌گذارد می‌خواهد روش افشای این ترتیب را پیشنهاد کند. او سه روش را بررسی می‌کند:\n\nروش ۱: پس از اینکه مشتری بالقوه معرفی‌شده قرارداد مدیریت سرمایه‌گذاری را امضا کرد، به او گفته شود برنامه‌ریز معرفی‌کننده از کسترل بی جبران خدمت دریافت می‌کند.\n\nروش ۲: پیش از اینکه مشتری بالقوه معرفی‌شده قرارداد را امضا کند، به صورت کتبی به او گفته شود برنامه‌ریز معرفی‌کننده هر سال به طور مستمر ۰٫۲۰٪ از دارایی‌های مشتری را دریافت خواهد کرد، همراه با برآوردی از مبلغ سالانه آن به دلار.\n\nروش ۳: هیچ افشایی برای مشتریان بالقوه انجام نشود، چون کسترل بی این مبلغ را از درآمد خودش به برنامه‌ریزان می‌پردازد و کارمزد مشتری افزایش نمی‌یابد."
+   }
+  },
+  "E30S1": {
+   "title": {
+    "en": "Granite Peak High Income Fund",
+    "fa": "صندوق درآمد بالای گرانیت پیک"
+   },
+   "vig": {
+    "en": "Granite Peak Asset Management manages the Granite Peak High Income Fund, a mutual fund that invests in below-investment-grade corporate bonds. The fund's prospectus requires at least 80% of assets to be invested in high-yield bonds and limits bonds rated CCC+ or lower to no more than 15% of assets. Tomas Varga, CFA, is the fund's portfolio manager. Owen Fitzgerald, a credit analyst, is a CFA candidate who has passed Level II. Grace Liu, a trader, is neither a CFA charterholder nor a CFA candidate. Granite Peak and Granite Peak Securities, a broker-dealer that underwrites high-yield bond issues, are owned by the same parent company.\n\nIn January, Granite Peak Securities acts as lead underwriter for a $600 million bond issue by Corvex Energy and earns a substantial underwriting fee. Varga buys $25 million of the bonds for the fund. In the fund's monthly commentary to shareholders, he describes the Corvex bonds as \"our top new idea for the year.\" The commentary does not mention the affiliate's role in the offering, which is disclosed on page 212 of Corvex's offering memorandum. The Corvex bonds are rated B and were priced in line with comparable issues.\n\nDuring the spring, spreads on CCC-rated bonds widen sharply. Believing the opportunity will be short-lived, Varga raises the fund's exposure to bonds rated CCC+ or lower from 12% to 23% of assets. He explains the decision in the next quarterly letter to shareholders and says he intends to bring the exposure back below 15% by year-end. The fund outperforms its benchmark that quarter.\n\nIn May, Fitzgerald attends an industry conference in another city and stays two extra nights for a personal vacation. He edits the hotel invoice so that the extra nights appear as conference nights and submits it to Granite Peak for reimbursement. The extra nights cost $640.\n\nIn June, Granite Peak's credit committee approves Fitzgerald's recommendation to add the 9% senior notes of Pinecrest Media, which trade infrequently. Varga instructs Liu to buy $40 million of the notes for the fund over the next two days. That evening, before Liu begins buying, Fitzgerald buys $20,000 of the same notes for his personal account without seeking the preclearance that Granite Peak's policy requires. The fund's purchases push the notes' price up by two points. Fitzgerald's small order has no effect on the prices the fund pays.",
+    "fa": "مدیریت دارایی گرانیت پیک، صندوق درآمد بالای گرانیت پیک را مدیریت می‌کند که یک صندوق سرمایه‌گذاری مشترک است و در اوراق قرضه شرکتی با رتبه کمتر از درجه سرمایه‌گذاری سرمایه‌گذاری می‌کند. امیدنامه صندوق الزام می‌کند دست‌کم ۸۰٪ دارایی‌ها در اوراق قرضه پربازده سرمایه‌گذاری شود و سهم اوراق با رتبه سی سی سی مثبت یا پایین‌تر را به حداکثر ۱۵٪ دارایی‌ها محدود می‌کند. توماس وارگا، دارنده مدرک سی اف ای، مدیر پرتفوی صندوق است. اوون فیتزجرالد، تحلیلگر اعتباری، داوطلب سی اف ای است که سطح ۲ را گذرانده است. گریس لیو، معامله‌گر، نه دارنده مدرک سی اف ای است و نه داوطلب آن. گرانیت پیک و گرانیت پیک سکیوریتیز، یک کارگزار و معامله‌گر که پذیره‌نویسی انتشار اوراق قرضه پربازده را انجام می‌دهد، هر دو متعلق به یک شرکت مادر هستند.\n\nدر ماه ژانویه، گرانیت پیک سکیوریتیز پذیره‌نویس اصلی انتشار ۶۰۰ میلیون دلاری اوراق قرضه شرکت کورکس انرژی است و کارمزد پذیره‌نویسی قابل توجهی به دست می‌آورد. وارگا ۲۵ میلیون دلار از این اوراق را برای صندوق می‌خرد. او در گزارش ماهانه صندوق برای سهامداران، اوراق کورکس را «بهترین ایده جدید ما برای امسال» توصیف می‌کند. در این گزارش به نقش شرکت وابسته در این عرضه اشاره‌ای نمی‌شود؛ این نقش در صفحه ۲۱۲ یادداشت عرضه کورکس افشا شده است. اوراق کورکس رتبه بی دارد و قیمت آن هم‌سطح اوراق مشابه تعیین شده است.\n\nدر فصل بهار، اختلاف بازده اوراق با رتبه سی سی سی به شدت افزایش می‌یابد. وارگا با این باور که این فرصت کوتاه‌مدت است، سهم اوراق با رتبه سی سی سی مثبت یا پایین‌تر را از ۱۲٪ به ۲۳٪ دارایی‌های صندوق می‌رساند. او این تصمیم را در نامه فصلی بعدی به سهامداران توضیح می‌دهد و می‌گوید قصد دارد تا پایان سال این سهم را دوباره به کمتر از ۱۵٪ برساند. صندوق در آن فصل بهتر از شاخص مبنای خود عمل می‌کند.\n\nدر ماه مه، فیتزجرالد در یک همایش صنعتی در شهری دیگر شرکت می‌کند و دو شب اضافه برای تعطیلات شخصی می‌ماند. او صورت‌حساب هتل را طوری ویرایش می‌کند که شب‌های اضافه به عنوان شب‌های همایش نشان داده شود و آن را برای بازپرداخت به گرانیت پیک ارائه می‌دهد. هزینه شب‌های اضافه ۶۴۰ دلار است.\n\nدر ماه ژوئن، کمیته اعتباری گرانیت پیک توصیه فیتزجرالد برای افزودن اوراق ارشد ۹٪ شرکت پاین‌کرست مدیا را که به ندرت معامله می‌شود تأیید می‌کند. وارگا به لیو دستور می‌دهد در دو روز آینده ۴۰ میلیون دلار از این اوراق را برای صندوق بخرد. همان شب، پیش از آنکه لیو خرید را آغاز کند، فیتزجرالد بدون درخواست مجوز پیشاپیش که سیاست گرانیت پیک الزامی کرده است، ۲۰ هزار دلار از همین اوراق را برای حساب شخصی خود می‌خرد. خریدهای صندوق قیمت این اوراق را دو واحد بالا می‌برد. سفارش کوچک فیتزجرالد هیچ اثری بر قیمت‌هایی که صندوق می‌پردازد ندارد."
+   }
+  },
+  "E30S2": {
+   "title": {
+    "en": "Harborline Investment Partners",
+    "fa": "هاربرلاین اینوستمنت پارتنرز"
+   },
+   "vig": {
+    "en": "Harborline Investment Partners specializes in liability-driven investing (LDI) for defined benefit pension plans, using long-duration bonds and interest rate swaps to hedge plan liabilities. Isabel Moreau, CFA, heads the LDI team and supervises eight employees. Kenji Watanabe, CFA, is the portfolio manager for the Northgate Municipal Employees' Pension Plan. Victor Hale, a CFA candidate, is a risk analyst on the team. Harborline was hired two years ago by Northgate's board of trustees, and the plan's investment policy statement requires an interest rate hedge ratio between 70% and 90% of liabilities.\n\nIn February, Ruth Adeyemi, the city's finance director, who also sits on Northgate's board of trustees, calls Watanabe. She asks him to cut the hedge ratio to 50% and use the freed collateral to buy bonds issued by a city infrastructure authority, which would lower the city's borrowing costs. She mentions that the city may soon award Harborline a separate $300 million mandate to manage its cash reserves.\n\nIn March, Castellan Bank, one of five swap dealers through which Harborline executes swaps for Northgate and other clients, invites Watanabe and two colleagues to a three-day LDI roundtable at a luxury mountain resort. Castellan offers to pay for business-class airfare, the hotel, and a private ski excursion on the final day. The agenda includes sessions on collateral management and swap regulation that are relevant to Watanabe's work.\n\nMoreau oversees too many accounts to check daily collateral movements herself. She delegates daily collateral reconciliation for all LDI accounts to Hale and gives him written instructions covering the reconciliation steps, escalation thresholds, and same-day reporting of any discrepancy to her and to compliance. She reviews Hale's monthly exception log and tests a sample of reconciliations every quarter. In June, an internal audit finds that an operations clerk, who is neither a CFA charterholder nor a CFA candidate, falsified two reconciliation sign-offs and forged Hale's initials to hide a late collateral payment. When she learns of it, Moreau immediately starts an investigation, removes the clerk from reconciliation duties, and asks compliance to review the procedures.\n\nIn July, the Westbrook Firefighters' Retirement Fund invites Watanabe to serve as a paid independent member of its investment committee for $18,000 a year. Westbrook is currently searching for an LDI manager, and Harborline plans to bid. Watanabe mentions the offer to Moreau in a hallway conversation, and she replies that it sounds fine. He accepts the seat the next day. Nothing about the arrangement is put in writing.",
+    "fa": "هاربرلاین اینوستمنت پارتنرز در سرمایه‌گذاری مبتنی بر بدهی (ال دی آی) برای طرح‌های بازنشستگی با مزایای معین تخصص دارد و برای پوشش ریسک تعهدات این طرح‌ها از اوراق قرضه با دیرش بلند و قراردادهای سوآپ نرخ بهره استفاده می‌کند. ایزابل مورو، دارنده مدرک سی اف ای، رئیس تیم سرمایه‌گذاری مبتنی بر بدهی است و بر هشت کارمند نظارت می‌کند. کنجی واتانابه، دارنده مدرک سی اف ای، مدیر پرتفوی طرح بازنشستگی کارکنان شهرداری نورث‌گیت است. ویکتور هیل، داوطلب سی اف ای، تحلیلگر ریسک این تیم است. هیئت امنای نورث‌گیت دو سال پیش هاربرلاین را استخدام کرد و بیانیه سیاست سرمایه‌گذاری طرح، نسبت پوشش ریسک نرخ بهره را بین ۷۰٪ تا ۹۰٪ تعهدات تعیین کرده است.\n\nدر ماه فوریه، روث آدیمی، مدیر امور مالی شهر که عضو هیئت امنای نورث‌گیت هم هست، با واتانابه تماس می‌گیرد. او از واتانابه می‌خواهد نسبت پوشش را به ۵۰٪ کاهش دهد و وثیقه آزادشده را صرف خرید اوراق قرضه یک سازمان زیرساختی شهری کند که هزینه استقراض شهر را کاهش می‌دهد. او اشاره می‌کند که شهر ممکن است به‌زودی مدیریت جداگانه ۳۰۰ میلیون دلار از ذخایر نقدی خود را به هاربرلاین بسپارد.\n\nدر ماه مارس، بانک کستلان که یکی از پنج معامله‌گر سوآپی است که هاربرلاین سوآپ‌های نورث‌گیت و مشتریان دیگر را از طریق آنها اجرا می‌کند، واتانابه و دو همکارش را به یک میزگرد سه‌روزه درباره سرمایه‌گذاری مبتنی بر بدهی در یک تفرجگاه کوهستانی مجلل دعوت می‌کند. کستلان پیشنهاد می‌کند هزینه بلیت هواپیما با کلاس تجاری، هتل و یک برنامه اسکی خصوصی در روز آخر را بپردازد. برنامه میزگرد شامل جلساتی درباره مدیریت وثیقه و مقررات سوآپ است که به کار واتانابه مربوط است.\n\nمورو بر حساب‌های زیادی نظارت می‌کند و نمی‌تواند جابه‌جایی‌های روزانه وثیقه را خودش بررسی کند. او تطبیق روزانه وثیقه همه حساب‌های سرمایه‌گذاری مبتنی بر بدهی را به هیل واگذار می‌کند و دستورالعمل‌های کتبی درباره مراحل تطبیق، آستانه‌های ارجاع به سطوح بالاتر و گزارش هر مغایرت در همان روز به خودش و واحد انطباق به او می‌دهد. او گزارش ماهانه موارد استثنای هیل را بررسی می‌کند و هر فصل نمونه‌ای از تطبیق‌ها را آزمون می‌کند. در ماه ژوئن، حسابرسی داخلی درمی‌یابد که یک کارمند عملیات که نه دارنده مدرک سی اف ای است و نه داوطلب آن، دو تأییدیه تطبیق را جعل کرده و حروف اول نام هیل را جعل کرده تا تأخیر در پرداخت یک وثیقه را پنهان کند. مورو به محض آگاهی، فوراً تحقیق را آغاز می‌کند، آن کارمند را از وظایف تطبیق کنار می‌گذارد و از واحد انطباق می‌خواهد رویه‌ها را بازبینی کند.\n\nدر ماه ژوئیه، صندوق بازنشستگی آتش‌نشانان وست‌بروک از واتانابه دعوت می‌کند در ازای سالانه ۱۸ هزار دلار، عضو مستقل کمیته سرمایه‌گذاری آن شود. وست‌بروک در حال حاضر به دنبال یک مدیر سرمایه‌گذاری مبتنی بر بدهی است و هاربرلاین قصد دارد در این رقابت شرکت کند. واتانابه در یک گفتگوی کوتاه در راهرو این پیشنهاد را به مورو می‌گوید و مورو پاسخ می‌دهد که به نظرش اشکالی ندارد. او روز بعد این سمت را می‌پذیرد. هیچ چیزی درباره این ترتیب به صورت کتبی ثبت نمی‌شود."
+   }
+  },
+  "E30S3": {
+   "title": {
+    "en": "Lakemont Endowment Advisors",
+    "fa": "مشاوران موقوفه لیک‌مونت"
+   },
+   "vig": {
+    "en": "Lakemont Endowment Advisors manages discretionary portfolios for about 30 university endowments and private foundations. Arthur Penhallow, CFA, is the chief investment officer and supervises the investment staff. Mina Sorensen, CFA, is a portfolio manager. Dev Kapoor, an equity analyst who maintains Lakemont's recommended list, is a CFA candidate registered for the Level III exam. Celeste Navarro, CFA, is the chief compliance officer. Lakemont's written soft commission policy is disclosed to all clients.\n\nSorensen directs most of the equity trades for the Fairmont College endowment account to Trellis Securities. Trellis provides Lakemont with proprietary research on small Asian companies, which Sorensen uses mainly for other clients' accounts, because Fairmont's account holds few Asian stocks. Lakemont's quarterly broker review shows that Trellis charges the lowest commission rates among Lakemont's approved brokers and provides the best execution quality.\n\nOn a Saturday in October, Kapoor joins a peaceful demonstration at the state capitol in support of a climate bill. He and 40 other protesters are arrested for trespassing after refusing to leave a closed public building, and he later pays a small fine. As firm policy requires, Kapoor reports the arrest to Navarro the following Monday.\n\nLakemont's code of ethics requires all investment staff to submit quarterly reports of their personal holdings and to have their brokers send duplicate trade confirmations to compliance. In November, Navarro tells Penhallow that Kapoor has not submitted his reports or arranged for duplicate confirmations for the last two quarters despite repeated reminders. Penhallow replies that Kapoor is busy preparing the year-end update of the recommended list and that Navarro should let him catch up after the busy season. Kapoor continues to add stocks to the recommended list. When Kapoor finally submits his reports in February, Navarro finds no improper trades.\n\nIn March, Navarro proposes three changes to Lakemont's personal trading policy:\n\nProposal 1: All employees involved in investment decisions, including analysts who maintain the recommended list, will be subject to the same blackout period before client trades.\n\nProposal 2: Employees will disclose their personal holdings when they join the firm, and no further holdings reports will be required.\n\nProposal 3: Preclearance will be required only for personal trades in securities that are on the recommended list.",
+    "fa": "مشاوران موقوفه لیک‌مونت پرتفوی‌های اختیاری حدود ۳۰ موقوفه دانشگاهی و بنیاد خصوصی را مدیریت می‌کند. آرتور پنهالو، دارنده مدرک سی اف ای، مدیر ارشد سرمایه‌گذاری است و بر کارکنان سرمایه‌گذاری نظارت می‌کند. مینا سورنسن، دارنده مدرک سی اف ای، مدیر پرتفوی است. دیو کاپور، تحلیلگر سهام که فهرست سهام توصیه‌شده لیک‌مونت را نگهداری می‌کند، داوطلب سی اف ای است و برای آزمون سطح ۳ ثبت‌نام کرده است. سلست ناوارو، دارنده مدرک سی اف ای، مدیر ارشد انطباق است. سیاست کتبی لیک‌مونت درباره کمیسیون‌های نرم برای همه مشتریان افشا شده است.\n\nسورنسن بیشتر معاملات سهام حساب موقوفه کالج فیرمونت را به ترلیس سکیوریتیز می‌سپارد. ترلیس پژوهش‌های اختصاصی درباره شرکت‌های کوچک آسیایی را در اختیار لیک‌مونت می‌گذارد که سورنسن عمدتاً برای حساب‌های مشتریان دیگر از آن استفاده می‌کند، چون حساب فیرمونت سهام آسیایی اندکی دارد. بررسی فصلی کارگزاران لیک‌مونت نشان می‌دهد ترلیس در میان کارگزاران تأییدشده لیک‌مونت کمترین نرخ کمیسیون را دریافت می‌کند و بهترین کیفیت اجرا را ارائه می‌دهد.\n\nدر یک روز شنبه در ماه اکتبر، کاپور در یک تجمع مسالمت‌آمیز در مقابل ساختمان مجلس ایالتی در حمایت از یک لایحه اقلیمی شرکت می‌کند. او و ۴۰ معترض دیگر به دلیل خودداری از ترک یک ساختمان عمومی بسته، به اتهام ورود غیرمجاز بازداشت می‌شوند و او بعداً جریمه کوچکی می‌پردازد. کاپور طبق الزام سیاست شرکت، دوشنبه بعد بازداشت خود را به ناوارو گزارش می‌دهد.\n\nآیین‌نامه اخلاقی لیک‌مونت همه کارکنان سرمایه‌گذاری را ملزم می‌کند گزارش فصلی دارایی‌های شخصی خود را ارائه دهند و از کارگزارانشان بخواهند نسخه دوم تأییدیه معاملات را برای واحد انطباق بفرستند. در ماه نوامبر، ناوارو به پنهالو می‌گوید کاپور با وجود یادآوری‌های مکرر، در دو فصل گذشته گزارش‌هایش را ارائه نکرده و ارسال نسخه دوم تأییدیه‌ها را هم ترتیب نداده است. پنهالو پاسخ می‌دهد که کاپور سرگرم آماده کردن به‌روزرسانی پایان سال فهرست سهام توصیه‌شده است و ناوارو باید اجازه دهد او پس از فصل پرکار، عقب‌ماندگی‌اش را جبران کند. کاپور همچنان سهامی را به فهرست توصیه‌شده اضافه می‌کند. وقتی کاپور سرانجام در ماه فوریه گزارش‌هایش را ارائه می‌دهد، ناوارو هیچ معامله نادرستی پیدا نمی‌کند.\n\nدر ماه مارس، ناوارو سه تغییر در سیاست معاملات شخصی لیک‌مونت پیشنهاد می‌کند:\n\nپیشنهاد ۱: همه کارکنانی که در تصمیم‌های سرمایه‌گذاری نقش دارند، از جمله تحلیلگرانی که فهرست سهام توصیه‌شده را نگهداری می‌کنند، پیش از معاملات مشتریان مشمول دوره ممنوعیت معامله یکسانی خواهند بود.\n\nپیشنهاد ۲: کارکنان هنگام پیوستن به شرکت دارایی‌های شخصی خود را افشا می‌کنند و پس از آن هیچ گزارش دیگری درباره دارایی‌ها لازم نخواهد بود.\n\nپیشنهاد ۳: کسب مجوز پیشاپیش فقط برای معاملات شخصی در اوراق بهاداری لازم خواهد بود که در فهرست سهام توصیه‌شده قرار دارند."
+   }
+  }
+ },
+ "qs": [
+  {
+   "id": "E29S1Q1",
+   "set": "E29S1",
+   "k": 1,
+   "std": [
+    "III(A)"
+   ],
+   "q": {
+    "en": "Did Bellini violate any of the Standards when he voted the Halvard Shipping proxies?",
+    "fa": "آیا بلینی هنگام رأی دادن نیابتی درباره سهام هالوارد شیپینگ هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No, because Verdant's clients benefited from the subsequent rise in Halvard's share price.",
+     "fa": "خیر، چون مشتریان وردانت از افزایش بعدی قیمت سهام هالوارد سود بردند."
+    },
+    {
+     "en": "Yes, because the Standards require managers to vote against any proposal that reduces outside shareholders' voting power.",
+     "fa": "بله، چون استانداردها مدیران را ملزم می‌کنند با هر پیشنهادی که قدرت رأی سهامداران بیرونی را کاهش می‌دهد مخالفت کنند."
+    },
+    {
+     "en": "Yes, because he voted on a nonroutine matter without considering its effect on the value of his clients' holdings.",
+     "fa": "بله، چون درباره یک موضوع غیرعادی بدون در نظر گرفتن اثر آن بر ارزش دارایی‌های مشتریانش رأی داد."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Under Standard III(A), the duty of loyalty includes voting proxies in an informed and responsible manner, because proxies have economic value for clients. The guidance says a manager who casts a vote without considering the impact of the question, or votes blindly with management on nonroutine governance issues such as a change in company capitalization, may violate the standard. A new share class with ten votes per share is a nonroutine capitalization change, and Bellini voted without reading the materials, relying only on his general admiration for management. A is wrong because a later price rise does not show that the vote was informed; the duty concerns the voting process, not the outcome. B is wrong because the Standards do not dictate how to vote; after a careful analysis, Bellini could support the proposal if he concluded it served his clients. Lesson: on nonroutine proxy issues, do the analysis first; good feelings about a company's sustainability record are not a substitute.",
+    "fa": "گزینه ج درست است. طبق استاندارد ۳(آ)، وظیفه وفاداری شامل رأی دادن نیابتی آگاهانه و مسئولانه است، زیرا حق رأی برای مشتریان ارزش اقتصادی دارد. راهنمای استاندارد می‌گوید مدیری که بدون در نظر گرفتن اثر موضوع رأی می‌دهد، یا در مسائل حاکمیتی غیرعادی مانند تغییر ساختار سرمایه شرکت کورکورانه با مدیریت همراهی می‌کند، ممکن است این استاندارد را نقض کند. ایجاد طبقه جدید سهام با ده رأی برای هر سهم یک تغییر غیرعادی در ساختار سرمایه است و بلینی بدون خواندن اسناد و فقط با تکیه بر تحسین کلی خود از مدیریت رأی داد. گزینه الف نادرست است، چون افزایش بعدی قیمت نشان نمی‌دهد رأی آگاهانه بوده است؛ این وظیفه به فرایند رأی‌دهی مربوط است نه نتیجه آن. گزینه ب نادرست است، چون استانداردها تعیین نمی‌کنند چگونه رأی داده شود؛ بلینی پس از تحلیل دقیق می‌توانست، اگر پیشنهاد را به نفع مشتریان می‌دانست، از آن حمایت کند. درس: در موضوعات غیرعادی رأی‌دهی نیابتی، اول تحلیل کنید؛ حس خوب درباره سابقه پایداری یک شرکت جایگزین تحلیل نیست."
+   },
+   "ref": {
+    "en": "Standard III(A) Loyalty, Prudence, and Care, Guidance: Proxy Voting Policies (a manager who \"votes blindly with management on nonroutine governance issues (e.g., a change in company capitalization) may violate this standard\").",
+    "fa": "استاندارد ۳(آ) وفاداری، احتیاط و مراقبت، راهنما: سیاست‌های رأی‌دهی نیابتی (مدیری که «در مسائل حاکمیتی غیرعادی، مثلاً تغییر در ساختار سرمایه شرکت، کورکورانه با مدیریت رأی می‌دهد» ممکن است این استاندارد را نقض کند)."
+   }
+  },
+  {
+   "id": "E29S1Q2",
+   "set": "E29S1",
+   "k": 2,
+   "std": [
+    "III(B)"
+   ],
+   "q": {
+    "en": "Did Lindqvist violate any of the Standards by approving the Stewardship Plus service?",
+    "fa": "آیا لیندکویست با تأیید خدمت استوردشیپ پلاس هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No.",
+     "fa": "خیر."
+    },
+    {
+     "en": "Yes, because the Standards require that all clients receive the same level of service.",
+     "fa": "بله، چون استانداردها الزام می‌کنند همه مشتریان سطح یکسانی از خدمات دریافت کنند."
+    },
+    {
+     "en": "Yes, because clients who do not pay the extra fee have less access to Verdant's analysts.",
+     "fa": "بله، چون مشتریانی که کارمزد اضافه نمی‌پردازند دسترسی کمتری به تحلیلگران وردانت دارند."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard III(B) requires members to deal fairly and objectively with all clients, and the guidance stresses that the standard says \"fairly,\" not \"equally.\" Members may give more personal or in-depth service to clients who pay for a premium service, as long as the different service levels do not disadvantage other clients, are disclosed, and are available to everyone rather than offered selectively. Stewardship Plus meets all three conditions: it is in the published fee schedule, it is offered to every client, and research notes still reach all clients at the same time, with the extra calls held only after release. This mirrors the book's example of an adviser who sends a recommendation to all clients and then calls his largest clients. B is wrong because it confuses fair treatment with equal treatment. C is wrong because extra access bought under a disclosed offer that is open to all does not harm other clients' opportunity to act on research. Lesson: premium service is fine when it is disclosed, open to all, and follows, rather than precedes, general dissemination.",
+    "fa": "گزینه الف درست است. استاندارد ۳(بی) اعضا را ملزم می‌کند با همه مشتریان منصفانه و بی‌طرفانه رفتار کنند و راهنمای آن تأکید می‌کند که در متن استاندارد واژه «منصفانه» آمده است نه «برابر». اعضا می‌توانند به مشتریانی که برای خدمات ویژه پول می‌پردازند خدمات شخصی‌تر یا عمیق‌تر ارائه دهند، به شرط آنکه سطوح متفاوت خدمات به مشتریان دیگر زیان نرساند، افشا شود و به جای ارائه گزینشی، در دسترس همه باشد. استوردشیپ پلاس هر سه شرط را دارد: در جدول کارمزد منتشرشده آمده، به همه مشتریان پیشنهاد می‌شود و یادداشت‌های پژوهشی همچنان در یک زمان به همه مشتریان می‌رسد و تماس‌های اضافه فقط پس از انتشار برگزار می‌شود. این وضعیت مشابه مثال کتاب درباره مشاوری است که توصیه را برای همه مشتریان می‌فرستد و سپس با بزرگ‌ترین مشتریانش تماس می‌گیرد. گزینه ب نادرست است، چون رفتار منصفانه را با رفتار برابر اشتباه می‌گیرد. گزینه ج نادرست است، چون دسترسی اضافه‌ای که از طریق پیشنهادی افشاشده و باز برای همه خریداری می‌شود، فرصت مشتریان دیگر برای اقدام بر اساس پژوهش را از بین نمی‌برد. درس: خدمات ویژه وقتی مجاز است که افشا شود، برای همه در دسترس باشد و پس از انتشار عمومی ارائه شود، نه پیش از آن."
+   },
+   "ref": {
+    "en": "Standard III(B) Fair Dealing, Guidance (\"fairly\" rather than \"equally\"); Recommended Procedures: Disclose Levels of Service; Application Example 6 (Additional Services for Select Clients).",
+    "fa": "استاندارد ۳(بی) رفتار منصفانه، راهنما (واژه «منصفانه» به جای «برابر»)؛ رویه‌های توصیه‌شده: افشای سطوح خدمات؛ مثال کاربردی ۶ (خدمات اضافه برای مشتریان منتخب)."
+   }
+  },
+  {
+   "id": "E29S1Q3",
+   "set": "E29S1",
+   "k": 3,
+   "std": [
+    "VI(A)"
+   ],
+   "q": {
+    "en": "Did Bellini violate any of the Standards in connection with the Brightwater Hydrogen report?",
+    "fa": "آیا بلینی در ارتباط با گزارش برایت‌واتر هیدروژن هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No, because he disclosed his wife's holding in writing to Verdant's compliance department.",
+     "fa": "خیر، چون دارایی همسرش را به صورت کتبی به واحد انطباق وردانت افشا کرد."
+    },
+    {
+     "en": "Yes, because he neither avoided the assignment nor disclosed his wife's holding in the report.",
+     "fa": "بله، چون نه از این مأموریت کناره گرفت و نه دارایی همسرش را در گزارش افشا کرد."
+    },
+    {
+     "en": "Yes, because the Standards prohibit a manager from recommending a security owned by a family member.",
+     "fa": "بله، چون استانداردها توصیه اوراق بهاداری را که در مالکیت یکی از اعضای خانواده مدیر است ممنوع می‌کنند."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard VI(A) requires members to avoid, or make full and fair disclosure of, all matters that could reasonably be expected to impair their independence and objectivity, and the disclosure must be prominent and in plain language. Stock owned by a spouse gives Bellini an indirect pecuniary interest, which counts as beneficial ownership, and owning a recommended stock is described as the most prevalent conflict requiring disclosure. In the book's example of an analyst whose wife inherited shares of a covered company, the minimum is disclosure to the employer and in the report, and best practice is to ask that another analyst write it. Bellini did only the first half. A is wrong because disclosure to compliance does not inform the clients who rely on the report. C is wrong because the Standards do not ban such recommendations; they require avoidance or disclosure. His belief that his view would be unchanged does not remove the conflict. Lesson: a conflict must be disclosed to the people who rely on your work, not just recorded in your compliance file.",
+    "fa": "گزینه ب درست است. استاندارد ۶(آ) اعضا را ملزم می‌کند از همه موضوعاتی که به طور معقول ممکن است استقلال و بی‌طرفی آنها را مخدوش کند اجتناب کنند یا آنها را به طور کامل و منصفانه افشا کنند و این افشا باید برجسته و به زبان ساده باشد. سهامی که در مالکیت همسر است برای بلینی منفعت مالی غیرمستقیم ایجاد می‌کند که مالکیت ذی‌نفعانه به شمار می‌آید و مالکیت سهامی که توصیه می‌شود رایج‌ترین تضاد منافعی است که باید افشا شود. در مثال کتاب درباره تحلیلگری که همسرش سهام شرکت تحت پوشش را به ارث برده بود، حداقل الزام افشا به کارفرما و در خود گزارش است و بهترین رویه این است که تحلیلگر دیگری گزارش را بنویسد. بلینی فقط نیمه اول را انجام داد. گزینه الف نادرست است، چون افشا به واحد انطباق، مشتریانی را که به گزارش تکیه می‌کنند آگاه نمی‌کند. گزینه ج نادرست است، چون استانداردها چنین توصیه‌ای را ممنوع نمی‌کنند، بلکه اجتناب یا افشا را الزامی می‌دانند. باور او به اینکه نظرش تغییر نمی‌کرد، تضاد منافع را از بین نمی‌برد. درس: تضاد منافع باید برای کسانی که به کار شما تکیه می‌کنند افشا شود، نه اینکه فقط در پرونده انطباق ثبت شود."
+   },
+   "ref": {
+    "en": "Standard VI(A) Avoid or Disclose Conflicts, Guidance: Conflicts with Stock Ownership and the definition of beneficial ownership; Application Example 3 (Conflict of Interest and Personal Stock Ownership).",
+    "fa": "استاندارد ۶(آ) اجتناب از تضاد منافع یا افشای آن، راهنما: تضاد منافع ناشی از مالکیت سهام و تعریف مالکیت ذی‌نفعانه؛ مثال کاربردی ۳ (تضاد منافع و مالکیت شخصی سهام)."
+   }
+  },
+  {
+   "id": "E29S1Q4",
+   "set": "E29S1",
+   "k": 4,
+   "std": [
+    "II(A)"
+   ],
+   "q": {
+    "en": "Did Lindqvist violate any of the Standards by instructing Bellini to sell the Sunvale bonds?",
+    "fa": "آیا لیندکویست با دستور دادن به بلینی برای فروش اوراق قرضه سان‌ویل هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because she caused others to act on material nonpublic information.",
+     "fa": "بله، چون باعث شد دیگران بر اساس اطلاعات مهم غیرعمومی اقدام کنند."
+    },
+    {
+     "en": "Yes, because she sold the bonds for the Impact Fund but not for other clients that held them.",
+     "fa": "بله، چون اوراق را فقط برای صندوق اثرگذاری فروخت و نه برای مشتریان دیگری که آنها را در اختیار داشتند."
+    },
+    {
+     "en": "No, because the information concerned emissions data rather than Sunvale's financial results.",
+     "fa": "خیر، چون این اطلاعات به داده‌های انتشار گازها مربوط بود نه به نتایج مالی سان‌ویل."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard II(A) prohibits members who possess material nonpublic information from acting or causing others to act on it, and it covers any trading, including bonds. Information is material if its disclosure would probably affect the price or if reasonable investors would want to know it; the guidance lists developments such as the loss of a contract. A coming restatement and the expected cancellation of a $400 million contract, described directly by a company insider, are specific and reliable. The information was shared privately before the announcement, so it was nonpublic. By instructing Bellini to sell, Lindqvist caused others to act. B is wrong because fair dealing is not the issue; selling for more clients would only spread the violation. C is wrong because materiality depends on the likely effect on value, not on whether the information is labeled financial or ESG. Lesson: ESG information from an insider can be just as material as an earnings surprise; wait until it is public.",
+    "fa": "گزینه الف درست است. استاندارد ۲(آ) کسانی را که اطلاعات مهم غیرعمومی در اختیار دارند از اقدام یا واداشتن دیگران به اقدام بر اساس آن منع می‌کند و این منع شامل هر نوع معامله، از جمله اوراق قرضه، است. اطلاعات وقتی مهم است که افشای آن احتمالاً بر قیمت اثر بگذارد یا سرمایه‌گذاران معقول بخواهند آن را بدانند؛ راهنما رویدادهایی مانند از دست دادن یک قرارداد را در فهرست اطلاعات مهم آورده است. اعلام قریب‌الوقوع اصلاح داده‌ها و لغو احتمالی قراردادی ۴۰۰ میلیون دلاری که مستقیماً از زبان یکی از افراد داخلی شرکت بیان شده، مشخص و قابل اعتماد است. این اطلاعات پیش از اعلام رسمی و به طور خصوصی بیان شد، پس غیرعمومی بود. لیندکویست با دستور فروش به بلینی، دیگران را به اقدام واداشت. گزینه ب نادرست است، چون موضوع رفتار منصفانه نیست؛ فروش برای مشتریان بیشتر فقط تخلف را گسترده‌تر می‌کرد. گزینه ج نادرست است، چون مهم بودن به اثر احتمالی بر ارزش بستگی دارد، نه به اینکه اطلاعات مالی نامیده شود یا ای اس جی. درس: اطلاعات ای اس جی که از درون شرکت به دست می‌آید می‌تواند به اندازه یک غافلگیری سودآوری مهم باشد؛ صبر کنید تا عمومی شود."
+   },
+   "ref": {
+    "en": "Standard II(A) Material Nonpublic Information, Guidance: What Is \"Material\" Information? (the list includes \"developments regarding customers or suppliers (e.g., the acquisition or loss of a contract)\") and What Constitutes \"Nonpublic\" Information?",
+    "fa": "استاندارد ۲(آ) اطلاعات مهم غیرعمومی، راهنما: اطلاعات «مهم» چیست؟ (فهرست شامل «تحولات مربوط به مشتریان یا تأمین‌کنندگان، مثلاً به دست آوردن یا از دست دادن یک قرارداد» است) و اطلاعات «غیرعمومی» چیست؟"
+   }
+  },
+  {
+   "id": "E29S2Q1",
+   "set": "E29S2",
+   "k": 1,
+   "std": [
+    "VI(A)",
+    "IV(B)"
+   ],
+   "q": {
+    "en": "Did Marchetti violate any of the Standards by not telling clients about the bonus plan when she recommended the Marlowe Income Notes?",
+    "fa": "آیا مارکتی با نگفتن درباره طرح پاداش به مشتریان، هنگام توصیه اوراق درآمدی مارلو، هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No, because the bonus is paid by her employer, which is fully aware of it.",
+     "fa": "خیر، چون پاداش را کارفرمای او می‌پردازد که کاملاً از آن آگاه است."
+    },
+    {
+     "en": "Yes, she violated the Standard relating to additional compensation arrangements.",
+     "fa": "بله، او استاندارد مربوط به ترتیبات جبران خدمت اضافی را نقض کرد."
+    },
+    {
+     "en": "Yes, she violated the Standard relating to avoiding or disclosing conflicts.",
+     "fa": "بله، او استاندارد مربوط به اجتناب از تضاد منافع یا افشای آن را نقض کرد."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard VI(A) requires members to avoid or fully and fairly disclose any matter that could reasonably be expected to impair their objectivity and interfere with duties to clients, and the guidance names incentive structures as a common source of conflicts. A bonus four times larger for proprietary notes gives Marchetti a personal reason to favor them, so clients may ask whether she recommends the notes for their benefit or hers. In the Castle Biotechnology case, the book finds a VI(A) violation when a broker did not disclose a bonus based on her clients' IPO participation. A is wrong because the conflict is with clients, not with the employer, so the employer's knowledge does not solve it. B is wrong because Standard IV(B) concerns compensation that conflicts with the employer's interest; an employer-paid bonus creates no such conflict. Suitability and comparable fees do not remove the need for disclosure. Lesson: employer incentives that tilt recommendations must be avoided or disclosed to clients.",
+    "fa": "گزینه ج درست است. استاندارد ۶(آ) اعضا را ملزم می‌کند از هر موضوعی که به طور معقول ممکن است بی‌طرفی آنها را مخدوش کند و در انجام وظایفشان در برابر مشتریان اختلال ایجاد کند اجتناب کنند یا آن را کامل و منصفانه افشا کنند و راهنمای استاندارد ساختارهای انگیزشی پاداش را منبع رایج تضاد منافع می‌داند. پاداشی که برای اوراق اختصاصی چهار برابر بیشتر است به مارکتی دلیلی شخصی برای ترجیح آنها می‌دهد، پس مشتریان ممکن است بپرسند آیا او این اوراق را به نفع آنها توصیه می‌کند یا به نفع خودش. در پرونده کسل بیوتکنولوژی، کتاب عدم افشای پاداشی را که بر اساس میزان مشارکت مشتریان یک کارگزار در عرضه‌های اولیه (آی پی او) پرداخت می‌شد، نقض استاندارد ۶(آ) دانسته است. گزینه الف نادرست است، چون تضاد منافع با مشتریان است نه با کارفرما، پس آگاهی کارفرما مشکل را حل نمی‌کند. گزینه ب نادرست است، چون استاندارد ۴(بی) به جبران خدمتی مربوط است که با منافع کارفرما در تضاد باشد؛ پاداشی که کارفرما می‌پردازد چنین تضادی ایجاد نمی‌کند. مناسب بودن اوراق و کارمزد مشابه، نیاز به افشا را از بین نمی‌برد. درس: انگیزه‌هایی که کارفرما ایجاد می‌کند و توصیه‌ها را به یک سو متمایل می‌کند باید اجتناب یا برای مشتریان افشا شود."
+   },
+   "ref": {
+    "en": "Standard VI(A) Avoid or Disclose Conflicts, Guidance (compensation structures as a common source of conflicts); Level III application case: Castle Biotechnology Case 2 (Sandra Benning), question on the undisclosed year-end bonus based on clients' IPO participation.",
+    "fa": "استاندارد ۶(آ) اجتناب از تضاد منافع یا افشای آن، راهنما (ساختارهای جبران خدمت به عنوان منبع رایج تضاد منافع)؛ پرونده کاربردی سطح ۳: پرونده ۲ کسل بیوتکنولوژی (ساندرا بنینگ)، پرسش مربوط به پاداش پایان سال افشانشده بر اساس مشارکت مشتریان در عرضه‌های اولیه."
+   }
+  },
+  {
+   "id": "E29S2Q2",
+   "set": "E29S2",
+   "k": 2,
+   "std": [
+    "III(C)"
+   ],
+   "q": {
+    "en": "Did Marchetti violate any of the Standards by executing Vance's purchase of the biotechnology shares?",
+    "fa": "آیا مارکتی با اجرای خرید سهام زیست‌فناوری برای ونس هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because she must refuse any trade that is inconsistent with a client's investment policy statement.",
+     "fa": "بله، چون باید هر معامله‌ای را که با بیانیه سیاست سرمایه‌گذاری مشتری ناسازگار است رد کند."
+    },
+    {
+     "en": "No.",
+     "fa": "خیر."
+    },
+    {
+     "en": "Yes, because she must update Vance's investment policy statement before executing any unsolicited trade.",
+     "fa": "بله، چون باید پیش از اجرای هر معامله درخواستی مشتری، بیانیه سیاست سرمایه‌گذاری ونس را به‌روز کند."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. The Standard III(C) guidance on unsolicited trading requests says that when a member knows a requested trade is unsuitable, the member should refrain from executing it until the concerns are discussed with the client. If the trade will have only a minimal impact on the portfolio, the member should educate the client on how it deviates from the investment policy statement, follow firm policy on client approval, and, at a minimum, have the client acknowledge the discussion and accept the conditions that make it unsuitable. A $15,000 purchase is less than 1% of a $2.4 million portfolio, and Marchetti did each of these steps. A is wrong because the Standards do not require refusing every unsuitable request; members must balance client requests with the policy statement. C is wrong because updating the investment policy statement is called for when a request would have a material impact on the portfolio, not for every unsolicited trade. Lesson: for a small unsolicited trade, discuss, document, and obtain the client's acknowledgment.",
+    "fa": "گزینه ب درست است. راهنمای استاندارد ۳(سی) درباره درخواست‌های معامله از سوی مشتری می‌گوید وقتی عضو می‌داند معامله درخواستی نامناسب است، باید تا زمان گفتگو با مشتری درباره نگرانی‌ها از اجرای آن خودداری کند. اگر معامله فقط اثر اندکی بر پرتفوی داشته باشد، عضو باید به مشتری توضیح دهد که این معامله چگونه از بیانیه سیاست سرمایه‌گذاری فاصله می‌گیرد، سیاست شرکت درباره تأیید مشتری را رعایت کند و دست‌کم مشتری گفتگو را تأیید کند و شرایطی را که معامله را نامناسب می‌کند بپذیرد. خرید ۱۵ هزار دلاری کمتر از ۱٪ از پرتفوی ۲٫۴ میلیون دلاری است و مارکتی همه این مراحل را انجام داد. گزینه الف نادرست است، چون استانداردها رد کردن هر درخواست نامناسب را الزامی نمی‌کنند؛ اعضا باید میان درخواست مشتری و بیانیه سیاست سرمایه‌گذاری توازن برقرار کنند. گزینه ج نادرست است، چون به‌روزرسانی بیانیه سیاست سرمایه‌گذاری وقتی لازم است که درخواست اثر مهمی بر پرتفوی داشته باشد، نه برای هر معامله درخواستی. درس: برای یک معامله کوچک درخواستی مشتری، گفتگو کنید، مستند کنید و تأیید مشتری را بگیرید."
+   },
+   "ref": {
+    "en": "Standard III(C) Suitability, Guidance: Addressing Unsolicited Trading Requests.",
+    "fa": "استاندارد ۳(سی) تناسب، راهنما: رسیدگی به درخواست‌های معامله از سوی مشتری."
+   }
+  },
+  {
+   "id": "E29S2Q3",
+   "set": "E29S2",
+   "k": 3,
+   "std": [
+    "IV(C)"
+   ],
+   "q": {
+    "en": "Did Osei violate any of the Standards in responding to the exception report?",
+    "fa": "آیا اوسی در واکنش به گزارش موارد استثنا هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because he did not promptly assess the extent of the wrongdoing or limit Mehta's activities pending a review.",
+     "fa": "بله، چون میزان تخلف را به سرعت ارزیابی نکرد و تا زمان بررسی، فعالیت‌های مهتا را محدود نکرد."
+    },
+    {
+     "en": "No, because he warned Mehta and reported the matter to the compliance department.",
+     "fa": "خیر، چون به مهتا هشدار داد و موضوع را به واحد انطباق گزارش کرد."
+    },
+    {
+     "en": "No, because Mehta is not a CFA charterholder or candidate and is not bound by the Standards.",
+     "fa": "خیر، چون مهتا دارنده مدرک یا داوطلب سی اف ای نیست و ملزم به رعایت استانداردها نیست."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard IV(C) requires supervisors to make reasonable efforts to ensure that anyone subject to their supervision complies with laws, rules, regulations, and the Code and Standards. The guidance says that once a supervisor learns of a possible violation, the supervisor must promptly initiate an assessment of the extent of the wrongdoing; reporting the misconduct up the chain of command and warning the employee to stop are not enough. Pending the investigation, the supervisor should limit the employee's activities or increase monitoring. Withdrawals made on instructions from someone with no authority over the account are a serious problem, yet Osei only warned Mehta and forwarded the report. B is wrong because a warning plus a report to compliance is exactly what the book calls insufficient. C is wrong because supervisory responsibility covers all employees under a member's control or influence, whether or not they are CFA Institute members or candidates. Lesson: when a supervisor learns of possible misconduct, the supervisor must investigate and contain it, not just pass it on.",
+    "fa": "گزینه الف درست است. استاندارد ۴(سی) سرپرستان را ملزم می‌کند تلاش معقول کنند تا هر کسی که تحت نظارت آنهاست قوانین، مقررات و کد و استانداردها را رعایت کند. راهنما می‌گوید وقتی سرپرست از نقض احتمالی آگاه می‌شود، باید فوراً ارزیابی میزان تخلف را آغاز کند؛ گزارش تخلف به سطوح بالاتر و هشدار به کارمند برای توقف کافی نیست. تا پایان بررسی، سرپرست باید فعالیت‌های کارمند را محدود کند یا نظارت بر او را افزایش دهد. برداشت از حساب بر اساس دستور کسی که هیچ اختیاری بر حساب ندارد مشکلی جدی است، اما اوسی فقط به مهتا هشدار داد و گزارش را ارسال کرد. گزینه ب نادرست است، چون هشدار به همراه گزارش به واحد انطباق دقیقاً همان چیزی است که کتاب ناکافی می‌داند. گزینه ج نادرست است، چون مسئولیت نظارتی شامل همه کارکنانی است که تحت کنترل یا نفوذ عضو هستند، چه عضو مؤسسه سی اف ای یا داوطلب باشند و چه نباشند. درس: وقتی سرپرست از تخلف احتمالی آگاه می‌شود، باید آن را بررسی و مهار کند، نه اینکه فقط آن را به دیگری بسپارد."
+   },
+   "ref": {
+    "en": "Standard IV(C) Responsibilities of Supervisors, Guidance (supervision applies whether or not employees are CFA Institute members or candidates) and System for Supervision (\"Reporting the misconduct up the chain of command and warning the employee to cease the activity are also not enough\"); Level III application case: Lionsgate Limited & Bank of Australia Case 2 (Balmer).",
+    "fa": "استاندارد ۴(سی) مسئولیت‌های سرپرستان، راهنما (نظارت شامل کارکنان می‌شود، چه عضو یا داوطلب مؤسسه سی اف ای باشند و چه نباشند) و نظام نظارت («گزارش تخلف به سطوح بالاتر و هشدار به کارمند برای توقف فعالیت نیز کافی نیست»)؛ پرونده کاربردی سطح ۳: پرونده ۲ لاینزگیت لیمیتد و بانک استرالیا (بالمر)."
+   }
+  },
+  {
+   "id": "E29S2Q4",
+   "set": "E29S2",
+   "k": 4,
+   "std": [
+    "III(E)"
+   ],
+   "q": {
+    "en": "Did Marchetti violate any of the Standards by giving Whitlock's information to the foundation?",
+    "fa": "آیا مارکتی با دادن اطلاعات ویتلاک به بنیاد هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No, because Whitlock's charitable plans concern his estate rather than his investment holdings.",
+     "fa": "خیر، چون برنامه‌های خیریه ویتلاک به ترکه او مربوط است نه به دارایی‌های سرمایه‌گذاری‌اش."
+    },
+    {
+     "en": "No, because she reasonably believed Whitlock would welcome the foundation's approach.",
+     "fa": "خیر، چون به طور معقول باور داشت ویتلاک از تماس بنیاد استقبال خواهد کرد."
+    },
+    {
+     "en": "Yes, because she disclosed confidential client information without Whitlock's permission.",
+     "fa": "بله، چون اطلاعات محرمانه مشتری را بدون اجازه ویتلاک افشا کرد."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard III(E) requires members to keep information about current, former, and prospective clients confidential unless it concerns illegal activities, disclosure is required by law, or the client permits disclosure. None of these exceptions applies. The standard covers information a member receives because of a special ability to conduct part of the client's affairs; Marchetti learned of the planned gift during an estate planning review that the bank provides, so it falls within the relationship. In the book's example, an investment officer who told a charity's fundraiser about a client's planned donation violated III(E) even though her intent was good. A is wrong because confidentiality is not limited to investment holdings; it covers information arising from the part of the client's affairs the member handles. B is wrong because a good motive or a guess about the client's wishes does not replace the client's permission. Lesson: ask the client first; good causes do not justify sharing client information.",
+    "fa": "گزینه ج درست است. استاندارد ۳(ای) اعضا را ملزم می‌کند اطلاعات مشتریان فعلی، سابق و بالقوه را محرمانه نگه دارند، مگر اینکه اطلاعات به فعالیت غیرقانونی مربوط باشد، قانون افشای آن را الزامی کند یا مشتری اجازه افشا بدهد. هیچ‌یک از این استثناها در اینجا صدق نمی‌کند. این استاندارد شامل اطلاعاتی است که عضو به دلیل توانایی ویژه خود در انجام بخشی از امور مشتری دریافت می‌کند؛ مارکتی از هدیه برنامه‌ریزی‌شده در جریان بررسی برنامه‌ریزی املاک که بانک ارائه می‌دهد آگاه شد، پس این اطلاعات در محدوده رابطه حرفه‌ای قرار دارد. در مثال کتاب، مسئول سرمایه‌گذاری‌ای که درباره کمک مالی برنامه‌ریزی‌شده یک مشتری به مسئول جذب کمک یک مؤسسه خیریه خبر داد، با وجود نیت خوب استاندارد ۳(ای) را نقض کرد. گزینه الف نادرست است، چون محرمانگی به دارایی‌های سرمایه‌گذاری محدود نیست و اطلاعات ناشی از بخشی از امور مشتری را که عضو انجام می‌دهد نیز در بر می‌گیرد. گزینه ب نادرست است، چون انگیزه خوب یا حدس درباره خواسته مشتری جایگزین اجازه مشتری نمی‌شود. درس: اول از مشتری اجازه بگیرید؛ هدف خیر، افشای اطلاعات مشتری را توجیه نمی‌کند."
+   },
+   "ref": {
+    "en": "Standard III(E) Preservation of Confidentiality, standard text and Guidance (scope of the confidential relationship); Application Example 2 (Disclosing Confidential Information).",
+    "fa": "استاندارد ۳(ای) حفظ محرمانگی، متن استاندارد و راهنما (محدوده رابطه محرمانه)؛ مثال کاربردی ۲ (افشای اطلاعات محرمانه)."
+   }
+  },
+  {
+   "id": "E29S3Q1",
+   "set": "E29S3",
+   "k": 1,
+   "std": [
+    "III(C)"
+   ],
+   "q": {
+    "en": "Did Okoye violate any of the Standards by buying Norrland Petroleum for the Clean Transition Equity Fund?",
+    "fa": "آیا اوکویه با خرید سهام نورلند پترولیوم برای صندوق سهام گذار پاک هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because the purchase is inconsistent with the fund's stated mandate.",
+     "fa": "بله، چون این خرید با مأموریت اعلام‌شده صندوق ناسازگار است."
+    },
+    {
+     "en": "No, because she documented a reasonable basis for her view that Norrland is undervalued.",
+     "fa": "خیر، چون برای دیدگاه خود مبنی بر کمتر از ارزش بودن قیمت نورلند مبنایی معقول را مستند کرد."
+    },
+    {
+     "en": "Yes, because she did not determine that the new holding was suitable for each of the fund's investors.",
+     "fa": "بله، چون مشخص نکرد که این دارایی جدید برای تک‌تک سرمایه‌گذاران صندوق مناسب است."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard III(C)(2) says that members responsible for managing a portfolio to a specific mandate, strategy, or style must make only investment recommendations or take only investment actions that are consistent with the stated objectives and constraints of the portfolio. The prospectus excludes companies that earn more than 5% of revenue from extracting or refining fossil fuels, and Norrland earns about 70% from oil and gas production. Its wind investments do not change that fact. B is wrong because a well-documented reasonable basis satisfies Standard V(A) but cannot make an excluded security fit the mandate, and the later 8% gain is irrelevant. C is wrong because managers of pooled funds are not responsible for determining whether the fund is suitable for each investor who buys its shares; that duty belongs to advisers with an advisory relationship. The investors' sophistication does not matter either. Lesson: a fund manager's first test is the mandate; an attractive idea outside it is still off limits.",
+    "fa": "گزینه الف درست است. بند ۲ استاندارد ۳(سی) می‌گوید اعضایی که مسئول مدیریت یک پرتفوی بر اساس مأموریت، راهبرد یا سبک مشخص هستند، فقط باید توصیه‌ها یا اقدامات سرمایه‌گذاری‌ای انجام دهند که با اهداف و محدودیت‌های اعلام‌شده پرتفوی سازگار باشد. امیدنامه، شرکت‌هایی را که بیش از ۵٪ درآمدشان از استخراج یا پالایش سوخت‌های فسیلی است کنار گذاشته و نورلند حدود ۷۰٪ درآمدش را از تولید نفت و گاز به دست می‌آورد. سرمایه‌گذاری آن در انرژی بادی این واقعیت را تغییر نمی‌دهد. گزینه ب نادرست است، چون مبنای معقول و مستند، الزامات استاندارد ۵(آ) را برآورده می‌کند اما نمی‌تواند اوراق بهادار کنارگذاشته‌شده را با مأموریت سازگار کند و افزایش ۸٪ بعدی هم بی‌ربط است. گزینه ج نادرست است، چون مدیران صندوق‌های مشترک مسئول تعیین مناسب بودن صندوق برای تک‌تک سرمایه‌گذارانی که سهام آن را می‌خرند نیستند؛ این وظیفه بر عهده مشاورانی است که رابطه مشاوره‌ای با مشتری دارند. حرفه‌ای بودن سرمایه‌گذاران هم اهمیتی ندارد. درس: نخستین آزمون مدیر صندوق مأموریت صندوق است؛ ایده جذابی که خارج از آن باشد همچنان ممنوع است."
+   },
+   "ref": {
+    "en": "Standard III(C) Suitability, standard text III(C)(2); Guidance: Managing to an Index or Mandate; Application Example 4 (Following an Investment Mandate).",
+    "fa": "استاندارد ۳(سی) تناسب، بند ۲ متن استاندارد؛ راهنما: مدیریت بر اساس شاخص یا مأموریت؛ مثال کاربردی ۴ (پیروی از مأموریت سرمایه‌گذاری)."
+   }
+  },
+  {
+   "id": "E29S3Q2",
+   "set": "E29S3",
+   "k": 2,
+   "std": [
+    "IV(B)"
+   ],
+   "q": {
+    "en": "Did Okoye violate any of the Standards by accepting the Thornfield Family Foundation arrangement?",
+    "fa": "آیا اوکویه با پذیرفتن ترتیب پیشنهادی بنیاد خانوادگی تورنفیلد هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because consent given by e-mail is not written consent.",
+     "fa": "بله، چون موافقتی که با ایمیل داده شود موافقت کتبی نیست."
+    },
+    {
+     "en": "Yes, because performance-based payments from a client conflict with duties to other clients and must be refused.",
+     "fa": "بله، چون پرداخت‌های مبتنی بر عملکرد از سوی یک مشتری با وظایف در برابر مشتریان دیگر در تضاد است و باید رد شود."
+    },
+    {
+     "en": "No.",
+     "fa": "خیر."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard IV(B) prohibits accepting compensation that competes with or might reasonably be expected to create a conflict with the employer's interest unless the member obtains written consent from all parties involved. The guidance says written consent includes any communication that can be documented, such as retrievable e-mail. The recommended procedure is an immediate written report to the supervisor and compliance officer giving the nature, approximate amount, and duration of the arrangement, with the details confirmed by the party offering it. Okoye did all of this before accepting, and both Kestrel Bay and the foundation agreed in writing. Contrast the book's example of a manager who took a client's performance-contingent trip without telling his employer, which was a violation. A is wrong because documented e-mail counts as written consent. B is wrong because client bonuses are permitted once disclosed and approved; the employer can then watch for favoritism. Lesson: outside compensation is allowed when the employer knows the terms and consents in writing before acceptance.",
+    "fa": "گزینه ج درست است. استاندارد ۴(بی) پذیرفتن جبران خدمتی را که با منافع کارفرما رقابت کند یا به طور معقول انتظار رود با آن تضاد ایجاد کند ممنوع می‌کند، مگر اینکه عضو از همه طرف‌های درگیر موافقت کتبی بگیرد. راهنما می‌گوید موافقت کتبی شامل هر ارتباطی است که بتوان آن را مستند کرد، مانند ایمیل قابل بازیابی. رویه توصیه‌شده، ارائه فوری گزارش کتبی به سرپرست و مسئول انطباق است که ماهیت، مبلغ تقریبی و مدت ترتیب را بیان کند و جزئیات آن را طرف پیشنهاددهنده تأیید کند. اوکویه همه این کارها را پیش از پذیرفتن انجام داد و هم کسترل بی و هم بنیاد به صورت کتبی موافقت کردند. در مقابل، در مثال کتاب مدیری که سفری مشروط به عملکرد را از مشتری پذیرفت و به کارفرمایش اطلاع نداد، استاندارد را نقض کرد. گزینه الف نادرست است، چون ایمیل مستند، موافقت کتبی به شمار می‌آید. گزینه ب نادرست است، چون پاداش مشتری پس از افشا و تأیید مجاز است و کارفرما می‌تواند مراقب جانبداری باشد. درس: جبران خدمت بیرونی وقتی مجاز است که کارفرما شرایط را بداند و پیش از پذیرش به صورت کتبی موافقت کند."
+   },
+   "ref": {
+    "en": "Standard IV(B) Additional Compensation Arrangements, Guidance (\"Written consent\" includes documented e-mail); Recommended Procedures (written report on nature, approximate amount, and duration, confirmed by the offering party); Application Example 1 (Notification of Client Bonus Compensation) for contrast.",
+    "fa": "استاندارد ۴(بی) ترتیبات جبران خدمت اضافی، راهنما («موافقت کتبی» شامل ایمیل مستند است)؛ رویه‌های توصیه‌شده (گزارش کتبی درباره ماهیت، مبلغ تقریبی و مدت، با تأیید طرف پیشنهاددهنده)؛ مثال کاربردی ۱ (اطلاع‌رسانی درباره پاداش مشتری) برای مقایسه."
+   }
+  },
+  {
+   "id": "E29S3Q3",
+   "set": "E29S3",
+   "k": 3,
+   "std": [
+    "I(C)"
+   ],
+   "q": {
+    "en": "Did Brandt violate any of the Standards with respect to Statement 1 and Statement 2?",
+    "fa": "آیا برانت در مورد جمله ۱ و جمله ۲ هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "Statement 1: No; Statement 2: No",
+     "fa": "جمله ۱: خیر؛ جمله ۲: خیر"
+    },
+    {
+     "en": "Statement 1: No; Statement 2: Yes",
+     "fa": "جمله ۱: خیر؛ جمله ۲: بله"
+    },
+    {
+     "en": "Statement 1: Yes; Statement 2: No",
+     "fa": "جمله ۱: بله؛ جمله ۲: خیر"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard I(C) prohibits knowingly making misrepresentations, and the guidance says members must not guarantee a specific return or the preservation of capital on volatile investments. However, the standard does not prohibit giving clients information on products that have guarantees built into their structure. Statement 1 accurately describes the note's contractual repayment of principal at maturity and even notes that it depends on Albrecht Bank's ability to pay, so it is factual. Statement 2 promises at least 9% a year based only on the past return of a volatile index, even though the note pays only 60% of any index gain and nothing if the index falls. That is a guaranteed return presented as fact. A is wrong because Statement 2 misrepresents the expected outcome. C is wrong because Statement 1 reflects the product's actual terms. Lesson: you may explain a structural guarantee accurately, but you may never turn past performance into a promised return.",
+    "fa": "گزینه ب درست است. استاندارد ۱(سی) ارائه نادرست آگاهانه را ممنوع می‌کند و راهنمای آن می‌گوید اعضا نباید برای سرمایه‌گذاری‌های پرنوسان بازده مشخص یا حفظ سرمایه را تضمین کنند. با این حال، این استاندارد ارائه اطلاعات درباره محصولاتی را که تضمین در ساختار خودشان وجود دارد ممنوع نمی‌کند. جمله ۱ بازپرداخت قراردادی اصل سرمایه در سررسید را به درستی توصیف می‌کند و حتی یادآوری می‌کند که این بازپرداخت به توان پرداخت بانک آلبرشت بستگی دارد، پس جمله‌ای واقعی است. جمله ۲ فقط بر اساس بازده گذشته یک شاخص پرنوسان، دست‌کم ۹٪ بازده سالانه را وعده می‌دهد، در حالی که اوراق فقط ۶۰٪ از افزایش شاخص را می‌پردازد و اگر شاخص کاهش یابد هیچ بازدهی ندارد. این یعنی تضمین بازده و بیان آن به عنوان واقعیت. گزینه الف نادرست است، چون جمله ۲ نتیجه مورد انتظار را نادرست جلوه می‌دهد. گزینه ج نادرست است، چون جمله ۱ شرایط واقعی محصول را بیان می‌کند. درس: می‌توانید تضمین ساختاری را دقیق توضیح دهید، اما هرگز نباید عملکرد گذشته را به بازده وعده‌داده‌شده تبدیل کنید."
+   },
+   "ref": {
+    "en": "Standard I(C) Misrepresentation, Guidance (no guarantees of specific returns on volatile investments; \"does not prohibit ... products that have guarantees built into the structure of the products themselves\"); Learning Module 2 practice problem 5 (statements about a US Treasury bond fund).",
+    "fa": "استاندارد ۱(سی) ارائه نادرست، راهنما (ممنوعیت تضمین بازده مشخص برای سرمایه‌گذاری‌های پرنوسان؛ این استاندارد «ارائه اطلاعات درباره محصولاتی را که تضمین در ساختار خودشان وجود دارد ممنوع نمی‌کند»)؛ مسئله تمرینی ۵ ماژول یادگیری ۲ (جمله‌هایی درباره یک صندوق اوراق خزانه آمریکا)."
+   }
+  },
+  {
+   "id": "E29S3Q4",
+   "set": "E29S3",
+   "k": 4,
+   "std": [
+    "VI(C)"
+   ],
+   "q": {
+    "en": "Which of Brandt's approaches to disclosing the planner payments is most consistent with the Standards?",
+    "fa": "کدام‌یک از روش‌های برانت برای افشای پرداخت به برنامه‌ریزان بیشترین سازگاری را با استانداردها دارد؟"
+   },
+   "o": [
+    {
+     "en": "Approach 1",
+     "fa": "روش ۱"
+    },
+    {
+     "en": "Approach 2",
+     "fa": "روش ۲"
+    },
+    {
+     "en": "Approach 3",
+     "fa": "روش ۳"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard VI(C) requires members to disclose to their employer, clients, and prospective clients, as appropriate, any compensation received from or paid to others for the recommendation of products or services. The guidance says the duty applies when members pay others who refer clients to them, and that disclosure must be made before entry into any formal agreement for services. It must describe the nature of the consideration, such as flat fee or percentage, one-time or continuing, together with the estimated dollar value. Approach 2 meets every element: it is written, made before signing, and states the ongoing 0.20% basis and an estimated dollar amount. Approach 1 is wrong because it comes after the agreement and omits the nature and value of the payment. Approach 3 is wrong because the standard covers fees paid to others, and disclosure lets the client judge whether the planner's recommendation was impartial, whether or not the fee rises. Lesson: referral payments, in either direction, must be disclosed in detail before the client commits.",
+    "fa": "گزینه ب درست است. استاندارد ۶(سی) اعضا را ملزم می‌کند هر جبران خدمت، مابه‌ازا یا منفعتی را که برای توصیه محصولات یا خدمات از دیگران دریافت می‌کنند یا به دیگران می‌پردازند، حسب مورد به کارفرما، مشتریان و مشتریان بالقوه افشا کنند. راهنما می‌گوید این وظیفه وقتی هم که عضو به معرفی‌کنندگان مشتری پول می‌پردازد برقرار است و افشا باید پیش از انعقاد هر قرارداد رسمی خدمات انجام شود. افشا باید ماهیت مابه‌ازا، مثلاً مبلغ ثابت یا درصدی، یک‌باره یا مستمر، را همراه با برآورد ارزش دلاری آن بیان کند. روش ۲ همه این عناصر را دارد: کتبی است، پیش از امضا انجام می‌شود و مبنای مستمر ۰٫۲۰٪ و برآورد مبلغ دلاری را بیان می‌کند. روش ۱ نادرست است، چون پس از قرارداد انجام می‌شود و ماهیت و ارزش پرداخت را بیان نمی‌کند. روش ۳ نادرست است، چون استاندارد شامل پرداخت به دیگران هم می‌شود و افشا به مشتری امکان می‌دهد بی‌طرفی توصیه برنامه‌ریز را ارزیابی کند، چه کارمزد افزایش یابد و چه نیابد. درس: پرداخت‌های معرفی، در هر دو جهت، باید پیش از تعهد مشتری و با جزئیات افشا شود."
+   },
+   "ref": {
+    "en": "Standard VI(C) Referral Fees, standard text (\"received from or paid to others\") and Guidance (disclosure before entry into any formal agreement, including the nature of the consideration and its estimated dollar value).",
+    "fa": "استاندارد ۶(سی) کارمزد معرفی، متن استاندارد («دریافت‌شده از دیگران یا پرداخت‌شده به دیگران») و راهنما (افشا پیش از انعقاد هر قرارداد رسمی، شامل ماهیت مابه‌ازا و برآورد ارزش دلاری آن)."
+   }
+  },
+  {
+   "id": "E30S1Q1",
+   "set": "E30S1",
+   "k": 1,
+   "std": [
+    "VI(A)"
+   ],
+   "q": {
+    "en": "Did Varga violate any of the Standards in the monthly commentary on the Corvex bonds?",
+    "fa": "آیا وارگا در گزارش ماهانه درباره اوراق کورکس هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No, because the underwriting relationship was disclosed in Corvex's offering memorandum.",
+     "fa": "خیر، چون رابطه پذیره‌نویسی در یادداشت عرضه کورکس افشا شده بود."
+    },
+    {
+     "en": "Yes, because he did not disclose the affiliate's underwriting role prominently and in plain language.",
+     "fa": "بله، چون نقش پذیره‌نویسی شرکت وابسته را به صورت برجسته و به زبان ساده افشا نکرد."
+    },
+    {
+     "en": "Yes, because the Standards prohibit a fund from buying bonds underwritten by an affiliated firm.",
+     "fa": "بله، چون استانداردها خرید اوراقی را که یک شرکت وابسته پذیره‌نویسی کرده است برای صندوق ممنوع می‌کنند."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard VI(A) requires members to avoid or make full and fair disclosure of matters that could reasonably be expected to impair their independence and objectivity, and disclosures must be prominent, in plain language, and effective. The guidance lists investment banking and underwriting relationships between an issuer and the member's firm among the most obvious conflicts, which must always be avoided or disclosed. Varga promoted Corvex as \"our top new idea\" while a sister company had earned a large fee bringing the issue to market, and shareholders reading his commentary were not told. A is wrong because, as the Castle Biotechnology case explains, disclosure in an offering document is necessary but not sufficient, since it may not be prominent or effective; page 212 of a memorandum is neither. C is wrong because the Standards do not ban such purchases; they require avoidance or clear disclosure. The fair pricing of the bonds does not remove the conflict. Lesson: when your firm's affiliate profits from a deal you promote, say so plainly where readers will see it.",
+    "fa": "گزینه ب درست است. استاندارد ۶(آ) اعضا را ملزم می‌کند از موضوعاتی که به طور معقول ممکن است استقلال و بی‌طرفی آنها را مخدوش کند اجتناب کنند یا آنها را کامل و منصفانه افشا کنند و افشا باید برجسته، به زبان ساده و مؤثر باشد. راهنما روابط بانکداری سرمایه‌گذاری و پذیره‌نویسی میان ناشر و شرکت عضو را از آشکارترین تضادهای منافع می‌داند که همیشه باید از آنها اجتناب یا افشا شوند. وارگا کورکس را «بهترین ایده جدید ما» معرفی کرد، در حالی که یک شرکت خواهر برای عرضه این اوراق کارمزد بزرگی گرفته بود و سهامدارانی که گزارش او را می‌خواندند از این موضوع آگاه نشدند. گزینه الف نادرست است، چون همان‌طور که پرونده کسل بیوتکنولوژی توضیح می‌دهد، افشا در سند عرضه لازم است اما کافی نیست، زیرا ممکن است برجسته یا مؤثر نباشد؛ صفحه ۲۱۲ یک یادداشت عرضه هیچ‌یک از این دو نیست. گزینه ج نادرست است، چون استانداردها چنین خریدی را ممنوع نمی‌کنند، بلکه اجتناب یا افشای روشن را الزامی می‌دانند. قیمت‌گذاری منصفانه اوراق تضاد منافع را از بین نمی‌برد. درس: وقتی شرکت وابسته شما از معامله‌ای که تبلیغ می‌کنید سود می‌برد، آن را به روشنی و در جایی که خوانندگان می‌بینند بگویید."
+   },
+   "ref": {
+    "en": "Standard VI(A) Avoid or Disclose Conflicts, Guidance: Disclosure of Conflicts to Clients (underwriting relationships \"must always be avoided or disclosed\"); Level III application case: Castle Biotechnology Case (David Plume), question on not disclosing that Global is owned by Castle (prospectus disclosure \"necessary but not sufficient\").",
+    "fa": "استاندارد ۶(آ) اجتناب از تضاد منافع یا افشای آن، راهنما: افشای تضاد منافع به مشتریان (روابط پذیره‌نویسی «همیشه باید اجتناب یا افشا شوند»)؛ پرونده کاربردی سطح ۳: پرونده کسل بیوتکنولوژی (دیوید پلام)، پرسش مربوط به افشا نکردن مالکیت کسل بر گلوبال (افشا در امیدنامه «لازم است اما کافی نیست»)."
+   }
+  },
+  {
+   "id": "E30S1Q2",
+   "set": "E30S1",
+   "k": 2,
+   "std": [
+    "III(C)"
+   ],
+   "q": {
+    "en": "Did Varga violate any of the Standards by increasing the fund's exposure to bonds rated CCC+ or lower?",
+    "fa": "آیا وارگا با افزایش سهم اوراق با رتبه سی سی سی مثبت یا پایین‌تر در صندوق هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because he took investment actions inconsistent with the fund's stated constraints.",
+     "fa": "بله، چون اقدامات سرمایه‌گذاری‌ای انجام داد که با محدودیت‌های اعلام‌شده صندوق ناسازگار بود."
+    },
+    {
+     "en": "No, because he disclosed the change in the next quarterly letter and intends to reverse it.",
+     "fa": "خیر، چون این تغییر را در نامه فصلی بعدی افشا کرد و قصد دارد آن را برگرداند."
+    },
+    {
+     "en": "Yes, because he did not determine whether the higher risk was suitable for each of the fund's shareholders.",
+     "fa": "بله، چون مشخص نکرد که ریسک بالاتر برای تک‌تک سهامداران صندوق مناسب است یا نه."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard III(C)(2) requires members managing a portfolio to a specific mandate to take only investment actions consistent with the portfolio's stated objectives and constraints. The prospectus caps bonds rated CCC+ or lower at 15% of assets, and Varga deliberately raised them to 23%. In the book's Level III item set on a pension fund's external manager, the solution states that under no circumstances should a manager take investment action inconsistent with the client's investment policy, and telling clients afterward does not cure the breach. B is wrong for exactly that reason: disclosure after the fact, good intentions, and strong returns do not make an action outside the mandate acceptable. C is wrong because the manager of a pooled fund is not responsible for determining whether the fund suits each shareholder; his duty is to the fund's mandate. Lesson: a stated limit is a hard limit; if a manager believes it should change, the fund must change it properly before the manager acts.",
+    "fa": "گزینه الف درست است. بند ۲ استاندارد ۳(سی) اعضایی را که پرتفوی را بر اساس مأموریتی مشخص مدیریت می‌کنند ملزم می‌کند فقط اقداماتی انجام دهند که با اهداف و محدودیت‌های اعلام‌شده پرتفوی سازگار باشد. امیدنامه سهم اوراق با رتبه سی سی سی مثبت یا پایین‌تر را به ۱۵٪ دارایی‌ها محدود کرده و وارگا آگاهانه آن را به ۲۳٪ رساند. در مجموعه پرسش‌های سطح ۳ کتاب درباره مدیر بیرونی یک صندوق بازنشستگی، راه‌حل می‌گوید مدیر تحت هیچ شرایطی نباید اقدام سرمایه‌گذاری ناسازگار با سیاست سرمایه‌گذاری مشتری انجام دهد و اطلاع دادن بعدی به مشتری این تخلف را جبران نمی‌کند. گزینه ب دقیقاً به همین دلیل نادرست است: افشای پس از وقوع، نیت خوب و بازده قوی، اقدام خارج از مأموریت را قابل قبول نمی‌کند. گزینه ج نادرست است، چون مدیر صندوق مشترک مسئول تعیین مناسب بودن صندوق برای تک‌تک سهامداران نیست؛ وظیفه او پایبندی به مأموریت صندوق است. درس: سقف اعلام‌شده، سقفی قطعی است؛ اگر مدیر باور دارد باید تغییر کند، صندوق باید پیش از اقدام مدیر آن را به شیوه درست تغییر دهد."
+   },
+   "ref": {
+    "en": "Standard III(C) Suitability, standard text III(C)(2); Guidance: Managing to an Index or Mandate; Level III item-set practice problem 2 solution (Locke and Black: \"Under no circumstances should a manager take investment action that is inconsistent with the client's IPS\").",
+    "fa": "استاندارد ۳(سی) تناسب، بند ۲ متن استاندارد؛ راهنما: مدیریت بر اساس شاخص یا مأموریت؛ راه‌حل مسئله تمرینی ۲ مجموعه پرسش‌های سطح ۳ (لاک و بلک: «مدیر تحت هیچ شرایطی نباید اقدام سرمایه‌گذاری ناسازگار با بیانیه سیاست سرمایه‌گذاری مشتری انجام دهد»)."
+   }
+  },
+  {
+   "id": "E30S1Q3",
+   "set": "E30S1",
+   "k": 3,
+   "std": [
+    "I(D)"
+   ],
+   "q": {
+    "en": "Did Fitzgerald violate any of the Standards when he submitted the edited hotel invoice?",
+    "fa": "آیا فیتزجرالد با ارائه صورت‌حساب ویرایش‌شده هتل هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No, because the amount involved was small and unrelated to client accounts.",
+     "fa": "خیر، چون مبلغ ناچیز بود و به حساب‌های مشتریان ربطی نداشت."
+    },
+    {
+     "en": "No, because expense reimbursement is a personal matter rather than an investment activity.",
+     "fa": "خیر، چون بازپرداخت هزینه یک موضوع شخصی است نه یک فعالیت سرمایه‌گذاری."
+    },
+    {
+     "en": "Yes, because he engaged in professional conduct involving dishonesty and deceit.",
+     "fa": "بله، چون رفتاری حرفه‌ای همراه با عدم صداقت و فریب انجام داد."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard I(D) prohibits members and candidates from engaging in any professional conduct involving dishonesty, fraud, or deceit, or committing any act that reflects adversely on their professional reputation, integrity, or competence. Altering an invoice to obtain reimbursement for personal vacation nights is a deliberate deception of his employer in the course of his job. The book's example of an employee who submitted altered bills to his firm's health plan is treated as intentional fraud and deceit in the workplace, a clear I(D) violation. A is wrong because the standard has no size threshold; a $640 lie reflects on integrity just as a larger one does, and the misconduct need not involve clients. B is wrong because claiming expenses from an employer is part of professional conduct, and in any case dishonesty that reflects on professional integrity is covered. As a candidate, Fitzgerald is fully bound by the Standards. Lesson: small, private dishonesty at work is still misconduct; integrity is not measured in dollars.",
+    "fa": "گزینه ج درست است. استاندارد ۱(دی) اعضا و داوطلبان را از هر رفتار حرفه‌ای همراه با عدم صداقت، تقلب یا فریب و از هر اقدامی که بر اعتبار، درستکاری یا صلاحیت حرفه‌ای آنها اثر منفی بگذارد منع می‌کند. ویرایش صورت‌حساب برای گرفتن هزینه شب‌های تعطیلات شخصی، فریب عمدی کارفرما در جریان کار است. در مثال کتاب، کارمندی که صورت‌حساب‌های دستکاری‌شده را به طرح درمانی شرکت ارائه داد، مرتکب تقلب و فریب عمدی در محل کار شد که نقض آشکار استاندارد ۱(دی) است. گزینه الف نادرست است، چون این استاندارد حد مبلغی ندارد؛ دروغی ۶۴۰ دلاری به همان اندازه دروغی بزرگ‌تر بر درستکاری اثر می‌گذارد و لازم نیست تخلف به مشتریان مربوط باشد. گزینه ب نادرست است، چون درخواست هزینه از کارفرما بخشی از رفتار حرفه‌ای است و به هر حال عدم صداقتی که بر درستکاری حرفه‌ای اثر بگذارد مشمول استاندارد است. فیتزجرالد به عنوان داوطلب کاملاً ملزم به رعایت استانداردهاست. درس: عدم صداقت کوچک و پنهان در محل کار همچنان رفتار نادرست است؛ درستکاری با دلار سنجیده نمی‌شود."
+   },
+   "ref": {
+    "en": "Standard I(D) Misconduct, standard text and Guidance; Application Example 2 (Fraud and Deceit).",
+    "fa": "استاندارد ۱(دی) رفتار نادرست، متن استاندارد و راهنما؛ مثال کاربردی ۲ (تقلب و فریب)."
+   }
+  },
+  {
+   "id": "E30S1Q4",
+   "set": "E30S1",
+   "k": 4,
+   "std": [
+    "VI(B)",
+    "II(A)",
+    "III(C)"
+   ],
+   "q": {
+    "en": "When buying the Pinecrest Media notes for his personal account, Fitzgerald least likely violated the Standard relating to:",
+    "fa": "فیتزجرالد هنگام خرید اوراق پاین‌کرست مدیا برای حساب شخصی خود، به احتمال کمتر کدام استاندارد را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "priority of transactions.",
+     "fa": "اولویت معاملات."
+    },
+    {
+     "en": "material nonpublic information.",
+     "fa": "اطلاعات مهم غیرعمومی."
+    },
+    {
+     "en": "suitability.",
+     "fa": "تناسب."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Suitability under Standard III(C) concerns recommendations and actions for clients in an advisory relationship or for a mandated portfolio, not a member's own purchase, so it is the least likely violation. Standard VI(B) requires client and employer transactions to take priority over transactions in which the member is a beneficial owner. Fitzgerald bought the same notes knowing that a $40 million fund order was about to be placed; this is front-running, and the Sovereign Investment Corporation case finds a VI(B) violation even when the personal trade does not disadvantage the client in any way, so the lack of price impact is no defense. He also skipped required preclearance. Standard II(A) is also likely violated: orders for large trades before they are executed are listed as material information, and in the book's Level III item set, a manager who bought for himself knowing a large client block was coming may have possessed material nonpublic information. Lesson: when you know a client order is coming, your own trade waits until the client's is done.",
+    "fa": "گزینه ج درست است. تناسب در استاندارد ۳(سی) به توصیه‌ها و اقدامات برای مشتریان در رابطه مشاوره‌ای یا برای پرتفوی دارای مأموریت مربوط است، نه به خرید شخصی عضو، پس کمترین احتمال نقض را دارد. استاندارد ۶(بی) الزام می‌کند معاملات مشتریان و کارفرما بر معاملاتی که عضو مالک ذی‌نفع آنهاست اولویت داشته باشند. فیتزجرالد با آگاهی از اینکه سفارش ۴۰ میلیون دلاری صندوق در شرف اجراست همین اوراق را خرید؛ این پیش‌دستی در معامله است و پرونده شرکت سرمایه‌گذاری حاکمیتی نشان می‌دهد حتی وقتی معامله شخصی هیچ زیانی به مشتری نمی‌رساند استاندارد ۶(بی) نقض می‌شود، پس نبود اثر قیمتی دفاع محسوب نمی‌شود. او مجوز پیشاپیش الزامی را هم نگرفت. استاندارد ۲(آ) نیز احتمالاً نقض شده است: سفارش‌های بزرگ پیش از اجرا در فهرست اطلاعات مهم آمده‌اند و در مجموعه پرسش‌های سطح ۳ کتاب، مدیری که با آگاهی از سفارش بلوکی بزرگ مشتریان برای خودش خرید، ممکن است اطلاعات مهم غیرعمومی در اختیار داشته است. درس: وقتی می‌دانید سفارش مشتری در راه است، معامله شما باید تا پایان معامله مشتری صبر کند."
+   },
+   "ref": {
+    "en": "Standard VI(B) Priority of Transactions, Guidance: Impact on All Accounts with Beneficial Ownership; Level III application case: Sovereign Investment Corporation (Corrales's personal investment, front-running); Level III item-set practice problem 40 solution (Riser least likely violated III(C); may have violated II(A) and VI(B)); Standard II(A) Guidance list (\"orders for large trades before they are executed\").",
+    "fa": "استاندارد ۶(بی) اولویت معاملات، راهنما: اثر بر همه حساب‌های دارای مالکیت ذی‌نفعانه؛ پرونده کاربردی سطح ۳: شرکت سرمایه‌گذاری حاکمیتی (سرمایه‌گذاری شخصی کورالس، پیش‌دستی در معامله)؛ راه‌حل مسئله تمرینی ۴۰ مجموعه پرسش‌های سطح ۳ (رایزر به احتمال کمتر استاندارد ۳(سی) را نقض کرد و ممکن است ۲(آ) و ۶(بی) را نقض کرده باشد)؛ فهرست راهنمای استاندارد ۲(آ) («سفارش‌های معاملات بزرگ پیش از اجرا»)."
+   }
+  },
+  {
+   "id": "E30S2Q1",
+   "set": "E30S2",
+   "k": 1,
+   "std": [
+    "III(A)"
+   ],
+   "q": {
+    "en": "In deciding how to respond to Adeyemi's request, Watanabe owes his primary duty of loyalty to:",
+    "fa": "واتانابه در تصمیم‌گیری درباره پاسخ به درخواست آدیمی، وظیفه اصلی وفاداری خود را در برابر چه کسی دارد؟"
+   },
+   "o": [
+    {
+     "en": "the city, as the plan sponsor.",
+     "fa": "شهر، به عنوان حامی طرح."
+    },
+    {
+     "en": "the board of trustees that hired Harborline.",
+     "fa": "هیئت امنایی که هاربرلاین را استخدام کرد."
+    },
+    {
+     "en": "the plan's participants and beneficiaries.",
+     "fa": "مشارکت‌کنندگان و ذی‌نفعان طرح."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard III(A) requires members to act for the benefit of their clients, and the guidance says the first step is identifying who the client is. When a manager runs a pension plan's portfolio, the client is not the person or entity that hired the manager but the plan's beneficiaries; the duty of loyalty is owed to the ultimate beneficiaries. Adeyemi's request would take the hedge ratio below the 70% minimum in the investment policy statement and use plan assets to lower the city's borrowing costs, while the hint of a new $300 million mandate appeals to Harborline's own interests. A is wrong because the sponsor's financial interests can conflict with those of the participants, as in the book's example of a manager who bought sponsor stock to please management. B is wrong because the trustees hire and oversee Harborline but are not the ultimate clients. Lesson: in pension mandates, loyalty runs to the people whose retirement benefits the assets secure, not to whoever makes the phone call.",
+    "fa": "گزینه ج درست است. استاندارد ۳(آ) اعضا را ملزم می‌کند به نفع مشتریان خود عمل کنند و راهنما می‌گوید نخستین گام، شناسایی مشتری است. وقتی مدیری پرتفوی یک طرح بازنشستگی را اداره می‌کند، مشتری شخص یا نهادی نیست که مدیر را استخدام کرده، بلکه ذی‌نفعان طرح هستند؛ وظیفه وفاداری در برابر ذی‌نفعان نهایی است. درخواست آدیمی نسبت پوشش را به کمتر از حداقل ۷۰٪ تعیین‌شده در بیانیه سیاست سرمایه‌گذاری می‌رساند و از دارایی‌های طرح برای کاهش هزینه استقراض شهر استفاده می‌کند، در حالی که اشاره به مأموریت جدید ۳۰۰ میلیون دلاری، منافع خود هاربرلاین را تحریک می‌کند. گزینه الف نادرست است، چون منافع مالی حامی طرح می‌تواند با منافع مشارکت‌کنندگان در تضاد باشد، مانند مثال کتاب درباره مدیری که برای راضی کردن مدیریت، سهام شرکت حامی را خرید. گزینه ب نادرست است، چون هیئت امنا هاربرلاین را استخدام می‌کند و بر آن نظارت دارد اما مشتری نهایی نیست. درس: در مأموریت‌های بازنشستگی، وفاداری به کسانی تعلق دارد که مزایای بازنشستگی‌شان با این دارایی‌ها تأمین می‌شود، نه به کسی که تماس می‌گیرد."
+   },
+   "ref": {
+    "en": "Standard III(A) Loyalty, Prudence, and Care, Guidance: Identifying the Actual Investment Client (\"The duty of loyalty is owed to the ultimate beneficiaries\"); Application Example 1 (Identifying the Client: Plan Participants); Learning Module 2 practice problem 13.",
+    "fa": "استاندارد ۳(آ) وفاداری، احتیاط و مراقبت، راهنما: شناسایی مشتری واقعی سرمایه‌گذاری («وظیفه وفاداری در برابر ذی‌نفعان نهایی است»)؛ مثال کاربردی ۱ (شناسایی مشتری: مشارکت‌کنندگان طرح)؛ مسئله تمرینی ۱۳ ماژول یادگیری ۲."
+   }
+  },
+  {
+   "id": "E30S2Q2",
+   "set": "E30S2",
+   "k": 2,
+   "std": [
+    "I(B)"
+   ],
+   "q": {
+    "en": "Watanabe's most appropriate course of action regarding Castellan Bank's invitation is to:",
+    "fa": "مناسب‌ترین اقدام واتانابه درباره دعوت بانک کستلان کدام است؟"
+   },
+   "o": [
+    {
+     "en": "accept the full invitation and disclose it to Northgate's board of trustees.",
+     "fa": "کل دعوت را بپذیرد و آن را به هیئت امنای نورث‌گیت افشا کند."
+    },
+    {
+     "en": "attend the roundtable only if Harborline pays for the airfare and hotel, and decline the ski excursion.",
+     "fa": "فقط در صورتی در میزگرد شرکت کند که هاربرلاین هزینه بلیت هواپیما و هتل را بپردازد و برنامه اسکی را رد کند."
+    },
+    {
+     "en": "accept the full invitation, because the sessions are relevant to his work.",
+     "fa": "کل دعوت را بپذیرد، چون جلسات به کار او مربوط است."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard I(B) prohibits accepting any gift, benefit, or consideration that reasonably could be expected to compromise independence and objectivity. Castellan earns business from Harborline's swap trades, and Watanabe helps decide which dealers receive that business. The guidance says best practice is always to use commercial transportation at the member's or firm's expense rather than accept paid travel from an outside company, and members must review the merits of each sponsored event individually. In the book's practice problem on a conference keynote speaker, extras such as an exclusive golf outing are treated as inducements; if the member wants them, he or his firm should pay. Attending the useful sessions at Harborline's expense and declining the ski trip keeps both actual and perceived independence. A is wrong because disclosure does not cure accepting lavish travel from a counterparty seeking business. C is wrong because relevant content does not justify business-class flights, a luxury resort, and a private ski excursion. Lesson: best practice is for your own firm to pay for travel and lodging, and lavish extras from a counterparty that wants your business should always be declined.",
+    "fa": "گزینه ب درست است. استاندارد ۱(بی) پذیرفتن هر هدیه، منفعت یا مابه‌ازایی را که به طور معقول انتظار رود استقلال و بی‌طرفی را مخدوش کند ممنوع می‌کند. کستلان از معاملات سوآپ هاربرلاین درآمد کسب می‌کند و واتانابه در تصمیم‌گیری درباره اینکه کدام معامله‌گران این کسب‌وکار را دریافت کنند نقش دارد. راهنما می‌گوید بهترین رویه این است که عضو همیشه از حمل‌ونقل تجاری با هزینه خود یا شرکتش استفاده کند و سفر پرداخت‌شده از سوی شرکت بیرونی را نپذیرد و اعضا باید هر رویداد حمایت‌شده را جداگانه ارزیابی کنند. در مسئله تمرینی کتاب درباره سخنران اصلی یک همایش، امتیازات اضافه مانند یک برنامه گلف اختصاصی، انگیزه‌ای برای جلب نظر تلقی می‌شود؛ اگر عضو آنها را می‌خواهد، خودش یا شرکتش باید هزینه را بپردازد. شرکت در جلسات مفید با هزینه هاربرلاین و رد برنامه اسکی، استقلال واقعی و ظاهری را حفظ می‌کند. گزینه الف نادرست است، چون افشا، پذیرفتن سفر مجلل از طرف معامله‌ای که به دنبال کسب‌وکار است را جبران نمی‌کند. گزینه ج نادرست است، چون مرتبط بودن محتوا، پرواز کلاس تجاری، تفرجگاه مجلل و برنامه اسکی خصوصی را توجیه نمی‌کند. درس: بهترین رویه این است که شرکت خودتان هزینه سفر و اقامت را بپردازد و امتیازات اضافه و مجلل از سوی طرف معامله‌ای که به دنبال کسب‌وکار شماست همیشه باید رد شود."
+   },
+   "ref": {
+    "en": "Standard I(B) Independence and Objectivity, Guidance: Fund Manager and Custodial Relationships and Travel Funding (best practice to \"always use commercial transportation at their expense or at the expense of their firm\"); Recommended Procedures: Restrict special cost arrangements; Learning Module 2 practice problem 4 (keynote speaker offered travel, staff registrations, and golf).",
+    "fa": "استاندارد ۱(بی) استقلال و بی‌طرفی، راهنما: روابط با مدیران صندوق و امین‌ها و تأمین هزینه سفر (بهترین رویه «همیشه استفاده از حمل‌ونقل تجاری با هزینه خود یا شرکت» است)؛ رویه‌های توصیه‌شده: محدود کردن ترتیبات هزینه ویژه؛ مسئله تمرینی ۴ ماژول یادگیری ۲ (سخنران اصلی که سفر، ثبت‌نام همکاران و گلف به او پیشنهاد شد)."
+   }
+  },
+  {
+   "id": "E30S2Q3",
+   "set": "E30S2",
+   "k": 3,
+   "std": [
+    "IV(C)"
+   ],
+   "q": {
+    "en": "Did Moreau violate any of the Standards with respect to the falsified reconciliation sign-offs?",
+    "fa": "آیا مورو در ارتباط با تأییدیه‌های جعلی تطبیق هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No.",
+     "fa": "خیر."
+    },
+    {
+     "en": "Yes, because she was not permitted to delegate collateral reconciliation to Hale.",
+     "fa": "بله، چون اجازه نداشت تطبیق وثیقه را به هیل واگذار کند."
+    },
+    {
+     "en": "Yes, because a violation occurred among employees under her authority.",
+     "fa": "بله، چون در میان کارکنان تحت اختیار او تخلفی رخ داد."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard IV(C) requires reasonable efforts to ensure that anyone under a member's supervision complies with laws, rules, and the Standards. The guidance allows supervisors of many employees to delegate supervisory duties, provided they instruct the delegates on methods to prevent and detect violations. Moreau gave Hale written instructions, required same-day escalation, reviewed monthly exception logs, and tested samples each quarter. The guidance states that a supervisor who has adopted reasonable procedures and taken steps to institute an effective compliance program may not be in violation for failing to detect violations that occur despite these efforts. A deliberate forgery designed to defeat the checks is such a case. Once she learned of it, Moreau promptly investigated, restricted the clerk, and asked for a procedure review, as the guidance requires. B is wrong because delegation is expressly permitted. C is wrong because IV(C) is a reasonable-efforts standard, not strict liability for every violation by subordinates. Lesson: good supervision is judged by the system and the response, not by whether anyone ever breaks the rules.",
+    "fa": "گزینه الف درست است. استاندارد ۴(سی) تلاش معقول را الزامی می‌کند تا هر کسی که تحت نظارت عضو است قوانین، مقررات و استانداردها را رعایت کند. راهنما به سرپرستانی که بر کارکنان زیادی نظارت دارند اجازه می‌دهد وظایف نظارتی را واگذار کنند، به شرط آنکه به افراد جانشین درباره روش‌های پیشگیری و کشف تخلف آموزش دهند. مورو به هیل دستورالعمل کتبی داد، گزارش در همان روز را الزامی کرد، گزارش‌های ماهانه موارد استثنا را بررسی کرد و هر فصل نمونه‌ها را آزمون کرد. راهنما می‌گوید سرپرستی که رویه‌های معقول را پذیرفته و برای ایجاد برنامه انطباق مؤثر اقدام کرده است، اگر تخلفی با وجود این تلاش‌ها کشف نشود ممکن است ناقض استاندارد نباشد. جعل عمدی برای دور زدن کنترل‌ها نمونه چنین وضعیتی است. مورو به محض آگاهی، همان‌طور که راهنما الزام می‌کند، فوراً تحقیق کرد، کارمند را محدود کرد و بازبینی رویه‌ها را خواست. گزینه ب نادرست است، چون واگذاری صراحتاً مجاز است. گزینه ج نادرست است، چون استاندارد ۴(سی) بر تلاش معقول استوار است، نه مسئولیت مطلق در برابر هر تخلف زیردستان. درس: نظارت خوب با نظام کنترل و واکنش به تخلف سنجیده می‌شود، نه با اینکه هرگز کسی قاعده‌ای را نشکند."
+   },
+   "ref": {
+    "en": "Standard IV(C) Responsibilities of Supervisors, Guidance (delegation of supervisory duties with instruction on preventing and detecting violations); System for Supervision (prompt assessment and limits pending investigation); Supervision Includes Detection (\"may not be in violation of Standard IV(C) if he or she does not detect violations that occur despite these efforts\").",
+    "fa": "استاندارد ۴(سی) مسئولیت‌های سرپرستان، راهنما (واگذاری وظایف نظارتی همراه با آموزش درباره پیشگیری و کشف تخلف)؛ نظام نظارت (ارزیابی فوری و محدودیت تا پایان تحقیق)؛ نظارت شامل کشف تخلف است (سرپرست «اگر تخلفاتی را که با وجود این تلاش‌ها رخ می‌دهد کشف نکند، ممکن است ناقض استاندارد ۴(سی) نباشد»)."
+   }
+  },
+  {
+   "id": "E30S2Q4",
+   "set": "E30S2",
+   "k": 4,
+   "std": [
+    "IV(B)"
+   ],
+   "q": {
+    "en": "Did Watanabe violate any of the Standards by accepting the Westbrook investment committee seat?",
+    "fa": "آیا واتانابه با پذیرفتن عضویت در کمیته سرمایه‌گذاری وست‌بروک هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No, because his supervisor approved the arrangement before he accepted.",
+     "fa": "خیر، چون سرپرستش پیش از پذیرش، این ترتیب را تأیید کرد."
+    },
+    {
+     "en": "Yes, because he did not obtain written consent from Harborline before accepting.",
+     "fa": "بله، چون پیش از پذیرش، موافقت کتبی هاربرلاین را نگرفت."
+    },
+    {
+     "en": "Yes, because he also needed written consent from Northgate's board of trustees.",
+     "fa": "بله، چون به موافقت کتبی هیئت امنای نورث‌گیت هم نیاز داشت."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Standard IV(B) prohibits accepting compensation that competes with or might reasonably be expected to create a conflict with the employer's interest unless the member obtains written consent from all parties involved. A paid seat on the committee of a plan that is choosing an LDI manager, while Harborline is bidding, could clearly create such a conflict. The recommended procedure is an immediate written report to the supervisor and compliance officer stating the nature, approximate amount, and duration of the compensation. A hallway remark is neither written nor documented. In the book's Level III item set on a portfolio manager offered a paid board seat, the solution says written, not verbal, consent from the employer is required. A is wrong for that reason: verbal approval does not satisfy the standard. C is wrong because the same solution states that the Standards do not require permission from clients before accepting board positions. Lesson: for outside paid roles, get the employer's consent in writing first, with the terms spelled out.",
+    "fa": "گزینه ب درست است. استاندارد ۴(بی) پذیرفتن جبران خدمتی را که با منافع کارفرما رقابت کند یا به طور معقول انتظار رود با آن تضاد ایجاد کند ممنوع می‌کند، مگر اینکه عضو از همه طرف‌های درگیر موافقت کتبی بگیرد. عضویت با حقوق در کمیته طرحی که در حال انتخاب مدیر سرمایه‌گذاری مبتنی بر بدهی است، در حالی که هاربرلاین در این رقابت شرکت دارد، آشکارا می‌تواند چنین تضادی ایجاد کند. رویه توصیه‌شده، ارائه فوری گزارش کتبی به سرپرست و مسئول انطباق است که ماهیت، مبلغ تقریبی و مدت جبران خدمت را بیان کند. یک اظهارنظر در راهرو نه کتبی است و نه مستند. در مجموعه پرسش‌های سطح ۳ کتاب درباره مدیر پرتفوی که به او عضویت با حقوق در یک هیئت مدیره پیشنهاد شد، راه‌حل می‌گوید موافقت کتبی کارفرما، و نه شفاهی، لازم است. گزینه الف به همین دلیل نادرست است: تأیید شفاهی الزام استاندارد را برآورده نمی‌کند. گزینه ج نادرست است، چون همان راه‌حل می‌گوید استانداردها برای پذیرش عضویت در هیئت مدیره، اجازه مشتریان را الزامی نمی‌کنند. درس: برای نقش‌های بیرونی با حقوق، ابتدا موافقت کتبی کارفرما را همراه با شرایط مشخص بگیرید."
+   },
+   "ref": {
+    "en": "Standard IV(B) Additional Compensation Arrangements, standard text (\"written consent from all parties involved\"), Guidance, and Recommended Procedures; Level III item-set practice problem 36 solution (Riser must receive \"written, not verbal, consent from his employer\"; client permission not required for board positions).",
+    "fa": "استاندارد ۴(بی) ترتیبات جبران خدمت اضافی، متن استاندارد («موافقت کتبی همه طرف‌های درگیر»)، راهنما و رویه‌های توصیه‌شده؛ راه‌حل مسئله تمرینی ۳۶ مجموعه پرسش‌های سطح ۳ (رایزر باید «موافقت کتبی و نه شفاهی کارفرمایش» را بگیرد؛ اجازه مشتریان برای عضویت در هیئت مدیره لازم نیست)."
+   }
+  },
+  {
+   "id": "E30S3Q1",
+   "set": "E30S3",
+   "k": 1,
+   "std": [
+    "III(A)"
+   ],
+   "q": {
+    "en": "Did Sorensen violate any of the Standards by directing Fairmont College's trades to Trellis Securities?",
+    "fa": "آیا سورنسن با سپردن معاملات کالج فیرمونت به ترلیس سکیوریتیز هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "Yes, because the research paid for with Fairmont's commissions mainly benefits other clients.",
+     "fa": "بله، چون پژوهشی که با کمیسیون‌های فیرمونت پرداخت می‌شود عمدتاً به نفع مشتریان دیگر است."
+    },
+    {
+     "en": "No.",
+     "fa": "خیر."
+    },
+    {
+     "en": "Yes, because she must obtain Fairmont's written approval before using any soft commission arrangement.",
+     "fa": "بله، چون پیش از استفاده از هر ترتیب کمیسیون نرم باید تأیید کتبی فیرمونت را بگیرد."
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "B is correct. Under Standard III(A), a member who pays a higher commission than normal to obtain goods or services, without corresponding benefit to the client, violates the duty of loyalty; the member must also seek best price and best execution. Here Trellis charges the lowest commission rates among approved brokers and provides the best execution, so Fairmont pays nothing extra for the research, and Lakemont's soft commission policy is disclosed to clients. In the book's practice problem on a manager who directed a profit-sharing plan's trades to a broker whose research did not help that plan, there was no violation because the broker offered the lowest commissions and best execution. A is wrong because the test is whether the client pays more without benefit, not whether every piece of research helps that specific account. C is wrong because the Standards require disclosure of brokerage practices and best execution, not separate written approval from each client. Lesson: soft commissions are acceptable when the client gets best execution at competitive cost and the policy is disclosed.",
+    "fa": "گزینه ب درست است. طبق استاندارد ۳(آ)، عضوی که برای به دست آوردن کالا یا خدمات، کمیسیونی بیشتر از معمول می‌پردازد بدون آنکه منفعت متناظری برای مشتری داشته باشد، وظیفه وفاداری را نقض می‌کند؛ عضو همچنین باید بهترین قیمت و بهترین اجرا را جستجو کند. در اینجا ترلیس در میان کارگزاران تأییدشده کمترین نرخ کمیسیون را دارد و بهترین اجرا را ارائه می‌دهد، پس فیرمونت برای پژوهش هزینه اضافه‌ای نمی‌پردازد و سیاست کمیسیون نرم لیک‌مونت هم برای مشتریان افشا شده است. در مسئله تمرینی کتاب درباره مدیری که معاملات یک طرح تقسیم سود را به کارگزاری سپرد که پژوهش‌هایش برای آن طرح مفید نبود، نقضی وجود نداشت، چون کارگزار کمترین کمیسیون و بهترین اجرا را ارائه می‌داد. گزینه الف نادرست است، چون معیار این است که آیا مشتری بدون منفعت هزینه بیشتری می‌پردازد، نه اینکه آیا هر پژوهشی به همان حساب کمک می‌کند. گزینه ج نادرست است، چون استانداردها افشای رویه‌های کارگزاری و بهترین اجرا را الزامی می‌کنند، نه تأیید کتبی جداگانه از هر مشتری. درس: کمیسیون نرم وقتی قابل قبول است که مشتری با هزینه رقابتی بهترین اجرا را دریافت کند و سیاست آن افشا شده باشد."
+   },
+   "ref": {
+    "en": "Standard III(A) Loyalty, Prudence, and Care, Guidance: Soft Commission Policies (higher commission \"without corresponding benefit to the client\" violates the duty of loyalty); Recommended Procedures (seek best execution); Learning Module 2 practice problem 14 (Farnsworth) solution.",
+    "fa": "استاندارد ۳(آ) وفاداری، احتیاط و مراقبت، راهنما: سیاست‌های کمیسیون نرم (پرداخت کمیسیون بیشتر «بدون منفعت متناظر برای مشتری» نقض وظیفه وفاداری است)؛ رویه‌های توصیه‌شده (جستجوی بهترین اجرا)؛ راه‌حل مسئله تمرینی ۱۴ ماژول یادگیری ۲ (فارنزورث)."
+   }
+  },
+  {
+   "id": "E30S3Q2",
+   "set": "E30S3",
+   "k": 2,
+   "std": [
+    "I(D)"
+   ],
+   "q": {
+    "en": "Did Kapoor violate any of the Standards as a result of his arrest at the demonstration?",
+    "fa": "آیا کاپور در نتیجه بازداشت در تجمع هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No.",
+     "fa": "خیر."
+    },
+    {
+     "en": "Yes, because any arrest reflects adversely on a candidate's professional reputation.",
+     "fa": "بله، چون هر بازداشتی بر اعتبار حرفه‌ای داوطلب اثر منفی می‌گذارد."
+    },
+    {
+     "en": "Yes, because he must also disclose the arrest to Lakemont's clients.",
+     "fa": "بله، چون باید بازداشت را به مشتریان لیک‌مونت هم افشا کند."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard I(D) prohibits professional conduct involving dishonesty, fraud, or deceit and any act that reflects adversely on professional reputation, integrity, or competence. The guidance explains that the Code and Standards are aimed mainly at conduct related to professional life. In the book's example of a fund manager arrested several times for trespassing during nonviolent protests, the comment says that, generally, I(D) is not meant to cover legal transgressions resulting from acts of civil disobedience in support of personal beliefs, because such conduct does not reflect poorly on professional reputation, integrity, or competence. Kapoor's weekend protest involved no dishonesty and no professional activity, and he followed firm policy by reporting it. B is wrong because not every arrest involves the kind of conduct I(D) addresses; the act, not the arrest itself, matters. C is wrong because the Standards impose no duty to tell clients about such a personal matter. Lesson: peaceful civil disobedience is generally outside I(D); dishonesty, fraud, or conduct that impairs professional work is not.",
+    "fa": "گزینه الف درست است. استاندارد ۱(دی) رفتار حرفه‌ای همراه با عدم صداقت، تقلب یا فریب و هر اقدامی را که بر اعتبار، درستکاری یا صلاحیت حرفه‌ای اثر منفی بگذارد ممنوع می‌کند. راهنما توضیح می‌دهد که کد و استانداردها عمدتاً به رفتار مرتبط با زندگی حرفه‌ای توجه دارند. در مثال کتاب درباره مدیر صندوقی که چند بار در اعتراضات مسالمت‌آمیز به اتهام ورود غیرمجاز بازداشت شد، توضیح کتاب می‌گوید استاندارد ۱(دی) معمولاً شامل تخلفات قانونی ناشی از نافرمانی مدنی در حمایت از باورهای شخصی نمی‌شود، چون چنین رفتاری بر اعتبار، درستکاری یا صلاحیت حرفه‌ای اثر منفی نمی‌گذارد. اعتراض آخر هفته کاپور هیچ عدم صداقت یا فعالیت حرفه‌ای در بر نداشت و او طبق سیاست شرکت آن را گزارش داد. گزینه ب نادرست است، چون هر بازداشتی شامل رفتاری که استاندارد ۱(دی) به آن می‌پردازد نیست؛ آنچه اهمیت دارد خود عمل است نه صرف بازداشت. گزینه ج نادرست است، چون استانداردها چنین وظیفه‌ای برای اطلاع دادن این موضوع شخصی به مشتریان تعیین نمی‌کنند. درس: نافرمانی مدنی مسالمت‌آمیز معمولاً خارج از استاندارد ۱(دی) است؛ اما عدم صداقت، تقلب یا رفتاری که کار حرفه‌ای را مختل کند چنین نیست."
+   },
+   "ref": {
+    "en": "Standard I(D) Misconduct, Guidance; Application Example 4 (Personal Actions and Integrity).",
+    "fa": "استاندارد ۱(دی) رفتار نادرست، راهنما؛ مثال کاربردی ۴ (اقدامات شخصی و درستکاری)."
+   }
+  },
+  {
+   "id": "E30S3Q3",
+   "set": "E30S3",
+   "k": 3,
+   "std": [
+    "IV(C)",
+    "VI(B)"
+   ],
+   "q": {
+    "en": "Did Penhallow violate any of the Standards in his response to Navarro?",
+    "fa": "آیا پنهالو در پاسخ به ناوارو هیچ‌یک از استانداردها را نقض کرد؟"
+   },
+   "o": [
+    {
+     "en": "No, because enforcing the reporting policy is the responsibility of the chief compliance officer.",
+     "fa": "خیر، چون اجرای سیاست گزارش‌دهی بر عهده مدیر ارشد انطباق است."
+    },
+    {
+     "en": "No, because Navarro later found no improper trades in Kapoor's reports.",
+     "fa": "خیر، چون ناوارو بعداً هیچ معامله نادرستی در گزارش‌های کاپور پیدا نکرد."
+    },
+    {
+     "en": "Yes, because he allowed Kapoor to keep working on the recommended list without submitting the required reports.",
+     "fa": "بله، چون اجازه داد کاپور بدون ارائه گزارش‌های الزامی به کار روی فهرست سهام توصیه‌شده ادامه دهد."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "C is correct. Standard IV(C) requires supervisors to make reasonable efforts to ensure that those under their supervision comply with laws, rules, firm policies, and the Code and Standards. The guidance says supervisors must see that procedures are monitored and enforced, and a supervisor may violate IV(C) if he knows or should know that procedures are not being followed. Penhallow was told directly that Kapoor, who controls the recommended list and is exactly the kind of employee personal trading rules are meant for, had ignored the reporting rules for two quarters, yet he told compliance to wait. In the book's example of an employee who declined to complete the quarterly personal transaction form, the supervisor violated IV(C) by letting him keep doing his assigned tasks. A is wrong because Penhallow, as Kapoor's supervisor, overrode compliance; the compliance officer's role does not relieve him. B is wrong because the duty concerns enforcement at the time, not whether a problem was later found. Lesson: a supervisor who knows a control is being ignored must enforce it, not postpone it.",
+    "fa": "گزینه ج درست است. استاندارد ۴(سی) سرپرستان را ملزم می‌کند تلاش معقول کنند تا افراد تحت نظارتشان قوانین، مقررات، سیاست‌های شرکت و کد و استانداردها را رعایت کنند. راهنما می‌گوید سرپرستان باید مطمئن شوند رویه‌ها پایش و اجرا می‌شوند و اگر سرپرست بداند یا باید بداند که رویه‌ها رعایت نمی‌شوند ممکن است استاندارد ۴(سی) را نقض کند. به پنهالو مستقیماً گفته شد که کاپور، که فهرست سهام توصیه‌شده را در اختیار دارد و دقیقاً همان کارمندی است که قواعد معاملات شخصی برای او وضع شده، دو فصل قواعد گزارش‌دهی را نادیده گرفته است، اما او به واحد انطباق گفت صبر کند. در مثال کتاب درباره کارمندی که از تکمیل فرم فصلی معاملات شخصی خودداری کرد، سرپرست با اجازه دادن به ادامه کار او استاندارد ۴(سی) را نقض کرد. گزینه الف نادرست است، چون پنهالو به عنوان سرپرست کاپور تصمیم واحد انطباق را کنار زد و نقش مدیر انطباق مسئولیت او را از بین نمی‌برد. گزینه ب نادرست است، چون این وظیفه به اجرای قاعده در همان زمان مربوط است نه به اینکه بعداً مشکلی پیدا شود یا نه. درس: سرپرستی که می‌داند یک کنترل نادیده گرفته می‌شود باید آن را اجرا کند، نه اینکه به تعویق بیندازد."
+   },
+   "ref": {
+    "en": "Standard IV(C) Responsibilities of Supervisors, Guidance: System for Supervision (procedures must be monitored and enforced) and Supervision Includes Detection (\"knows or should know that the procedures ... are not being followed\"); Standard VI(B) Application Example 4 (Personal Trading and Disclosure).",
+    "fa": "استاندارد ۴(سی) مسئولیت‌های سرپرستان، راهنما: نظام نظارت (رویه‌ها باید پایش و اجرا شوند) و نظارت شامل کشف تخلف است (سرپرستی که «می‌داند یا باید بداند رویه‌ها رعایت نمی‌شوند»)؛ استاندارد ۶(بی)، مثال کاربردی ۴ (معاملات شخصی و افشا)."
+   }
+  },
+  {
+   "id": "E30S3Q4",
+   "set": "E30S3",
+   "k": 4,
+   "std": [
+    "VI(B)"
+   ],
+   "q": {
+    "en": "Which of Navarro's proposals is most consistent with the recommended procedures under the Standards?",
+    "fa": "کدام‌یک از پیشنهادهای ناوارو بیشترین سازگاری را با رویه‌های توصیه‌شده در استانداردها دارد؟"
+   },
+   "o": [
+    {
+     "en": "Proposal 1",
+     "fa": "پیشنهاد ۱"
+    },
+    {
+     "en": "Proposal 2",
+     "fa": "پیشنهاد ۲"
+    },
+    {
+     "en": "Proposal 3",
+     "fa": "پیشنهاد ۳"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A is correct. Standard VI(B) requires client and employer transactions to take priority over transactions in which a member is a beneficial owner, and its recommended procedures describe controls firms should adopt. Investment personnel involved in decision making should observe blackout periods before client trades so they cannot front-run, and, at a minimum, all individuals involved in the investment decision-making process should be subject to the same restricted period. Including the analysts who maintain the recommended list does exactly that. Proposal 2 is wrong because the recommended procedures call for disclosure of beneficially owned holdings when employment begins and at least annually thereafter, not only once. Proposal 3 is wrong because preclearance procedures are meant to examine all planned personal trades for possible conflicts before execution; limiting it to listed securities leaves gaps, such as stocks about to be added to the list. Lesson: personal trading controls work only if they cover everyone in the decision process, continue over time, and review every planned trade.",
+    "fa": "گزینه الف درست است. استاندارد ۶(بی) الزام می‌کند معاملات مشتریان و کارفرما بر معاملاتی که عضو مالک ذی‌نفع آنهاست اولویت داشته باشند و رویه‌های توصیه‌شده آن، کنترل‌هایی را که شرکت‌ها باید بپذیرند شرح می‌دهد. کارکنان سرمایه‌گذاری که در تصمیم‌گیری نقش دارند باید پیش از معاملات مشتریان دوره ممنوعیت معامله را رعایت کنند تا نتوانند پیش‌دستی کنند و دست‌کم همه کسانی که در فرایند تصمیم‌گیری سرمایه‌گذاری مشارکت دارند باید مشمول دوره محدودیت یکسانی باشند. گنجاندن تحلیلگرانی که فهرست سهام توصیه‌شده را نگهداری می‌کنند دقیقاً همین کار است. پیشنهاد ۲ نادرست است، چون رویه‌های توصیه‌شده افشای دارایی‌های دارای مالکیت ذی‌نفعانه را در آغاز استخدام و پس از آن دست‌کم سالی یک بار الزامی می‌دانند، نه فقط یک بار. پیشنهاد ۳ نادرست است، چون هدف رویه‌های مجوز پیشاپیش بررسی همه معاملات شخصی برنامه‌ریزی‌شده برای یافتن تضاد منافع پیش از اجراست؛ محدود کردن آن به اوراق موجود در فهرست، شکاف‌هایی مانند سهامی که قرار است به فهرست اضافه شود باقی می‌گذارد. درس: کنترل‌های معاملات شخصی فقط وقتی کار می‌کنند که همه افراد درگیر در تصمیم‌گیری را پوشش دهند، در طول زمان ادامه یابند و هر معامله برنامه‌ریزی‌شده را بررسی کنند."
+   },
+   "ref": {
+    "en": "Standard VI(B) Priority of Transactions, Recommended Procedures: Establish blackout/restricted periods (\"all individuals who are involved in the investment decision-making process should be subject to the same restricted period\"); Reporting requirements (disclosure of holdings at commencement of employment and at least annually; preclearance of all planned personal trades).",
+    "fa": "استاندارد ۶(بی) اولویت معاملات، رویه‌های توصیه‌شده: تعیین دوره‌های ممنوعیت یا محدودیت معامله («همه کسانی که در فرایند تصمیم‌گیری سرمایه‌گذاری مشارکت دارند باید مشمول دوره محدودیت یکسانی باشند»)؛ الزامات گزارش‌دهی (افشای دارایی‌ها در آغاز استخدام و دست‌کم سالی یک بار؛ مجوز پیشاپیش برای همه معاملات شخصی برنامه‌ریزی‌شده)."
+   }
+  }
+ ]
+}

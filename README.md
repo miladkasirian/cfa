@@ -11,7 +11,7 @@ A practice and testing web app for the **Ethical and Professional Standards** to
 ## Two ways to run it
 
 ### 1. Static (GitHub Pages or any web host): results saved in the browser
-The `docs/` folder is a complete static site. On GitHub Pages it is served from the `docs` folder of the `main` branch. Results are saved in the browser's local storage on that device. You can move them with "Export my data" / "Import data" on the Progress page.
+The `docs/` folder is a complete static site. It is published on GitHub Pages (https://miladkasirian.github.io/cfa/) from the `gh-pages` branch, which is a copy of `docs/`. Results are saved in the browser's local storage on that device. You can move them with "Export my data" / "Import data" on the Progress page.
 
 ### 2. Server mode: results saved on the server per user
 The same front end (`docs/`) also runs inside a separate Node.js server with Google sign-in and a PostgreSQL database. When the page finds that server (it calls `/api/config`), it asks the user to sign in with Google and stores flags, the exam in progress and every finished attempt in the database, so a user sees the same results on any device. Without a server it stays in browser mode.
