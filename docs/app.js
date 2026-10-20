@@ -5,7 +5,7 @@
 */
 (function () {
 'use strict';
-const APP_VERSION = '2026.10.21-1';
+const APP_VERSION = '2026.10.21-3';
 
 const B = window.BANK;
 const LEARN = window.LEARN || [];
@@ -291,6 +291,21 @@ document.getElementById('themeBtn').onclick = () => {
 };
 document.getElementById('bugBtn').onclick = () => openReport({});
 
+/* in-page confirmation dialog (the browser's own pop-ups are never used) */
+function askConfirm(msg, okLabel, danger) {
+  return new Promise((done) => {
+    const ov = document.createElement('div'); ov.className = 'modal'; ov.setAttribute('role', 'alertdialog'); ov.setAttribute('aria-modal', 'true');
+    ov.innerHTML = `<div class="sheet small"><p class="cmsg"></p><div class="bar"><button class="act ${danger ? 'danger' : ''}" data-ok>${esc(okLabel || t('ok'))}</button><button class="act ghost" data-no>${esc(t('cancel'))}</button></div></div>`;
+    ov.querySelector('.cmsg').textContent = msg;
+    const end = (v) => { ov.remove(); document.removeEventListener('keydown', key); done(v); };
+    const key = (e) => { if (e.key === 'Escape') end(false); };
+    document.addEventListener('keydown', key);
+    ov.addEventListener('click', (e) => { if (e.target === ov) end(false); });
+    ov.querySelector('[data-ok]').onclick = () => end(true); ov.querySelector('[data-no]').onclick = () => end(false);
+    document.body.appendChild(ov); ov.querySelector('[data-no]').focus();
+  });
+}
+
 /* ---------------- render ---------------- */
 function render() {
   applyLang();
@@ -417,9 +432,9 @@ function explainBlock(q) {
   return `<div class="ans"><b>${esc(t('answer'))}: ${esc(optLetter(q.a))}.</b> ${esc(tx(q.o[q.a]))}\n\n<b>${esc(t('why'))}:</b> ${lessonFmt(esc(tx(q.why)))}</div>
     <div class="ref"><b>${esc(t('ref'))}:</b> ${esc(tx(q.ref))}\n${(q.std || []).map(s => `<span class="pill">${esc(stdLabel(s))}</span>`).join(' ')}</div>`;
 }
-function finish() {
+async function finish() {
   const c = S.cur; const n = c.qids.length; const nAns = Object.keys(c.ans).length;
-  if (nAns < n && !confirm(t('confirmFinishPart', num(n - nAns)))) return;
+  if (nAns < n && !(await askConfirm(t('confirmFinishPart', num(n - nAns)), t('finish')))) return;
   const correct = c.qids.filter(id => c.ans[id] === QMAP[id].a).length;
   const run = { exam: c.kind === 'exam' ? c.arg : null, kind: c.kind, arg: c.arg, date: new Date().toISOString(),
     mins: Math.max(1, Math.round((Date.now() - c.t0) / 60000)), total: n, answered: nAns, correct,
@@ -502,12 +517,16 @@ function renderTree() {
   const q = learnQuery.trim().toLowerCase();
   let match = null;
   if (q) { match = new Set(); Object.values(NODE).forEach(n => { if ((tx(n.t) + ' ' + n.t.en).toLowerCase().includes(q)) { let x = n.id; while (x) { match.add(x); x = PARENT[x]; } } }); }
+  const cur = store.get('cfa-tree-cur', '', true);
+  const path = new Set(); { let x = PARENT[cur]; while (x) { path.add(x); x = PARENT[x]; } }
+  const CHEV = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   const row = (n, d) => {
     if (match && !match.has(n.id)) return '';
     const kids = n.c || []; const open = match ? true : openSet.has(n.id);
-    let h = `<li class="tn" style="--d:${d}"><div class="trow">`;
-    if (kids.length) h += `<button class="tog" data-tog="${n.id}" aria-expanded="${open}"><span class="chev">${open ? '▾' : (L === 'fa' ? '◂' : '▸')}</span><span class="tt">${esc(tx(n.t))}</span><span class="cnt">${esc(num(kids.length))}</span></button>`;
-    else h += `<button class="tog leaf" data-open="${n.id}"><span class="chev">•</span><span class="tt">${esc(tx(n.t))}</span></button>`;
+    const cls = 'tn lv' + Math.min(d, 4) + (n.id === cur ? ' cur' : '') + (path.has(n.id) ? ' path' : '') + (kids.length ? ' br' : ' lf') + (open ? ' open' : '');
+    let h = `<li class="${cls}" style="--d:${d}"><div class="trow">`;
+    if (kids.length) h += `<button class="tog" data-tog="${n.id}" aria-expanded="${open}"${n.id === cur ? ' aria-current="true"' : ''}><span class="chev">${CHEV}</span><span class="tt">${esc(tx(n.t))}</span><span class="cnt">${esc(num(kids.length))}</span></button>`;
+    else h += `<button class="tog leaf" data-open="${n.id}"${n.id === cur ? ' aria-current="true"' : ''}><span class="dot"></span><span class="tt">${esc(tx(n.t))}</span></button>`;
     h += `<button class="lesbtn" data-open="${n.id}" aria-label="${esc(t('lesson'))}: ${esc(tx(n.t))}">${esc(t('lesson'))}</button></div>`;
     if (kids.length && open) h += `<ul>${kids.map(k => row(k, d + 1)).join('')}</ul>`;
     return h + '</li>';
@@ -517,7 +536,7 @@ function renderTree() {
     <button class="flag" data-a="openall">${esc(t('openAll'))}</button><button class="flag" data-a="closeall">${esc(t('closeAll'))}</button></div></div>
     <div class="card tree"><ul class="troot">${LEARN.map(n => row(n, 0)).join('') || ''}</ul>${match && !match.size ? `<div class="empty">${esc(t('noMatch'))}</div>` : ''}</div>`;
   el.innerHTML = h;
-  el.querySelectorAll('[data-tog]').forEach(b => b.onclick = () => { const id = b.dataset.tog; openSet.has(id) ? openSet.delete(id) : openSet.add(id); saveOpen(); renderTree(); });
+  el.querySelectorAll('[data-tog]').forEach(b => b.onclick = () => { const id = b.dataset.tog; store.set('cfa-tree-cur', id, true); openSet.has(id) ? openSet.delete(id) : openSet.add(id); saveOpen(); renderTree(); });
   el.querySelectorAll('[data-open]').forEach(b => b.onclick = () => nav('#/learn/' + b.dataset.open));
   const lq = document.getElementById('lq');
   lq.oninput = () => { learnQuery = lq.value; store.set('cfa-tree-q', learnQuery, true); const pos = lq.selectionStart; renderTree(); const n = document.getElementById('lq'); n.focus(); try { n.setSelectionRange(pos, pos); } catch (e) {} };
@@ -528,7 +547,7 @@ function siblings(id) { const p = PARENT[id]; return p ? NODE[p].c : LEARN; }
 function renderLesson(id) {
   const n = NODE[id]; if (!n) { location.replace('#/learn'); return; }
   // keep the tree open down to this lesson, so "back" shows where you were
-  let x = PARENT[id]; while (x) { openSet.add(x); x = PARENT[x]; } saveOpen();
+  let x = PARENT[id]; while (x) { openSet.add(x); x = PARENT[x]; } saveOpen(); store.set('cfa-tree-cur', id, true);
   const crumbs = []; x = id; while (x) { crumbs.unshift(NODE[x]); x = PARENT[x]; }
   const sib = siblings(id); const i = sib.indexOf(n);
   const std = nodeStd(id);
@@ -745,7 +764,7 @@ function renderReport() {
   el.querySelectorAll('[data-nav]').forEach(a => a.onclick = (e) => { e.preventDefault(); nav(a.getAttribute('href')); });
   el.querySelectorAll('[data-prac]').forEach(b => b.onclick = () => startSet('std', b.dataset.prac));
   el.querySelectorAll('[data-run]').forEach(b => b.onclick = () => nav('#/result/' + b.dataset.run));
-  el.querySelector('[data-a="clearh"]').onclick = () => { if (confirm(t('confirmClear'))) { S.runs = []; save(); clearRuns(); render(); } };
+  el.querySelector('[data-a="clearh"]').onclick = async () => { if (await askConfirm(t('confirmClear'), t('clearHist'), true)) { S.runs = []; save(); clearRuns(); render(); } };
   wireBackup();
 }
 
