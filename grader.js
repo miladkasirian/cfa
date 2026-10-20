@@ -79,7 +79,7 @@ function phraseIn(ph, text, toks) { // a synonym phrase is found in the typed te
 // standard names and short names people use, in both languages
 const STD_ALIAS = {
   'I(A)': ['knowledge of the law', 'knowledge law'], 'I(B)': ['independence and objectivity', 'independence', 'objectivity', 'استقلال', 'بی طرفی'],
-  'I(C)': ['misrepresentation', 'ارائه نادرست'], 'I(D)': ['misconduct', 'رفتار نادرست'], 'I(E)': ['competence', 'صلاحیت'],
+  'I(C)': ['misrepresentation', 'plagiarism', 'ارائه نادرست', 'سرقت ادبی'], 'I(D)': ['misconduct', 'رفتار نادرست'], 'I(E)': ['competence', 'صلاحیت'],
   'II(A)': ['material nonpublic information', 'material non public information', 'material nonpublic info', 'material non public info', 'nonpublic information', 'insider trading', 'trading on inside information', 'mnpi', 'اطلاعات مهم غیر عمومی', 'اطلاعات غیر عمومی', 'insider information', 'inside information', 'اطلاعات نهانی', 'اطلاعات محرمانه مهم'],
   'II(B)': ['market manipulation', 'manipulation', 'دستکاری'], 'III(A)': ['loyalty prudence and care', 'prudence and care', 'duty to clients', 'loyalty to clients', 'وفاداری به مشتری'],
   'III(B)': ['fair dealing', 'رفتار منصفانه', 'برخورد منصفانه'], 'III(C)': ['suitability', 'تناسب', 'مناسب بودن'],
