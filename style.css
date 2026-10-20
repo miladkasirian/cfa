@@ -314,3 +314,25 @@ a.act.dl small{opacity:.8;margin-inline-start:.2rem}
 .pfb{margin-top:.45rem;font-size:.9rem;white-space:normal}
 .pfb .small,.small{font-size:.8rem;color:var(--mut)}
 .crscore{margin:.8rem 0 .3rem;font-weight:700;color:var(--navy)}
+/* ================= print pages (PDF downloads) ================= */
+body.printing header.top,body.printing #foot,body.printing .bugbtn{display:none!important}
+body.printing{background:#fff;color:#111}
+body.printing main,body.printing #app{max-width:none;padding:0;margin:0}
+.printdoc{font-size:11pt;line-height:1.55;color:#111}
+html[lang="fa"] .printdoc{line-height:1.85}
+.printdoc h1{font-size:18pt;color:#0b3d6e;margin:0 0 .3rem}
+.printdoc .pset{font-size:13pt;color:#0b3d6e;margin:1.4rem 0 .4rem;break-after:avoid}
+.printdoc .vignette{background:#f7f7f2;border:1px solid #ddd;white-space:pre-wrap}
+.printdoc .pq{margin:.9rem 0;padding-top:.5rem;border-top:1px solid #ddd;break-inside:auto}
+.printdoc .pqh{margin-bottom:.35rem}
+.printdoc .popt{margin:.15rem 0;padding:.2rem .45rem;border-radius:.3rem}
+.printdoc .popt.pright{background:#e6f5ec;font-weight:700}
+.printdoc .ppart{margin:.35rem 0;padding:.35rem .5rem;border:1px solid #ddd;border-radius:.3rem}
+.printdoc .pcorr{color:#127a43;font-weight:700}
+.printdoc .ans,.printdoc .ref{break-inside:auto}
+.printdoc .plh{color:#0b3d6e;break-after:avoid;margin:1.1rem 0 .4rem}
+.printdoc .pfoot{margin-top:2rem;color:#777;font-size:9pt}
+.printdoc .md table.stack tr{display:table-row}
+@media print{header.top,#foot,.bugbtn{display:none!important}body{background:#fff}}
+body.printing{font-family:Carlito,"Liberation Sans",Arial,sans-serif}
+html[lang="fa"] body.printing{font-family:"Vazirmatn",Carlito,"Liberation Sans",Arial,sans-serif}
