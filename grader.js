@@ -52,8 +52,13 @@ function lev(a, b, max) { // edit distance; swapping two neighbouring letters co
   }
   return prev[b.length];
 }
+const NEG = ['in', 'un', 'non', 'im', 'ir', 'il', 'dis', 'mis', 'غیر', 'نا'];
 function tokMatch(w, tok) { // w: expected word, tok: typed word
   if (w === tok) return true;
+  // "incorrect" is not "correct", "unsuitable" is not "suitable"
+  const lo = w.length > tok.length ? w : tok, sh = w.length > tok.length ? tok : w;
+  if (lo.endsWith(sh) && NEG.includes(lo.slice(0, lo.length - sh.length))) return false;
+  if (sh.length >= 4 && NEG.some(p => lo.startsWith(p) && lev(lo.slice(p.length), sh, 1) <= 1) && !NEG.some(p => sh.startsWith(p))) return false;
   const ml = Math.max(w.length, tok.length), sl = Math.min(w.length, tok.length);
   if (sl >= 4 && (tok.startsWith(w) || w.startsWith(tok)) && ml - sl <= 3) return true; // proportional / proportionally, plural endings
   const allow = ml >= 9 ? 2 : ml >= 5 ? 1 : 0;
@@ -64,8 +69,8 @@ const words = (s) => nrm(s).split(' ').filter(Boolean);
 function phraseIn(ph, text, toks) { // a synonym phrase is found in the typed text
   const p = nrm(ph); if (!p) return false;
   if ((' ' + text + ' ').includes(' ' + p + ' ')) return true;
-  const ps = p.replace(/ /g, ''), ts = text.replace(/ /g, '');
-  if (ps.length >= 6 && ts.includes(ps)) return true;
+  const ps = p.replace(/ /g, ''); // "pro rata" written as "prorata" or the other way round, but never inside a longer word
+  for (let i = 0; i < toks.length; i++) { let j = ''; for (let k = i; k < Math.min(toks.length, i + 3); k++) { j += toks[k]; if (k > i || ps !== p) { if (j === ps || (ps.length >= 6 && tokMatch(ps, j))) return true; } } }
   const pw = p.split(' ').filter(w => !STOP.has(w)); if (!pw.length) return false;
   return pw.every(w => toks.some(tk => tokMatch(w, tk)));
 }
@@ -73,7 +78,7 @@ function phraseIn(ph, text, toks) { // a synonym phrase is found in the typed te
 const STD_ALIAS = {
   'I(A)': ['knowledge of the law', 'knowledge law'], 'I(B)': ['independence and objectivity', 'independence', 'objectivity', 'استقلال', 'بی طرفی'],
   'I(C)': ['misrepresentation', 'ارائه نادرست'], 'I(D)': ['misconduct', 'رفتار نادرست'], 'I(E)': ['competence', 'صلاحیت'],
-  'II(A)': ['material nonpublic information', 'material non public information', 'material nonpublic info', 'material non public info', 'nonpublic information', 'insider trading', 'trading on inside information', 'mnpi', 'insider information', 'inside information', 'اطلاعات نهانی', 'اطلاعات محرمانه مهم'],
+  'II(A)': ['material nonpublic information', 'material non public information', 'material nonpublic info', 'material non public info', 'nonpublic information', 'insider trading', 'trading on inside information', 'mnpi', 'اطلاعات مهم غیر عمومی', 'اطلاعات غیر عمومی', 'insider information', 'inside information', 'اطلاعات نهانی', 'اطلاعات محرمانه مهم'],
   'II(B)': ['market manipulation', 'manipulation', 'دستکاری'], 'III(A)': ['loyalty prudence and care', 'prudence and care', 'duty to clients', 'loyalty to clients', 'وفاداری به مشتری'],
   'III(B)': ['fair dealing', 'رفتار منصفانه', 'برخورد منصفانه'], 'III(C)': ['suitability', 'تناسب', 'مناسب بودن'],
   'III(D)': ['performance presentation', 'ارائه عملکرد'], 'III(E)': ['preservation of confidentiality', 'confidentiality', 'محرمانگی', 'حفظ اسرار'],
@@ -111,8 +116,8 @@ function parseStd(raw) { // returns the set of standard codes the typed text nam
   bestC.forEach(c => found.add(c));
   return found;
 }
-const NUMW = { zero: 0, one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10, eleven: 11, twelve: 12, fifteen: 15, twenty: 20,
-  'صفر': 0, 'یک': 1, 'دو': 2, 'سه': 3, 'چهار': 4, 'پنج': 5, 'شش': 6, 'هفت': 7, 'هشت': 8, 'نه': 9, 'ده': 10, 'یازده': 11, 'دوازده': 12, 'پانزده': 15, 'بیست': 20 };
+const NUMW = { zero: 0, one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10, eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15, sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19, twenty: 20, thirty: 30, forty: 40, fifty: 50, hundred: 100,
+  'صفر': 0, 'یک': 1, 'دو': 2, 'سه': 3, 'چهار': 4, 'پنج': 5, 'شش': 6, 'هفت': 7, 'هشت': 8, 'نه': 9, 'ده': 10, 'یازده': 11, 'دوازده': 12, 'سیزده': 13, 'چهارده': 14, 'پانزده': 15, 'شانزده': 16, 'هفده': 17, 'هجده': 18, 'نوزده': 19, 'بیست': 20, 'سی': 30, 'چهل': 40, 'پنجاه': 50, 'صد': 100 };
 function parseNum(raw) {
   const s = toAscii(String(raw || '')).replace(/٫/g, '.').replace(/[,٬،']/g, '').replace(/(\d)\s+(?=\d{3}\b)/g, '$1');
   const m = s.match(/-?\d+(?:\.\d+)?/); if (m) return parseFloat(m[0]);
