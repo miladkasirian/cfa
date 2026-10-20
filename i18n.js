@@ -72,7 +72,7 @@ window.I18N = {
     account: 'Account', changePw: 'Change password', setPw: 'Set a password (to sign in without Google)', curPw: 'Current password', newPw: 'New password (at least 8 characters)',
     pwSaved: 'Password saved.', pwShort: 'The password must be at least 8 characters.', pwBadCur: 'The current password is not correct.',
     importLocal: 'Copy results saved in this browser into my account', imported: 'Copied.', adminLink: 'Admin page',
-    saveFail: 'Could not save to the server. Will retry.', lang: 'Language'
+    saveFail: 'Could not save to the server. Will retry.', lang: 'Language', ok: 'OK', cancel: 'Cancel'
   },
   fa: {
     title: 'تمرین اخلاق حرفه‌ای سی اف ای، سطح سه',
@@ -141,6 +141,6 @@ window.I18N = {
     account: 'حساب کاربری', changePw: 'تغییر رمز', setPw: 'گذاشتن رمز (برای ورود بدون گوگل)', curPw: 'رمز فعلی', newPw: 'رمز تازه (دست کم ۸ نویسه)',
     pwSaved: 'رمز ذخیره شد.', pwShort: 'رمز باید دست کم ۸ نویسه باشد.', pwBadCur: 'رمز فعلی درست نیست.',
     importLocal: 'انتقال نتیجه‌های ذخیره‌شده در این مرورگر به حساب من', imported: 'منتقل شد.', adminLink: 'صفحه مدیریت',
-    saveFail: 'ذخیره روی سرور انجام نشد. دوباره تلاش می‌شود.', lang: 'زبان'
+    saveFail: 'ذخیره روی سرور انجام نشد. دوباره تلاش می‌شود.', lang: 'زبان', ok: 'تایید', cancel: 'انصراف'
   }
 };
