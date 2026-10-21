@@ -3,3 +3,5 @@ node_modules/
 *.log
 docs/downloads/*.zip
 docs/downloads/manifest.json
+__pycache__/
+*.pyc
