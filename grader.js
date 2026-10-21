@@ -111,7 +111,7 @@ function parseStd(raw) { // returns the set of standard codes the typed text nam
     const names = [STD[c][0], STD[c][1]].concat(STD_ALIAS[c] || []);
     names.forEach(nm => {
       const nw = words(nm).filter(w => !STOP.has(w)); if (!nw.length) return;
-      const hit = nw.filter(w => toks.some(tk => tokMatch(w, tk))).length; const sc = hit / nw.length + (hit >= 2 ? 0.01 * hit : 0);
+      const hit = nw.filter(w => toks.some(tk => tokMatch(w, tk) || (w.length >= 3 && w.length <= 4 && Math.abs(w.length - tk.length) <= 1 && lev(w, tk, 1) <= 1))).length; const sc = hit / nw.length + (hit >= 2 ? 0.01 * hit : 0);
       if (hit && sc >= 0.75) { if (sc > best + 1e-9) { best = sc; bestC = [c]; } else if (Math.abs(sc - best) < 1e-9 && !bestC.includes(c)) bestC.push(c); }
     });
   });
