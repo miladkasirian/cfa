@@ -91,7 +91,7 @@ const STD_ALIAS = {
   'VI(A)': ['disclosure of conflicts', 'avoid or disclose conflicts', 'conflicts of interest', 'conflict', 'تضاد منافع', 'افشای تضاد منافع'],
   'VI(B)': ['priority of transactions', 'اولویت معاملات'], 'VI(C)': ['referral fees', 'referral fee', 'کارمزد معرفی'],
   'VII(A)': ['conduct as participants in cfa institute programs', 'conduct as participants', 'exam conduct', 'رفتار شرکت کننده'],
-  'VII(B)': ['reference to cfa institute the cfa designation and the cfa program', 'reference to the cfa designation', 'cfa designation', 'designation', 'اشاره به عنوان'],
+  'VII(B)': ['reference to cfa institute', 'reference to cfa institute the cfa designation and the cfa program', 'reference to the cfa designation', 'cfa designation', 'designation', 'اشاره به عنوان'],
   'AMC': ['asset manager code', 'asset manager code of professional conduct', 'amc', 'کد مدیران دارایی', 'ای ام سی'], 'CODE': ['code of ethics', 'کد اخلاق']
 };
 const RN = { i: 'I', ii: 'II', iii: 'III', iv: 'IV', v: 'V', vi: 'VI', vii: 'VII', 1: 'I', 2: 'II', 3: 'III', 4: 'IV', 5: 'V', 6: 'VI', 7: 'VII',
