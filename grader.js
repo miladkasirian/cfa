@@ -85,7 +85,7 @@ const STD_ALIAS = {
   'III(B)': ['fair dealing', 'رفتار منصفانه', 'برخورد منصفانه'], 'III(C)': ['suitability', 'تناسب', 'مناسب بودن'],
   'III(D)': ['performance presentation', 'ارائه عملکرد'], 'III(E)': ['preservation of confidentiality', 'confidentiality', 'محرمانگی', 'حفظ اسرار'],
   'IV(A)': ['loyalty', 'loyalty to employer', 'duty to employer', 'وفاداری به کارفرما'], 'IV(B)': ['additional compensation arrangements', 'additional compensation', 'جبران خدمت اضافی', 'درآمد اضافی'],
-  'IV(C)': ['responsibilities of supervisors', 'supervisor responsibilities', 'supervision', 'سرپرستان', 'مسئولیت سرپرست'],
+  'IV(C)': ['responsibilities of supervisors', 'responsibility of supervisors', 'supervisory responsibility', 'supervisor responsibility', 'supervisor responsibilities', 'supervision', 'سرپرستان', 'مسئولیت سرپرست'],
   'V(A)': ['diligence and reasonable basis', 'reasonable basis', 'diligence', 'مبنای معقول', 'سخت کوشی'],
   'V(B)': ['communication with clients', 'communication', 'ارتباط با مشتریان'], 'V(C)': ['record retention', 'records', 'نگهداری سوابق', 'سوابق'],
   'VI(A)': ['disclosure of conflicts', 'avoid or disclose conflicts', 'conflicts of interest', 'conflict', 'تضاد منافع', 'افشای تضاد منافع'],
